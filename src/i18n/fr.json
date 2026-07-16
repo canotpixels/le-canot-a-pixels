@@ -120,7 +120,11 @@
     "facebook": "Facebook",
     "messenger": "Messenger",
     "email": "Courriel",
-    "locationLabel": "Région"
+    "locationLabel": "Région",
+    "copy": "Copier l'adresse",
+    "copied": "Adresse copiée !",
+    "copyFailed": "Impossible de copier",
+    "share": "Partager"
   },
   "footer": {
     "tagline": "Collection de jeux vidéo, wishlist et trésors à vendre",
