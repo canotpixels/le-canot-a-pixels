@@ -1530,6 +1530,19 @@
     "matchedTitle": "Resident Evil 5",
     "imagePath": "/covers/pc-16375.jpg"
   },
+  "pc-17469": {
+    "gameId": "pc-17469",
+    "query": "guitar hero metallica",
+    "provider": "pricecharting>libretro",
+    "externalId": "17469",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95YENXluBpuUOXXXcN11_g4BdYydy74bIU7-D4cgULy7kylLCfQr6IBZDz6_U9QGbF6MFDoGkL27dnPmKnrnMaZ70Ha68lPCIbh8tKH5RuPtrbcUG2g5H_Z2P2QDjWLm0VGgLPVP42ZP3fRbSW2X9SsM74fDg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T19:27:12.226Z",
+    "status": "resolved",
+    "matchedTitle": "Guitar Hero: Metallica",
+    "imagePath": "/covers/pc-17469.jpg"
+  },
   "pc-17641": {
     "gameId": "pc-17641",
     "query": "the chronicles of riddick assault on dark athena",
