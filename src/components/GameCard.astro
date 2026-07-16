@@ -46,7 +46,7 @@ const showReferenceNote = game.primaryImage.source !== 'personal';
     <div class="card__tags">
       <ConsoleBadge console={game.console} />
       {
-        !isWishlist && (
+        game.completeness !== 'unknown' && (
           <CompletenessBadge
             completeness={game.completeness}
             label={t(`completeness.${game.completeness}`)}

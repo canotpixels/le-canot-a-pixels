@@ -62,7 +62,9 @@ const specs: { key: string; value: string }[] = [
   { key: t('detail.console'), value: game.console },
   ...(game.region ? [{ key: t('detail.region'), value: game.region }] : []),
   ...(game.edition ? [{ key: t('detail.edition'), value: game.edition }] : []),
-  { key: t('detail.completeness'), value: t(`completeness.${game.completeness}`) },
+  ...(game.completeness !== 'unknown'
+    ? [{ key: t('detail.completeness'), value: t(`completeness.${game.completeness}`) }]
+    : []),
   ...(game.condition ? [{ key: t('detail.condition'), value: game.condition }] : []),
   ...(game.quantity > 1 ? [{ key: t('detail.quantity'), value: String(game.quantity) }] : []),
 ];
@@ -149,10 +151,14 @@ const jsonLd = {
           <div class="detail__badges">
             <Badge status={game.status} label={t(`status.${game.status}`)} />
             <ConsoleBadge console={game.console} />
-            <CompletenessBadge
-              completeness={game.completeness}
-              label={t(`completeness.${game.completeness}`)}
-            />
+            {
+              game.completeness !== 'unknown' && (
+                <CompletenessBadge
+                  completeness={game.completeness}
+                  label={t(`completeness.${game.completeness}`)}
+                />
+              )
+            }
           </div>
 
           {
