@@ -6,6 +6,9 @@ import { htmlLangFor } from './locales';
 
 // Tous les montants affichés sont arrondis au dollar inférieur (ex. 5,43 $ -> 5 $) :
 // aucun prix ni valeur estimée n'affiche de cents sur le site.
+// Une valeur minimale de 5 $ est affichée pour tout montant positif inférieur à ce seuil.
+const MINIMUM_DISPLAYED_PRICE = 5;
+
 export function formatPrice(
   amount: number | undefined,
   currency: string,
@@ -13,15 +16,16 @@ export function formatPrice(
 ): string | undefined {
   if (amount === undefined || Number.isNaN(amount)) return undefined;
   const floored = Math.floor(amount);
+  const displayed = floored > 0 && floored < MINIMUM_DISPLAYED_PRICE ? MINIMUM_DISPLAYED_PRICE : floored;
   try {
     return new Intl.NumberFormat(htmlLangFor(lang), {
       style: 'currency',
       currency,
       maximumFractionDigits: 0,
       minimumFractionDigits: 0,
-    }).format(floored);
+    }).format(displayed);
   } catch {
-    return `${floored} ${currency}`;
+    return `${displayed} ${currency}`;
   }
 }
 
