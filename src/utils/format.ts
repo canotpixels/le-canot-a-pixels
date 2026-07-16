@@ -16,7 +16,8 @@ export function formatPrice(
 ): string | undefined {
   if (amount === undefined || Number.isNaN(amount)) return undefined;
   const floored = Math.floor(amount);
-  const displayed = floored > 0 && floored < MINIMUM_DISPLAYED_PRICE ? MINIMUM_DISPLAYED_PRICE : floored;
+  const displayed =
+    floored > 0 && floored < MINIMUM_DISPLAYED_PRICE ? MINIMUM_DISPLAYED_PRICE : floored;
   try {
     return new Intl.NumberFormat(htmlLangFor(lang), {
       style: 'currency',
