@@ -8,9 +8,5 @@
     "status": "for-sale",
     "salePrice": 14.99,
     "notes": "À vendre — grand classique, prix ferme."
-  },
-  "6290": {
-    "status": "wishlist",
-    "notes": "Exemple d'entrée wishlist (à ajuster selon vos souhaits)."
   }
 }

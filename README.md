@@ -168,6 +168,16 @@ Champs disponibles : `status` (`collection` | `for-sale` | `wishlist`),
 > du CSV (mots-clés _à vendre_, _wishlist_, _collection_). Les surcharges ont
 > priorité.
 
+### Mettre toute la collection en vente d'un coup
+
+Plutôt que de surcharger chaque jeu individuellement, la variable d'environnement
+`PUBLIC_SELL_ALL_COLLECTION=true` (dans `.env`) affiche **toute la collection** dans
+l'onglet « à vendre », en plus des jeux déjà au statut `for-sale`. Le statut
+individuel de chaque jeu n'est pas modifié (la page « collection » reste
+inchangée) ; les jeux sans `salePrice` affichent leur valeur estimée à la
+place. Nécessite un rebuild (`npm run build` / `npm run dev`) pour prendre
+effet.
+
 ## Photos personnelles
 
 Déposez vos photos dans le dossier correspondant à l'**identifiant interne** du jeu :

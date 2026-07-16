@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Catalog from '../Catalog.astro';
 import { useTranslations } from '../../utils/i18n';
-import { gamesByStatus } from '../../data/games';
+import { gamesByStatus, forSaleGames } from '../../data/games';
 import type { GameStatus } from '../../data/games';
 import type { RouteKey } from '../../utils/routing';
 
@@ -16,7 +16,7 @@ interface Props {
 }
 const { lang, status, routeKey, pageId, titleKey, leadKey } = Astro.props;
 const t = useTranslations(lang);
-const games = gamesByStatus(status);
+const games = status === 'for-sale' ? forSaleGames() : gamesByStatus(status);
 ---
 
 <BaseLayout lang={lang} pageId={pageId} routeKey={routeKey}>
