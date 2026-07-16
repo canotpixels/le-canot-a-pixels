@@ -45,10 +45,14 @@ const showReferenceNote = game.primaryImage.source !== 'personal';
     </h3>
     <div class="card__tags">
       <ConsoleBadge console={game.console} />
-      <CompletenessBadge
-        completeness={game.completeness}
-        label={t(`completeness.${game.completeness}`)}
-      />
+      {
+        !isWishlist && (
+          <CompletenessBadge
+            completeness={game.completeness}
+            label={t(`completeness.${game.completeness}`)}
+          />
+        )
+      }
       {game.region && <span class="card__region">{game.region}</span>}
     </div>
     <div class="card__spacer"></div>
