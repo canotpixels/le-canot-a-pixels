@@ -1,4 +1,755 @@
 {
+  "gen-002926754d57": {
+    "gameId": "gen-002926754d57",
+    "query": "the chronicles of riddick assault on dark athena",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.900Z",
+    "status": "not-found"
+  },
+  "gen-0801c5461406": {
+    "gameId": "gen-0801c5461406",
+    "query": "james bond 007 quantum of solace",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-07-16T18:26:52.725Z",
+    "status": "not-found"
+  },
+  "gen-09db64fc5e62": {
+    "gameId": "gen-09db64fc5e62",
+    "query": "thrillville off the rails",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.538Z",
+    "status": "not-found"
+  },
+  "gen-0ca3a785abc3": {
+    "gameId": "gen-0ca3a785abc3",
+    "query": "perfect dark zero",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.898Z",
+    "status": "not-found"
+  },
+  "gen-0dde5f859caf": {
+    "gameId": "gen-0dde5f859caf",
+    "query": "the lord of the rings the fellowship of the ring",
+    "provider": "pricecharting>libretro",
+    "externalId": "Lord of the Rings, The - The Fellowship of the Ring (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Fellowship%20of%20the%20Ring%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:24.508Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings, The - The Fellowship of the Ring (USA)",
+    "imagePath": "/covers/gen-0dde5f859caf.png"
+  },
+  "gen-109d584dc73c": {
+    "gameId": "gen-109d584dc73c",
+    "query": "shrek the third",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.896Z",
+    "status": "not-found"
+  },
+  "gen-114165dbdfa8": {
+    "gameId": "gen-114165dbdfa8",
+    "query": "infinite undiscovery",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.899Z",
+    "status": "not-found"
+  },
+  "gen-132aae61829a": {
+    "gameId": "gen-132aae61829a",
+    "query": "lego the lord of the rings",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.462Z",
+    "status": "not-found"
+  },
+  "gen-148e109fe952": {
+    "gameId": "gen-148e109fe952",
+    "query": "halo spartan assault",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:59:02.136Z",
+    "status": "not-found"
+  },
+  "gen-1d83cb12fdff": {
+    "gameId": "gen-1d83cb12fdff",
+    "query": "aliens vs predator",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.898Z",
+    "status": "not-found"
+  },
+  "gen-1efe07c50755": {
+    "gameId": "gen-1efe07c50755",
+    "query": "crash twinsanity",
+    "provider": "pricecharting>libretro",
+    "externalId": "Crash Twinsanity (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Crash%20Twinsanity%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:32.170Z",
+    "status": "resolved",
+    "matchedTitle": "Crash Twinsanity (USA)",
+    "imagePath": "/covers/gen-1efe07c50755.png"
+  },
+  "gen-20976995b0f0": {
+    "gameId": "gen-20976995b0f0",
+    "query": "banjo kazooie nuts and bolts",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.054Z",
+    "status": "not-found"
+  },
+  "gen-24e4310f9fa1": {
+    "gameId": "gen-24e4310f9fa1",
+    "query": "prince of persia the two thrones",
+    "provider": "pricecharting>libretro",
+    "externalId": "Prince of Persia - The Two Thrones (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Prince%20of%20Persia%20-%20The%20Two%20Thrones%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:06.285Z",
+    "status": "resolved",
+    "matchedTitle": "Prince of Persia - The Two Thrones (USA)",
+    "imagePath": "/covers/gen-24e4310f9fa1.png"
+  },
+  "gen-28a28c3e39cc": {
+    "gameId": "gen-28a28c3e39cc",
+    "query": "disneyland adventures",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.725Z",
+    "status": "not-found"
+  },
+  "gen-29c5197b8081": {
+    "gameId": "gen-29c5197b8081",
+    "query": "resident evil revelations 2",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.34,
+    "fetchedAt": "2026-07-16T18:26:54.823Z",
+    "status": "not-found"
+  },
+  "gen-29ffa04c4265": {
+    "gameId": "gen-29ffa04c4265",
+    "query": "alien isolation",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.898Z",
+    "status": "not-found"
+  },
+  "gen-2cab1e54047b": {
+    "gameId": "gen-2cab1e54047b",
+    "query": "condemned 2 bloodshot",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.375,
+    "fetchedAt": "2026-07-16T18:26:52.897Z",
+    "status": "not-found"
+  },
+  "gen-309142bc35a6": {
+    "gameId": "gen-309142bc35a6",
+    "query": "dragon age ii",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.461Z",
+    "status": "not-found"
+  },
+  "gen-391190df1d59": {
+    "gameId": "gen-391190df1d59",
+    "query": "singularity",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.897Z",
+    "status": "not-found"
+  },
+  "gen-3c1b54a04322": {
+    "gameId": "gen-3c1b54a04322",
+    "query": "wolfenstein the new order",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.726Z",
+    "status": "not-found"
+  },
+  "gen-3dd965832562": {
+    "gameId": "gen-3dd965832562",
+    "query": "gears of war 3",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-07-16T18:26:52.727Z",
+    "status": "not-found"
+  },
+  "gen-40d6534cd045": {
+    "gameId": "gen-40d6534cd045",
+    "query": "dragon age origins",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.461Z",
+    "status": "not-found"
+  },
+  "gen-41f49a24cf11": {
+    "gameId": "gen-41f49a24cf11",
+    "query": "toy story 3 the video game",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-07-16T18:26:52.053Z",
+    "status": "not-found"
+  },
+  "gen-476bb7d31567": {
+    "gameId": "gen-476bb7d31567",
+    "query": "saw",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.305,
+    "fetchedAt": "2026-07-16T18:26:52.902Z",
+    "status": "not-found"
+  },
+  "gen-4d124a537cec": {
+    "gameId": "gen-4d124a537cec",
+    "query": "prince of persia warrior within",
+    "provider": "pricecharting>libretro",
+    "externalId": "Prince of Persia - Warrior Within (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Prince%20of%20Persia%20-%20Warrior%20Within%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:06.084Z",
+    "status": "resolved",
+    "matchedTitle": "Prince of Persia - Warrior Within (USA)",
+    "imagePath": "/covers/gen-4d124a537cec.png"
+  },
+  "gen-4d3bc5eb8636": {
+    "gameId": "gen-4d3bc5eb8636",
+    "query": "halo wars",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:54.823Z",
+    "status": "not-found"
+  },
+  "gen-4ff5edb500b3": {
+    "gameId": "gen-4ff5edb500b3",
+    "query": "the cursed crusade",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.725Z",
+    "status": "not-found"
+  },
+  "gen-52a5d779f6f8": {
+    "gameId": "gen-52a5d779f6f8",
+    "query": "spec ops the line",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.726Z",
+    "status": "not-found"
+  },
+  "gen-53003e3696b8": {
+    "gameId": "gen-53003e3696b8",
+    "query": "call of duty 2",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.34,
+    "fetchedAt": "2026-07-16T18:26:54.824Z",
+    "status": "not-found"
+  },
+  "gen-566a282c2c18": {
+    "gameId": "gen-566a282c2c18",
+    "query": "legendary",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.900Z",
+    "status": "not-found"
+  },
+  "gen-56a4e993ec33": {
+    "gameId": "gen-56a4e993ec33",
+    "query": "dark",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.899Z",
+    "status": "not-found"
+  },
+  "gen-602471196dce": {
+    "gameId": "gen-602471196dce",
+    "query": "bloodforge",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.900Z",
+    "status": "not-found"
+  },
+  "gen-6488775c6bca": {
+    "gameId": "gen-6488775c6bca",
+    "query": "screamride",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.538Z",
+    "status": "not-found"
+  },
+  "gen-657a15b6ffdf": {
+    "gameId": "gen-657a15b6ffdf",
+    "query": "the lord of the rings conquest",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.461Z",
+    "status": "not-found"
+  },
+  "gen-66ac59d21c9c": {
+    "gameId": "gen-66ac59d21c9c",
+    "query": "timesplitters 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "TimeSplitters 2 (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/TimeSplitters%202%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.385Z",
+    "status": "resolved",
+    "matchedTitle": "TimeSplitters 2 (USA)",
+    "imagePath": "/covers/gen-66ac59d21c9c.png"
+  },
+  "gen-6802e37fd06e": {
+    "gameId": "gen-6802e37fd06e",
+    "query": "the lord of the rings war in the north",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.461Z",
+    "status": "not-found"
+  },
+  "gen-6847ffc2108e": {
+    "gameId": "gen-6847ffc2108e",
+    "query": "phantasy star online episode i and ii",
+    "provider": "pricecharting>libretro",
+    "externalId": "Phantasy Star Online Episode I and II (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Phantasy%20Star%20Online%20Episode%20I%20and%20II%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:58.811Z",
+    "status": "resolved",
+    "matchedTitle": "Phantasy Star Online Episode I and II (USA)",
+    "imagePath": "/covers/gen-6847ffc2108e.png"
+  },
+  "gen-68d991072ef1": {
+    "gameId": "gen-68d991072ef1",
+    "query": "the lord of the rings the return of the king",
+    "provider": "pricecharting>libretro",
+    "externalId": "Lord of the Rings, The - The Return of the King (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Return%20of%20the%20King%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:24.100Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings, The - The Return of the King (USA)",
+    "imagePath": "/covers/gen-68d991072ef1.png"
+  },
+  "gen-6cd3b0900fd7": {
+    "gameId": "gen-6cd3b0900fd7",
+    "query": "tales of vesperia",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.053Z",
+    "status": "not-found"
+  },
+  "gen-6fed3372f5a3": {
+    "gameId": "gen-6fed3372f5a3",
+    "query": "saw ii flesh and blood",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.902Z",
+    "status": "not-found"
+  },
+  "gen-7064830ec64d": {
+    "gameId": "gen-7064830ec64d",
+    "query": "jade empire",
+    "provider": "pricecharting>libretro",
+    "externalId": "Jade Empire (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Jade%20Empire%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:58.395Z",
+    "status": "resolved",
+    "matchedTitle": "Jade Empire (USA)",
+    "imagePath": "/covers/gen-7064830ec64d.png"
+  },
+  "gen-719a608fde8e": {
+    "gameId": "gen-719a608fde8e",
+    "query": "zoo tycoon",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.538Z",
+    "status": "not-found"
+  },
+  "gen-71ad04f2669e": {
+    "gameId": "gen-71ad04f2669e",
+    "query": "silent hill downpour",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.902Z",
+    "status": "not-found"
+  },
+  "gen-75bce0a7a441": {
+    "gameId": "gen-75bce0a7a441",
+    "query": "far cry compilation",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.537Z",
+    "status": "not-found"
+  },
+  "gen-78bf06548206": {
+    "gameId": "gen-78bf06548206",
+    "query": "soldier of fortune ii double helix",
+    "provider": "pricecharting>libretro",
+    "externalId": "Soldier of Fortune II - Double Helix (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Soldier%20of%20Fortune%20II%20-%20Double%20Helix%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.014Z",
+    "status": "resolved",
+    "matchedTitle": "Soldier of Fortune II - Double Helix (USA)",
+    "imagePath": "/covers/gen-78bf06548206.png"
+  },
+  "gen-7a3ec9069e64": {
+    "gameId": "gen-7a3ec9069e64",
+    "query": "terraria",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.052Z",
+    "status": "not-found"
+  },
+  "gen-7c69b2f3bba9": {
+    "gameId": "gen-7c69b2f3bba9",
+    "query": "crash mind over mutant",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.197Z",
+    "status": "not-found"
+  },
+  "gen-84771561d84c": {
+    "gameId": "gen-84771561d84c",
+    "query": "the lord of the rings the third age",
+    "provider": "pricecharting>libretro",
+    "externalId": "Lord of the Rings, The - The Third Age (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Third%20Age%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:24.309Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings, The - The Third Age (USA)",
+    "imagePath": "/covers/gen-84771561d84c.png"
+  },
+  "gen-908ff014c1cb": {
+    "gameId": "gen-908ff014c1cb",
+    "query": "dragon age origins awakening",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:55.461Z",
+    "status": "not-found"
+  },
+  "gen-9340a247b36e": {
+    "gameId": "gen-9340a247b36e",
+    "query": "deadpool",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.902Z",
+    "status": "not-found"
+  },
+  "gen-946eea7793ec": {
+    "gameId": "gen-946eea7793ec",
+    "query": "prince of persia the sands of time",
+    "provider": "pricecharting>libretro",
+    "externalId": "Prince of Persia - The Sands of Time (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Prince%20of%20Persia%20-%20The%20Sands%20of%20Time%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:05.039Z",
+    "status": "resolved",
+    "matchedTitle": "Prince of Persia - The Sands of Time (USA)",
+    "imagePath": "/covers/gen-946eea7793ec.png"
+  },
+  "gen-97f900899226": {
+    "gameId": "gen-97f900899226",
+    "query": "army of two",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.052Z",
+    "status": "not-found"
+  },
+  "gen-9e22d5df1612": {
+    "gameId": "gen-9e22d5df1612",
+    "query": "just cause 2",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.375,
+    "fetchedAt": "2026-07-16T18:26:52.727Z",
+    "status": "not-found"
+  },
+  "gen-9efafe7d19ff": {
+    "gameId": "gen-9efafe7d19ff",
+    "query": "james bond 007 blood stone",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-07-16T18:26:52.725Z",
+    "status": "not-found"
+  },
+  "gen-a17f3c694d7e": {
+    "gameId": "gen-a17f3c694d7e",
+    "query": "dante s inferno",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.899Z",
+    "status": "not-found"
+  },
+  "gen-a48e7d45d0aa": {
+    "gameId": "gen-a48e7d45d0aa",
+    "query": "dead rising 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "Dead Rising (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox%20360/Named_Boxarts/Dead%20Rising%20(USA).png",
+    "confidence": 0.572,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:57:29.615Z",
+    "status": "resolved",
+    "matchedTitle": "Dead Rising (USA)",
+    "imagePath": "/covers/gen-a48e7d45d0aa.png"
+  },
+  "gen-a5712d372db7": {
+    "gameId": "gen-a5712d372db7",
+    "query": "indigo prophecy",
+    "provider": "pricecharting>libretro",
+    "externalId": "Indigo Prophecy (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Indigo%20Prophecy%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.200Z",
+    "status": "resolved",
+    "matchedTitle": "Indigo Prophecy (USA)",
+    "imagePath": "/covers/gen-a5712d372db7.png"
+  },
+  "gen-afeb210bece4": {
+    "gameId": "gen-afeb210bece4",
+    "query": "the walking dead survival instinct",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.317,
+    "fetchedAt": "2026-07-16T18:26:52.901Z",
+    "status": "not-found"
+  },
+  "gen-b010ee8d5099": {
+    "gameId": "gen-b010ee8d5099",
+    "query": "from dust",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.899Z",
+    "status": "not-found"
+  },
+  "gen-b017a3e4ed15": {
+    "gameId": "gen-b017a3e4ed15",
+    "query": "blur",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.897Z",
+    "status": "not-found"
+  },
+  "gen-b17d97a8af91": {
+    "gameId": "gen-b17d97a8af91",
+    "query": "crash tag team racing",
+    "provider": "pricecharting>libretro",
+    "externalId": "Crash Tag Team Racing (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Crash%20Tag%20Team%20Racing%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:33.134Z",
+    "status": "resolved",
+    "matchedTitle": "Crash Tag Team Racing (USA)",
+    "imagePath": "/covers/gen-b17d97a8af91.png"
+  },
+  "gen-bc2e4bb52b29": {
+    "gameId": "gen-bc2e4bb52b29",
+    "query": "condemned criminal origins",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.897Z",
+    "status": "not-found"
+  },
+  "gen-bced46df2665": {
+    "gameId": "gen-bced46df2665",
+    "query": "prince of persia",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:54.824Z",
+    "status": "not-found"
+  },
+  "gen-bd76acfc4d1a": {
+    "gameId": "gen-bd76acfc4d1a",
+    "query": "portal 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "Portal 2 (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox%20360/Named_Boxarts/Portal%202%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:57:56.735Z",
+    "status": "resolved",
+    "matchedTitle": "Portal 2 (USA)",
+    "imagePath": "/covers/gen-bd76acfc4d1a.png"
+  },
+  "gen-c5c3d57ec8d6": {
+    "gameId": "gen-c5c3d57ec8d6",
+    "query": "prison break the conspiracy",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.898Z",
+    "status": "not-found"
+  },
+  "gen-d0b3023cecbf": {
+    "gameId": "gen-d0b3023cecbf",
+    "query": "baldur s gate dark alliance",
+    "provider": "pricecharting>libretro",
+    "externalId": "Baldur's Gate - Dark Alliance (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Baldur's%20Gate%20-%20Dark%20Alliance%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.778Z",
+    "status": "resolved",
+    "matchedTitle": "Baldur's Gate - Dark Alliance (USA)",
+    "imagePath": "/covers/gen-d0b3023cecbf.png"
+  },
+  "gen-d17d277fc36c": {
+    "gameId": "gen-d17d277fc36c",
+    "query": "prince of persia the forgotten sands",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:54.824Z",
+    "status": "not-found"
+  },
+  "gen-d52980b43ecf": {
+    "gameId": "gen-d52980b43ecf",
+    "query": "just cause",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.727Z",
+    "status": "not-found"
+  },
+  "gen-d70867e252d6": {
+    "gameId": "gen-d70867e252d6",
+    "query": "afro samurai",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.899Z",
+    "status": "not-found"
+  },
+  "gen-db7ecdef8fe5": {
+    "gameId": "gen-db7ecdef8fe5",
+    "query": "sacred 3",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-07-16T18:26:52.053Z",
+    "status": "not-found"
+  },
+  "gen-dbbc57b17d9f": {
+    "gameId": "gen-dbbc57b17d9f",
+    "query": "gauntlet dark legacy",
+    "provider": "pricecharting>libretro",
+    "externalId": "Gauntlet - Dark Legacy (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Gauntlet%20-%20Dark%20Legacy%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.983Z",
+    "status": "resolved",
+    "matchedTitle": "Gauntlet - Dark Legacy (USA)",
+    "imagePath": "/covers/gen-dbbc57b17d9f.png"
+  },
+  "gen-e127082491e2": {
+    "gameId": "gen-e127082491e2",
+    "query": "naughty bear",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.902Z",
+    "status": "not-found"
+  },
+  "gen-e13b620c965f": {
+    "gameId": "gen-e13b620c965f",
+    "query": "far cry 4",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.538Z",
+    "status": "not-found"
+  },
+  "gen-e4b4bd140a28": {
+    "gameId": "gen-e4b4bd140a28",
+    "query": "shrek forever after",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.896Z",
+    "status": "not-found"
+  },
+  "gen-e4ca5477ad91": {
+    "gameId": "gen-e4ca5477ad91",
+    "query": "tom clancy s rainbow six vegas",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.897Z",
+    "status": "not-found"
+  },
+  "gen-e8bdad97bbe0": {
+    "gameId": "gen-e8bdad97bbe0",
+    "query": "lara croft and the guardian of light",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.727Z",
+    "status": "not-found"
+  },
+  "gen-ed959371fd73": {
+    "gameId": "gen-ed959371fd73",
+    "query": "crash of the titans",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:56.197Z",
+    "status": "not-found"
+  },
+  "gen-ee1edde63ead": {
+    "gameId": "gen-ee1edde63ead",
+    "query": "gears of war judgment",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.728Z",
+    "status": "not-found"
+  },
+  "gen-f1245e8cce95": {
+    "gameId": "gen-f1245e8cce95",
+    "query": "the orange box",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.728Z",
+    "status": "not-found"
+  },
+  "gen-f8f5bb8661b2": {
+    "gameId": "gen-f8f5bb8661b2",
+    "query": "fable anniversary",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:26:52.047Z",
+    "status": "not-found"
+  },
+  "gen-fad2480f6198": {
+    "gameId": "gen-fad2480f6198",
+    "query": "timesplitters future perfect",
+    "provider": "pricecharting>libretro",
+    "externalId": "TimeSplitters - Future Perfect (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/TimeSplitters%20-%20Future%20Perfect%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:58:59.590Z",
+    "status": "resolved",
+    "matchedTitle": "TimeSplitters - Future Perfect (USA)",
+    "imagePath": "/covers/gen-fad2480f6198.png"
+  },
+  "gen-fcfeb91aaff1": {
+    "gameId": "gen-fcfeb91aaff1",
+    "query": "the lord of the rings the two towers",
+    "provider": "pricecharting>libretro",
+    "externalId": "Lord of the Rings, The - The Two Towers (USA).png",
+    "imageUrl": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Two%20Towers%20(USA).png",
+    "confidence": 0.9,
+    "attribution": "Jaquette via libretro-thumbnails",
+    "fetchedAt": "2026-07-16T18:59:22.997Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings, The - The Two Towers (USA)",
+    "imagePath": "/covers/gen-fcfeb91aaff1.png"
+  },
   "pc-10327": {
     "gameId": "pc-10327",
     "query": "call of duty 4 modern warfare",
@@ -7,7 +758,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/h7rmgbjkldg23ylh/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:44.350Z",
+    "fetchedAt": "2026-07-16T18:54:49.744Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty 4 Modern Warfare",
     "imagePath": "/covers/pc-10327.jpg"
@@ -20,10 +771,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/e5f5f9cd610d980c8f3c80e5aad84577cb0c4c2cc7c90d1f7e42d0ca4c441ec3/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:36.065Z",
+    "fetchedAt": "2026-07-16T18:50:37.980Z",
     "status": "resolved",
     "matchedTitle": "Guitar Hero III Legends of Rock",
     "imagePath": "/covers/pc-10332.jpg"
+  },
+  "pc-10338": {
+    "gameId": "pc-10338",
+    "query": "thrillville off the rails",
+    "provider": "pricecharting>libretro",
+    "externalId": "10338",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/lqze4s7qgprl7t4x/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:36.048Z",
+    "status": "resolved",
+    "matchedTitle": "Thrillville Off The Rails",
+    "imagePath": "/covers/pc-10338.jpg"
   },
   "pc-10339": {
     "gameId": "pc-10339",
@@ -33,7 +797,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/boulrbliekfgyv3g/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:25.354Z",
+    "fetchedAt": "2026-07-16T18:55:33.689Z",
     "status": "resolved",
     "matchedTitle": "Tomb Raider Anniversary",
     "imagePath": "/covers/pc-10339.jpg"
@@ -46,7 +810,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94-vFLUyYfrdDvOAYqw2JaEFy5l2GcP3YCWBIVEC9BfH_w6IaZmhPS5bU5WThSkTTdkso8Z-SnJiRi3OEpEk3fmbz0RaK8MypOmEnPv9lZnUXYJ5OADgUZry_TrMnDURMjSEP31ec1DpLw9mos0BjYQ3XU4Aw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:51:39.372Z",
+    "fetchedAt": "2026-07-16T18:55:16.672Z",
     "status": "resolved",
     "matchedTitle": "Assassin's Creed",
     "imagePath": "/covers/pc-10529.jpg"
@@ -59,7 +823,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ZuzfvE_akOP1nPRbp17tDvED7Hm1DfXxqoCrZiVJ9qfrxmG32sdRkVpLtABvWCbcm7BcDGd9v5XXSQ6Rs5WRAzskal4-r0QUfqwcR5mzFFC6OK2hnR5HMJMQLADkXLcbqHUWOZ9d-TWUa086Ih4sY-bJL5A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:47.308Z",
+    "fetchedAt": "2026-07-16T18:54:58.139Z",
     "status": "resolved",
     "matchedTitle": "Beowulf The Game",
     "imagePath": "/covers/pc-10531.jpg"
@@ -72,10 +836,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97LlR5XXBl4XoXRad-bdc9xaPfg5sYr2atY9B3mrS8xWM634EWtdd5aAcITxDRmHlKtOMlUJcuvSBoQ6JFVtXZlR72ua-KLe3DWr7uOLC0GxiRJSBfiPIIOdAnvXBaJ1f4wDHhx8yp4tbLdODI-bd73ZtBuGw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:52.319Z",
+    "fetchedAt": "2026-07-16T18:54:07.520Z",
     "status": "resolved",
     "matchedTitle": "LEGO Star Wars Complete Saga",
     "imagePath": "/covers/pc-10535.jpg"
+  },
+  "pc-10609": {
+    "gameId": "pc-10609",
+    "query": "call of duty 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "10609",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv949hw3a_cH1sYCgkJCARAVauTijbkRPho7ij4SNH3nc5tWvO_QORu02nB1FhDNANklNo_IFvjEAaJz-rKgRKOM-fQqOWF3qQorBcfwNmn16SK1H85c346w5lbWtMiD-075vU9OdDKvCTAaVjfDMzT_e7vQ9Jw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:03.039Z",
+    "status": "resolved",
+    "matchedTitle": "Call of Duty 2",
+    "imagePath": "/covers/pc-10609.jpg"
   },
   "pc-10610": {
     "gameId": "pc-10610",
@@ -85,10 +862,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/c1b68bf983cc7572a121d34f7699b0de37f8629fbb8ccc53521fe7beb7c52af8/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:02.093Z",
+    "fetchedAt": "2026-07-16T18:52:18.417Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty 3",
     "imagePath": "/covers/pc-10610.jpg"
+  },
+  "pc-10613": {
+    "gameId": "pc-10613",
+    "query": "condemned criminal origins",
+    "provider": "pricecharting>libretro",
+    "externalId": "10613",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96Snt4A9QmlTB9JkGxzPiZ6TBhPcywz9GQOUlUcqJdZr12xaKt0sGGaXU2ZBSXho93LwBOrP4qqrwJ7RBCX2lom2-1jsyOzH4FDd9X9Qtj9oqgnXK9mhzHvYiJVHksNvAelXCa4hXAucvYMhrG3aUGIkIxT8A/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:06.983Z",
+    "status": "resolved",
+    "matchedTitle": "Condemned Criminal Origins",
+    "imagePath": "/covers/pc-10613.jpg"
   },
   "pc-10616": {
     "gameId": "pc-10616",
@@ -98,7 +888,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/rtg2zevdr7f2vqc5/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:07.233Z",
+    "fetchedAt": "2026-07-16T18:50:24.662Z",
     "status": "resolved",
     "matchedTitle": "Dead or Alive 4",
     "imagePath": "/covers/pc-10616.jpg"
@@ -111,7 +901,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/j3wsmg2zqga6rtat/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:53.436Z",
+    "fetchedAt": "2026-07-16T18:52:09.695Z",
     "status": "resolved",
     "matchedTitle": "Enchanted Arms",
     "imagePath": "/covers/pc-10621.jpg"
@@ -124,7 +914,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94pFgROTdcvc5VKhZuyBAiriE4HZxhColv1p8rK1qfaIaWZ7-FrgKynPYAfisSgIuZj4mTZclDJzpjO9N3W0NfpOZnlcKtVaDpWKRP9dmQ6NhuRAe5nJlcOFKo2WClhhwoeDpE8qxaI96T_eEqWoRJJJzg7Hg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:33.031Z",
+    "fetchedAt": "2026-07-16T18:51:48.184Z",
     "status": "resolved",
     "matchedTitle": "Far Cry Instincts Predator",
     "imagePath": "/covers/pc-10623.jpg"
@@ -137,7 +927,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94v5T_LHzA3rwBDztA3t4zenzQx_PgYBaGVsONfP5q3SEkgaZKdW1JHbgiM0Btz_fMNYkWTL_qkEaq6Rgdx0nwZrpti3nH2dli6keOMuy0f5jjpBkupCk3e84Z_1TZRu5nxvkscAVvD2Hq0sN2wuJXZ9dQMow/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:23.850Z",
+    "fetchedAt": "2026-07-16T18:53:38.332Z",
     "status": "resolved",
     "matchedTitle": "Forza Motorsport 2",
     "imagePath": "/covers/pc-10628.jpg"
@@ -150,7 +940,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96fbXGBe_nisPdwjNUC_5tPGU9B1BaM9X-RwU-xPsMI0z3gfQIzCgOITU2wjX81wSJ4eyUGtIokQ6fVMPVhZJMo2zFogt6a7nS7u5r0WJSMQucl6WMr5Zw6p4dgVDD5Y9E_4BymUyVuNftMB-6cykyu-Q4gyA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:22.112Z",
+    "fetchedAt": "2026-07-16T18:55:28.553Z",
     "status": "resolved",
     "matchedTitle": "Gears of War",
     "imagePath": "/covers/pc-10630.jpg"
@@ -163,10 +953,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bjx562e6wwfbra5z/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:22.960Z",
+    "fetchedAt": "2026-07-16T18:51:37.328Z",
     "status": "resolved",
     "matchedTitle": "Guitar Hero II",
     "imagePath": "/covers/pc-10633.jpg"
+  },
+  "pc-10637": {
+    "gameId": "pc-10637",
+    "query": "just cause",
+    "provider": "pricecharting>libretro",
+    "externalId": "10637",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/5c7d5bff83b51263754a49d08c51d9f03cce0d9baf4b47ea2d2bc92bd8a1ac57/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:50.179Z",
+    "status": "resolved",
+    "matchedTitle": "Just Cause",
+    "imagePath": "/covers/pc-10637.jpg"
   },
   "pc-10638": {
     "gameId": "pc-10638",
@@ -176,7 +979,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95H_jbq_1pXMPvFzivxIrhxuGfEfs9q1fIyBODOM1cRmOHCl8d3ecdo6fG5z-PVo48d19wMmv-ilmpW_umTDOmFRX4_NgbADPM0tTKNfhv4UGUbS3HBrYhTpGuK-f14HddyBjyYTzu6ncKoMKG_ec7A8IK7Dw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:11.060Z",
+    "fetchedAt": "2026-07-16T18:52:27.697Z",
     "status": "resolved",
     "matchedTitle": "Kameo Elements of Power",
     "imagePath": "/covers/pc-10638.jpg"
@@ -189,10 +992,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96ke6gEZTdRtJxfapocvKo_tFyd6gwxetwCtJtbCr3BiYt628rKQYbwp77T08i3HsGBA5kHwHa0-kHoOxds5Ttjo4z8y72_nSUM66IpvhVcWB69FCgnmmozSci7HFRQki5QVHPoSScfTPovZybuiBPyDB5lXg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:26.378Z",
+    "fetchedAt": "2026-07-16T18:56:33.644Z",
     "status": "resolved",
     "matchedTitle": "Lost Planet: Extreme Condition",
     "imagePath": "/covers/pc-10642.jpg"
+  },
+  "pc-10657": {
+    "gameId": "pc-10657",
+    "query": "perfect dark zero",
+    "provider": "pricecharting>libretro",
+    "externalId": "10657",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv967IirkTdtAphx94dDAdZIwL3RFyJKfJ4E91wwF_ddj7GswL97ZF7QjaX-nlV3QbLSn1A_8_E50JIQl9zIMSHHafP0I-qagxjNYJkdL9r8ODSne-R1YWmHdtZkI8Uzi--qL0hefUxuNXHPIMdGBxSc-XoYgqQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:14.547Z",
+    "status": "resolved",
+    "matchedTitle": "Perfect Dark Zero",
+    "imagePath": "/covers/pc-10657.jpg"
   },
   "pc-10661": {
     "gameId": "pc-10661",
@@ -202,7 +1018,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97JkUT-4u_az2SqhEhl5GZ4kwtb7JsPt0f-j0WhcfhoY8Yc8fsLHX0mqyF_lpL3McyFKD9_JMKOzc6qmD5MDlVDgpiWMd8_zBW1NeTX6CTXFeTmBUw5T8Bq74A1Q91-S9n9PmrvqL_FxBscT_BhWa76VAVV1w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:20.137Z",
+    "fetchedAt": "2026-07-16T18:54:30.451Z",
     "status": "resolved",
     "matchedTitle": "Project Gotham Racing 3",
     "imagePath": "/covers/pc-10661.jpg"
@@ -215,7 +1031,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96t5PjATMG0O3AK7lqvvceeejxULFuySOkKKlQJJPY5QUFmN35ob01t4-lz2n_DxgpBd5W3zI8YI49q3j3TvFCnC9ekG8Jn4DbjBsh8-4LvXOUO4qujbO66tiAM7sPwGHpV0rT0zozrdMTlzUgHnCGQr9dAyg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:54.173Z",
+    "fetchedAt": "2026-07-16T18:56:57.693Z",
     "status": "resolved",
     "matchedTitle": "Tetris Evolution",
     "imagePath": "/covers/pc-10674.jpg"
@@ -228,7 +1044,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/thbr7a3modydfru6/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:37.562Z",
+    "fetchedAt": "2026-07-16T18:52:49.449Z",
     "status": "resolved",
     "matchedTitle": "Tomb Raider Legend",
     "imagePath": "/covers/pc-10678.jpg"
@@ -241,7 +1057,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95RmLUlb2GsDOgdRKHJ0h7ARUW5mcm-xlDDngUJfUkxijCDRdZseDDYbw7F6G7mDHzpqb4iyzYFpFFv_zKnpkudCXltE0VotZ9X521obn8f25spBc7aYIywdNyCQhzqzPJtoQe9WtpS_SIekrUjaRd3dNrkFQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:51.196Z",
+    "fetchedAt": "2026-07-16T18:52:07.613Z",
     "status": "resolved",
     "matchedTitle": "X-Men: The Official Game",
     "imagePath": "/covers/pc-10682.jpg"
@@ -254,10 +1070,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96_98iKdD9myHp5rSmldgZitfo4cWRXIk_3emoVNXrU7w96IY-PipGb4uLhQD8PS6ukiG35ZU71oRHy83B4QFxfP8ItNsCncVzw6Knv3ycaqMxJ_k4WIbxkZ2cQzHuEeH-RHYkPrUhl5_qXzxzLCFDDYUm3rA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:15.173Z",
+    "fetchedAt": "2026-07-16T18:50:31.583Z",
     "status": "resolved",
     "matchedTitle": "Phantasy Star Universe",
     "imagePath": "/covers/pc-10699.jpg"
+  },
+  "pc-10704": {
+    "gameId": "pc-10704",
+    "query": "shrek the third",
+    "provider": "pricecharting>libretro",
+    "externalId": "10704",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Aub1oBhlysDvvKe8bu7VVBXzOEND5lF0sSbhevHIn5lQRmIZNdZDlaesa7Qzx5tKeOl1JDvkMiaTL869uErOojEh0neqc3Se9Q9j3-1roMw23Bw_qPrR2nk05nY2MqIjVM6sYjsVFRkx3rFiCJ-ZNXyECqg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:59.012Z",
+    "status": "resolved",
+    "matchedTitle": "Shrek the Third",
+    "imagePath": "/covers/pc-10704.jpg"
   },
   "pc-10868": {
     "gameId": "pc-10868",
@@ -267,7 +1096,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/4iwfosjwsr6dbvkt/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:59.155Z",
+    "fetchedAt": "2026-07-16T18:57:07.724Z",
     "status": "resolved",
     "matchedTitle": "Mass Effect",
     "imagePath": "/covers/pc-10868.jpg"
@@ -280,7 +1109,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96adWQVBZhLdK-f-AfAopngGjJazTadnp-zTNDgh3h_PQplP8cRXRn2jL1KZ28iaonFO0DNYULob5k9aKHa7x1XoNJZ_97uYMyiWYcrdvr7u2rqrfnjfII-wsPYtfC-wAYAv4WSTK0mR_WFaX6i_ukO714j5A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:56.374Z",
+    "fetchedAt": "2026-07-16T18:57:04.655Z",
     "status": "resolved",
     "matchedTitle": "Rock Band",
     "imagePath": "/covers/pc-10870.jpg"
@@ -293,7 +1122,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95jwNzmFcN4Pp90q9QcF63L37qbNW3SECDHxe5UXs6G2s-HS9rIj9woSKlf4ryBZxrFtqygs1RiLOwTSzS6fIeKdBI0yU2wYhNO7InwuCXvvcqiSIqHTiSxFg_v5yH-g5ZjPVq6NNezxHQe2xNJ1DknQItx-A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:10.333Z",
+    "fetchedAt": "2026-07-16T18:50:27.583Z",
     "status": "resolved",
     "matchedTitle": "Lost Odyssey",
     "imagePath": "/covers/pc-11882.jpg"
@@ -306,10 +1135,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94a_CGB6QWsk3yhemKNwDtlsm4ZJRgl-WAGa9qgYEADV3v3_8TrSi_3g7LNxUEgYNfQNOfvWBgJHWF4Ttr4zhzggdj4FB9nWMin9OSTuDP4QFKVl-5Dx5ElsvyEuntBorEx951Z52xww2bu1J1FRCMI0wXFqw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:05.389Z",
+    "fetchedAt": "2026-07-16T18:50:21.592Z",
     "status": "resolved",
     "matchedTitle": "Devil May Cry 4",
     "imagePath": "/covers/pc-11885.jpg"
+  },
+  "pc-11888": {
+    "gameId": "pc-11888",
+    "query": "army of two",
+    "provider": "pricecharting>libretro",
+    "externalId": "11888",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv969BNE3tHzj7c9kN5mXFYT89G1xzjqyRIoszAGejHPtyHKznIEwZuHvBPj7ewDM-dYuD7RHr2Wv0q3rV2AdPPJ-8fK1uuDJBH2_24F1iWveQwe7kiMDv2191hizQIezBxFg5yGjEe-oq2Q3cVMRYQ7oXTzpZw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:18.625Z",
+    "status": "resolved",
+    "matchedTitle": "Army of Two",
+    "imagePath": "/covers/pc-11888.jpg"
   },
   "pc-13148": {
     "gameId": "pc-13148",
@@ -319,7 +1161,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/zloleu4khqyyx4fu/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:16.837Z",
+    "fetchedAt": "2026-07-16T18:54:27.348Z",
     "status": "resolved",
     "matchedTitle": "Rainbow Six Vegas 2",
     "imagePath": "/covers/pc-13148.jpg"
@@ -332,7 +1174,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/eyxzlqwb6cxppliy/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:24.319Z",
+    "fetchedAt": "2026-07-16T18:55:32.366Z",
     "status": "resolved",
     "matchedTitle": "Ninja Gaiden II",
     "imagePath": "/covers/pc-13854.jpg"
@@ -345,7 +1187,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/xi4k74e2cfxpl4nz/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:23.411Z",
+    "fetchedAt": "2026-07-16T18:55:31.797Z",
     "status": "resolved",
     "matchedTitle": "Battlefield: Bad Company",
     "imagePath": "/covers/pc-13967.jpg"
@@ -358,10 +1200,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97q9lDjxFaR6JBHb8HJsn8EXu6HVqFvqL5A_bRFC5Vf_rYasrODCQ2gybTEpD23ujSld9DBsq7qwuvuuTzOIp6IChL5RT2OVr4hne19N8MGImOLu4zYuMnoZi6iRUF8wLym77o3wgN3Z-kdV3Cud_KF7BT6sQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:27.089Z",
+    "fetchedAt": "2026-07-16T18:51:47.168Z",
     "status": "resolved",
     "matchedTitle": "Guitar Hero Aerosmith",
     "imagePath": "/covers/pc-14036.jpg"
+  },
+  "pc-14084": {
+    "gameId": "pc-14084",
+    "query": "condemned 2 bloodshot",
+    "provider": "pricecharting>libretro",
+    "externalId": "14084",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/snybz7e33e6a64lk/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:08.691Z",
+    "status": "resolved",
+    "matchedTitle": "Condemned 2 Bloodshot",
+    "imagePath": "/covers/pc-14084.jpg"
   },
   "pc-14156": {
     "gameId": "pc-14156",
@@ -371,7 +1226,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96V4Zat6bAlL-eAjZOLnHChDLB5yjstDFh5zVvFM4vnnDUMITL-qG5iTVWOaGdtbwAiYEKrp_5Bmxby3yKP4mfS6XpR94c0-oGEByRfQ_SjeId7b9sPvQoSYybTSFp7G4xskQVRjDFVufqHo_BQxFMLn-l-zg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:45.184Z",
+    "fetchedAt": "2026-07-16T18:54:56.225Z",
     "status": "resolved",
     "matchedTitle": "Xbox Live Arcade Unplugged",
     "imagePath": "/covers/pc-14156.jpg"
@@ -384,10 +1239,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv972P6DUKAwwxfPKrc0TwpK945Zi0poumM9kwXTe7-8Nu_kwom8Z2gKD_lPDKyllMyHXCASlOjm3tLUI1IOkUmZviHP5hJ8AinRlxp7YwAkYKJbY2cb2RpwKin-59yQLu4szITvCLMjeG6f4j_GV_t1fEJ_wtw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:02.544Z",
+    "fetchedAt": "2026-07-16T18:54:17.372Z",
     "status": "resolved",
     "matchedTitle": "Kingdom Under Fire Circle of Doom",
     "imagePath": "/covers/pc-14488.jpg"
+  },
+  "pc-14619": {
+    "gameId": "pc-14619",
+    "query": "tales of vesperia",
+    "provider": "pricecharting>libretro",
+    "externalId": "14619",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94T52CQB0-uip_fQd2-Ytg4TmPDRKgjpdW31qtxYTPjE1-KvOJ3PB-IrciF6nuEKv8wMJuTwbpf8dXAtqRKZrFqNvmZ5POL_INQbLPeKK6vP6_w7VL8IxpzCTzTCVtto2UwM3Bz3cVNU0oCshADMt6ielo1vA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:27.816Z",
+    "status": "resolved",
+    "matchedTitle": "Tales of Vesperia",
+    "imagePath": "/covers/pc-14619.jpg"
   },
   "pc-14837": {
     "gameId": "pc-14837",
@@ -397,10 +1265,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/euowcxifxg6f2aqs/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:51.312Z",
+    "fetchedAt": "2026-07-16T18:54:06.451Z",
     "status": "resolved",
     "matchedTitle": "Viva Pinata Trouble in Paradise",
     "imagePath": "/covers/pc-14837.jpg"
+  },
+  "pc-14841": {
+    "gameId": "pc-14841",
+    "query": "infinite undiscovery",
+    "provider": "pricecharting>libretro",
+    "externalId": "14841",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ad2ddad5a46541b9b344e451f4d6d5b058292620e9ffffcbe706e68fce15b453/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:22.336Z",
+    "status": "resolved",
+    "matchedTitle": "Infinite Undiscovery",
+    "imagePath": "/covers/pc-14841.jpg"
   },
   "pc-14943": {
     "gameId": "pc-14943",
@@ -410,7 +1291,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95h6Q2OtciHgAIkolUTqUiicZRvBeCyHggu-7cHGZYA4s1DVorcw456admZc5RfM0I2yQ9334W7ECbIJSc5kCEpuW2c3Fvy5HsJZeYxs55FMWVDdmpICObSke4uqjLH9SJy8vhJWR40vgJ4C4dNyNMpIC3NgA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:00.544Z",
+    "fetchedAt": "2026-07-16T18:56:05.216Z",
     "status": "resolved",
     "matchedTitle": "Rock Band 2 (game only)",
     "imagePath": "/covers/pc-14943.jpg"
@@ -423,10 +1304,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94gQ_YOqb9hlpKIfGBACcZOCCnLV1fFyhqaY3eKpNSs2iFMr4iatg-I1uRl0tn-N-xNBsjeDg4zuEhX4kTLi6n6P3tuoIJ7fprrCNu4iDFGZQA9U0v33_E6Az-6XgY3i3yAePeb-y3dPjLK-JQgZFEHfDUy7g/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:05.823Z",
+    "fetchedAt": "2026-07-16T18:51:19.969Z",
     "status": "resolved",
     "matchedTitle": "Viking Battle for Asgard",
     "imagePath": "/covers/pc-15031.jpg"
+  },
+  "pc-15677": {
+    "gameId": "pc-15677",
+    "query": "crash mind over mutant",
+    "provider": "pricecharting>libretro",
+    "externalId": "15677",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv946toOh-QlA1hXRbmKjS_lixiF5Xtc-HAEsnAzaEJjlk7hH8dFnYd0h2mdPYY1bQjfcxnouXbxoOsvdtjlSAEHnk7sa_fyTEToN9par_yJfr7XYKIQjOJAZqP0tGHHNGjblGquwLMi6hqorOCI6hQGpC8FeNQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:31.897Z",
+    "status": "resolved",
+    "matchedTitle": "Crash Mind Over Mutant",
+    "imagePath": "/covers/pc-15677.jpg"
   },
   "pc-15742": {
     "gameId": "pc-15742",
@@ -436,7 +1330,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2pgln5xc5nrik6mt/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:27.500Z",
+    "fetchedAt": "2026-07-16T18:54:37.554Z",
     "status": "resolved",
     "matchedTitle": "Fable II",
     "imagePath": "/covers/pc-15742.jpg"
@@ -449,10 +1343,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94eOdqJjQCGWdOlGrdi3pDncWcVE0Jqrh7tl_2EV-bRsvyOUDBjVrhH6iEwsar7IJLJyk7uCJ-UCNB1FWrVbeaZsmiGLByWTSaHFQcIzE11x3G3MEeXA0c17TbXoUcmjwlCI4m8hxK1JH82mHIAD5AX02Vw2Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:56.243Z",
+    "fetchedAt": "2026-07-16T18:51:09.679Z",
     "status": "resolved",
     "matchedTitle": "Far Cry 2",
     "imagePath": "/covers/pc-15746.jpg"
+  },
+  "pc-15762": {
+    "gameId": "pc-15762",
+    "query": "legendary",
+    "provider": "pricecharting>libretro",
+    "externalId": "15762",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97a5CtoYPXfkTh7C74zjhdb_CKKfOOqtnUOK15WDJLudvaUKs7SezoMRu2FvaDYafwVM25klAi4BsaWIxM6mr49vOkHl6YRfUzjiBnIFl3eE3dz3Gd7sFQQDNTWh_oP4L5wXl3ZReAOz44dBWF-2HO6ewg-KQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:34.716Z",
+    "status": "resolved",
+    "matchedTitle": "Legendary",
+    "imagePath": "/covers/pc-15762.jpg"
   },
   "pc-15883": {
     "gameId": "pc-15883",
@@ -462,10 +1369,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95PBGPj4UeUiGn3n_6lNS6JYzEWUxk5D6iUqZJD8e48rVoNv6IE7yyENboG3CZ4uXqhh1HJ7D4ysBzSrPU9ZHPKv9pTpmSCBUbPC01jIIw0-_MSUy3tiX6qCkdOphOPdccO8WQVzct1DrHeEsHPd2yE2GMdnw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:53.817Z",
+    "fetchedAt": "2026-07-16T18:54:59.271Z",
     "status": "resolved",
     "matchedTitle": "Gears of War 2",
     "imagePath": "/covers/pc-15883.jpg"
+  },
+  "pc-15892": {
+    "gameId": "pc-15892",
+    "query": "james bond 007 quantum of solace",
+    "provider": "pricecharting>libretro",
+    "externalId": "15892",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95m4huenZ23cO-Iyi_BFHJYEcJ673SbdAS3knHwfPzx4N67pXFkKCxcHF3KR91dHyxnlyDreHd9V3fXZ8xlswm6Zqm_b1zrdB4cpjfx189hRHDbvfVPx84nln6N1NleDDDU7ntPKc44CT6gEh2rhWHhkM4d2A/1600.jpg",
+    "confidence": 0.772,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:37.606Z",
+    "status": "resolved",
+    "matchedTitle": "007 Quantum of Solace",
+    "imagePath": "/covers/pc-15892.jpg"
   },
   "pc-15931": {
     "gameId": "pc-15931",
@@ -475,7 +1395,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/qzsvi2qys2xa7akj/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:24.678Z",
+    "fetchedAt": "2026-07-16T18:51:40.227Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty World at War",
     "imagePath": "/covers/pc-15931.jpg"
@@ -488,10 +1408,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv942uJwwndZ77liC0qb7A7YZiS2rVMJM47yvpcpmIvx-E9RS_QwGnSPu7Gru2WAY_ehOJXx82VuTa_sFzA-zfdVmC2QA3F6syg0pfe3VJzIgW1IBlHtbJlxb5NDpmwBQWgBfnKYhhCjT0RqdgpS3jqi76FLe2w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:51:37.412Z",
+    "fetchedAt": "2026-07-16T18:53:10.419Z",
     "status": "resolved",
     "matchedTitle": "Mirror's Edge",
     "imagePath": "/covers/pc-15938.jpg"
+  },
+  "pc-15939": {
+    "gameId": "pc-15939",
+    "query": "banjo kazooie nuts and bolts",
+    "provider": "pricecharting>libretro",
+    "externalId": "15939",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96ak0z8Qfl30N7tmMbd9PmOlWrpdHm88y0FiqaCxsnzFfgIPzdYG9YRgyaHLT2wTY23FUSxHpga3CeDIuLGJWBE7DCLZxR87GbrqT73GNhxOPIGK6g4a4wg2OO-NS7RsCOnToGl6q0P76B1juxucWgG9lsF6A/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:28.832Z",
+    "status": "resolved",
+    "matchedTitle": "Banjo-Kazooie Nuts & Bolts",
+    "imagePath": "/covers/pc-15939.jpg"
   },
   "pc-15990": {
     "gameId": "pc-15990",
@@ -501,7 +1434,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/qa454hdudvke2j44/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:17.393Z",
+    "fetchedAt": "2026-07-16T18:56:23.866Z",
     "status": "resolved",
     "matchedTitle": "Tomb Raider Underworld",
     "imagePath": "/covers/pc-15990.jpg"
@@ -514,10 +1447,49 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97WnrPzpi_f5KQYoVT7g27IIq1FSiAi15B63CtPUxw62MIkjUQF7kVf-CbIlOd72ay7p8_v4-t56nKlbmxSw8v2shgu2wZo8c-E3KNXwJ9rGxxYWDAha6V_nQXH-UeFVSLsA0O0adzvvPfi0RDp8fWyr6rq3Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:57.483Z",
+    "fetchedAt": "2026-07-16T18:56:01.427Z",
     "status": "resolved",
     "matchedTitle": "Sonic Unleashed",
     "imagePath": "/covers/pc-16009.jpg"
+  },
+  "pc-16094": {
+    "gameId": "pc-16094",
+    "query": "prince of persia",
+    "provider": "pricecharting>libretro",
+    "externalId": "16094",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Dm9Mls2UMW7t2wx7_bGP6biBj2TqCl7Jp3zaNN4UWBmMKYnHgoI5ctnB4CDnVstMY-fpUaZ_sW_RrOVnfOB8ZMRgI6phoP050CTJKDe3ZtaS08Y-lcVODO2nrx5WzOs5scIqdnSRJM5l0MfUv2P9opdZkSg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:04.162Z",
+    "status": "resolved",
+    "matchedTitle": "Prince of Persia",
+    "imagePath": "/covers/pc-16094.jpg"
+  },
+  "pc-16211": {
+    "gameId": "pc-16211",
+    "query": "the lord of the rings conquest",
+    "provider": "pricecharting>libretro",
+    "externalId": "16211",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95eTQifGkmAwFKZZ2AptUus_qcsw6utIWvC4epjphdRSsslud96r4Z5Wrww9bia6qOJfFeqTcI079mJTHYRfHppWabHaT22bzjpyd82YApVslFpCaDy8vsybzf9zSQbZfKKQuz1t2gnyxYCg2pfW8VJhzNVEg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:20.794Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings Conquest",
+    "imagePath": "/covers/pc-16211.jpg"
+  },
+  "pc-16240": {
+    "gameId": "pc-16240",
+    "query": "afro samurai",
+    "provider": "pricecharting>libretro",
+    "externalId": "16240",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95K5Nlt36Oh2mBqgn4MZzJs91kk4AD_REfwyqgtO12hBgP4LljI0ysznzFnlTmkbiLhiq27m16VIevKJ-yc1LBdavRngUik3ZMg4KbNgSjdgcCLzMXQlKWcnAHc-7bRNT64r89ToaOUsXAXdRCJk8gHjMNy3A/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:31.388Z",
+    "status": "resolved",
+    "matchedTitle": "Afro Samurai",
+    "imagePath": "/covers/pc-16240.jpg"
   },
   "pc-16361": {
     "gameId": "pc-16361",
@@ -527,10 +1499,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv976RXTIN3cDxrA3kpWudKC0wcXaOPNrbf8K4E1Z8O9c9DnO9L-NpRZ_FnJB0YL1oTPDbcyhpNn4Yiy2-HP7-4j8AQyrsAAQc6zy7S8_xyPwLZUfLQ8W7fXAUo31vHzTDnX38a0xU_TpdFKq964UnzohuEYQBA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:16.197Z",
+    "fetchedAt": "2026-07-16T18:55:27.360Z",
     "status": "resolved",
     "matchedTitle": "HAWX",
     "imagePath": "/covers/pc-16361.jpg"
+  },
+  "pc-16363": {
+    "gameId": "pc-16363",
+    "query": "halo wars",
+    "provider": "pricecharting>libretro",
+    "externalId": "16363",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/03bed72719e033ce75467dbaf9ad70e4177ea122963a1eebe08e0acf934e25d6/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:01.946Z",
+    "status": "resolved",
+    "matchedTitle": "Halo Wars",
+    "imagePath": "/covers/pc-16363.jpg"
   },
   "pc-16375": {
     "gameId": "pc-16375",
@@ -540,10 +1525,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ux4mohf7zsyycwkr/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:38.199Z",
+    "fetchedAt": "2026-07-16T18:50:45.421Z",
     "status": "resolved",
     "matchedTitle": "Resident Evil 5",
     "imagePath": "/covers/pc-16375.jpg"
+  },
+  "pc-17641": {
+    "gameId": "pc-17641",
+    "query": "the chronicles of riddick assault on dark athena",
+    "provider": "pricecharting>libretro",
+    "externalId": "17641",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96IR77Xsu0TvRk1iWteJ5m9ywWpW-xFPng7aMb2UHAEtTX6cglI1bc4DdWy41hmnK9wzWehXC5662PgXWA0shf0BYDLKsYisAOUxaVohjStRkGBHu9v1zRRTvSPsz-wcsmzExxlCVhJYDIS3OO0u062fpPrIg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:32.879Z",
+    "status": "resolved",
+    "matchedTitle": "Chronicles of Riddick: Assault on Dark Athena",
+    "imagePath": "/covers/pc-17641.jpg"
   },
   "pc-18591": {
     "gameId": "pc-18591",
@@ -553,7 +1551,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/62hw3xaznsphqi45/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:33.895Z",
+    "fetchedAt": "2026-07-16T18:53:48.636Z",
     "status": "resolved",
     "matchedTitle": "Elder Scrolls III Morrowind [Platinum Hits]",
     "imagePath": "/covers/pc-18591.jpg"
@@ -566,7 +1564,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv967tG9fe8FnTFP-0e3hHcR723qS_K3lY5V1q4f2CBMGJSX8weVSVPJ0R1vtgd2ajKDxhTOzp8T4yniHO2he2bkTZqJN-VtGRDdptFEU_EtopXqLbfDsJy18Hl8BCyzXlikKzzgaA7U7npgS-SRMDU4T2zKFhg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:07.558Z",
+    "fetchedAt": "2026-07-16T18:51:21.688Z",
     "status": "resolved",
     "matchedTitle": "Sacred 2: Fallen Angel",
     "imagePath": "/covers/pc-19072.jpg"
@@ -579,7 +1577,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/9cd43a915828878977ff7a10fae84194aca76961162e9a3c50da165a10c325f0/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:26.099Z",
+    "fetchedAt": "2026-07-16T18:54:36.483Z",
     "status": "resolved",
     "matchedTitle": "UFC 2009 Undisputed",
     "imagePath": "/covers/pc-19209.jpg"
@@ -592,7 +1590,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97gIaxjRxSBX_YSbKQlu70Xm5iW8yMIBFrKvIg8Sb7gl5PzB5EPAZ8k-g_zekwvR5YTpUhLz93ywHDWY4ZMQ-KKa94biMqdEaXzRDVocT2Nuxtl1T1e7ulbZ2UvTXWq0b4pfhIsyGSYNcjdkfQsbAWUu0gKyQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:09.099Z",
+    "fetchedAt": "2026-07-16T18:54:18.924Z",
     "status": "resolved",
     "matchedTitle": "Wolfenstein",
     "imagePath": "/covers/pc-19487.jpg"
@@ -605,10 +1603,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95RGqKy2YdviBeZN8NAjDHcJodvS4DfuSlLmCCrY4uixeMuSkOSaZ_0ijEQkrAillZMhgFleX0aN9EmrJuh3Gj0-Zl6sNAyF9hTo5-rU8DM1E85i4iGt8xduG_de0_bCEtDUUp4WPZWtkwzlyhkW6MRWIS6hw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:29.650Z",
+    "fetchedAt": "2026-07-16T18:52:46.805Z",
     "status": "resolved",
     "matchedTitle": "Halo 3: ODST",
     "imagePath": "/covers/pc-19639.jpg"
+  },
+  "pc-19705": {
+    "gameId": "pc-19705",
+    "query": "saw",
+    "provider": "pricecharting>libretro",
+    "externalId": "19705",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94VGHIS7sOLjTCpcmW4HDwMKn4RjpGY7kb98WFW88oWkGPIjkkbR84XdeHo3x_YLO8d3yzP24QbKig8IlMswJTyMV2qc2_vbLB1Q2_KAyfxxpkQ7PljFRAUr8R5nbgxHwKiT4ajHpWevv1-S92x6moQNGYkJg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:49.191Z",
+    "status": "resolved",
+    "matchedTitle": "SAW",
+    "imagePath": "/covers/pc-19705.jpg"
   },
   "pc-19732": {
     "gameId": "pc-19732",
@@ -618,7 +1629,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96whFLZak_aOcqGTZr3vqOKO5e5jQckEWk--_YZUdJu13uzCdHCA1rwWaF6u2AaCs1ypMBeNnqNXo_gbLk1dUORb7WZbZ19PmEP5Ci5leRVqW1DZUvOMbVWhgHB8FZ1BVPtOufu5OdU0vcymxxR903-jbuW6w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:47.152Z",
+    "fetchedAt": "2026-07-16T18:51:00.374Z",
     "status": "resolved",
     "matchedTitle": "Brutal Legend",
     "imagePath": "/covers/pc-19732.jpg"
@@ -631,10 +1642,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96e1iykQ2wjjCdRKQtmDEt1uBy_X09DtCLMv8Be6hBWwZ2tluWIZbKBiEH2CPxBJbK3t98Mh1kWtfv_LUBSe7TLAy4cEG4z2pZPx2ckld_26BLydnLhqqPVyHfUnLM7YvB30LYQ0VkEafB3BDyv4V2qatZnSA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:48:07.218Z",
+    "fetchedAt": "2026-07-16T18:57:16.447Z",
     "status": "resolved",
     "matchedTitle": "Borderlands",
     "imagePath": "/covers/pc-19771.jpg"
+  },
+  "pc-19899": {
+    "gameId": "pc-19899",
+    "query": "dragon age origins",
+    "provider": "pricecharting>libretro",
+    "externalId": "19899",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95HrxX2ib0qkzPlOStF-nST3LmiT5VGzJMJQjNIrvumhWpsxOm6T7tSHNs4y9etprMqrjoRF7QWEGywzplIlEh6k_QGuKDMZ6X3xwJlGf7wquknh08LwOEzm2eIzWYh1rEJptgEBtvuB-U23z5n8h-E94cXeg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:12.193Z",
+    "status": "resolved",
+    "matchedTitle": "Dragon Age: Origins",
+    "imagePath": "/covers/pc-19899.jpg"
   },
   "pc-19953": {
     "gameId": "pc-19953",
@@ -644,7 +1668,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ROMvciHxtIFY7z-YbQycSPx3q3RheU14IVHc9PS6bMv0Sc11pUhwysNtAhezjeSaakq4uIJLoB5gAZyPJ3XroNIvCNUeOK-ryHTpA1sJRLwJBORqGGYOKWnbq_DYWhkVIU_nMPAOvymGRCrg6mfKkE6_VuA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:01.876Z",
+    "fetchedAt": "2026-07-16T18:54:16.651Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Modern Warfare 2",
     "imagePath": "/covers/pc-19953.jpg"
@@ -657,7 +1681,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/kbo7ihxosu3pw6be/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:37.361Z",
+    "fetchedAt": "2026-07-16T18:56:45.465Z",
     "status": "resolved",
     "matchedTitle": "Left 4 Dead 2",
     "imagePath": "/covers/pc-20012.jpg"
@@ -670,10 +1694,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/wezfne3ssuskhog2/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:58.239Z",
+    "fetchedAt": "2026-07-16T18:57:06.329Z",
     "status": "resolved",
     "matchedTitle": "MX vs. ATV Reflex",
     "imagePath": "/covers/pc-20047.jpg"
+  },
+  "pc-20407": {
+    "gameId": "pc-20407",
+    "query": "dante s inferno",
+    "provider": "pricecharting>libretro",
+    "externalId": "20407",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97FUAG4cZcI6M7BpHaPNqLamA5KZf3h6G4tDAAMvDNklOXgyM4pjVbyLBThRw_K9cKpLk50oN1y3QUG25_73dz8W9qeC9bnMN7K2n_N2rPO0THec6CcnNQSebPVUJ_ppQ61aGPY8bAxvVoxDp8wkD6lzzODGg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:24.398Z",
+    "status": "resolved",
+    "matchedTitle": "Dante's Inferno",
+    "imagePath": "/covers/pc-20407.jpg"
+  },
+  "pc-20427": {
+    "gameId": "pc-20427",
+    "query": "aliens vs predator",
+    "provider": "pricecharting>libretro",
+    "externalId": "20427",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94HhqvL931ZHmES7v_biPl57QDMsNkqywGMyNRBT-QXBEeIJunOSv-NBVTPNcAYQUohj8gW39IQODx2atgH19_bXuc9C9Lq00V6Wt4dtj3fldNHhJYturG9KkzIkAhYS1K8eAfsJEUGfn4kIpzoau0cvUnNYQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:21.266Z",
+    "status": "resolved",
+    "matchedTitle": "Aliens vs. Predator",
+    "imagePath": "/covers/pc-20427.jpg"
   },
   "pc-20430": {
     "gameId": "pc-20430",
@@ -683,7 +1733,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/w27fhdyplf4rrsbu/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:14.078Z",
+    "fetchedAt": "2026-07-16T18:55:25.670Z",
     "status": "resolved",
     "matchedTitle": "Tropico 3",
     "imagePath": "/covers/pc-20430.jpg"
@@ -696,10 +1746,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97ALE4Bm_5BmO1F0bBUCX9_qvyH4Odb9ZT80pOPbGrGyJJRJMrkYjFozT_NjyIm3buhjKHXMAyWGOmAplFsVXGncQEf6DrsdizYXS-69FQCHpAvSb5pL8kZ42Q8VIvwKeqS4hbmJ7fw5qry2SvqHI0gTxtNQA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:41.083Z",
+    "fetchedAt": "2026-07-16T18:51:52.089Z",
     "status": "resolved",
     "matchedTitle": "Final Fantasy XIII",
     "imagePath": "/covers/pc-21047.jpg"
+  },
+  "pc-21098": {
+    "gameId": "pc-21098",
+    "query": "just cause 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "21098",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96EvETI3uJxO5DAsLYZLkaoVIEQ7gpmJ86qMUnkKgZayO9CPMukZcTvDzqCrupQfb_xv90U4HkXruPduME5Plg8Y-VRJR3FWmPirDscKTCfHSkpzIlnAruQeplV3Y6eEc4BEGu5nK3297vPm71QMBORDV8inQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:51.358Z",
+    "status": "resolved",
+    "matchedTitle": "Just Cause 2",
+    "imagePath": "/covers/pc-21098.jpg"
+  },
+  "pc-21135": {
+    "gameId": "pc-21135",
+    "query": "prison break the conspiracy",
+    "provider": "pricecharting>libretro",
+    "externalId": "21135",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96CDEZAPIeE3EUkqmxCL70cs9xagO6p0xOFri82Wiq413Jcs_hlwTgKnyzyrBbDkv7NXGTSm10z-mvQ6-0P5uqm0DlZthHQcaofhm4HA0SaN4Pjw8Ju5Sazo-2SGWyrYgl5YRKzERXi7bfWl7bxi56UULarFg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:13.625Z",
+    "status": "resolved",
+    "matchedTitle": "Prison Break: The Conspiracy",
+    "imagePath": "/covers/pc-21135.jpg"
   },
   "pc-21180": {
     "gameId": "pc-21180",
@@ -709,7 +1785,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/pukrji437wotcdzg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:44.835Z",
+    "fetchedAt": "2026-07-16T18:56:48.884Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell: Conviction",
     "imagePath": "/covers/pc-21180.jpg"
@@ -722,10 +1798,62 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/a9308ed6770c2115a55e761987ae5636552f5bac00ba1c2ac2ef7c7ad71009bb/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:16.583Z",
+    "fetchedAt": "2026-07-16T18:51:36.488Z",
     "status": "resolved",
     "matchedTitle": "Red Dead Redemption",
     "imagePath": "/covers/pc-21298.jpg"
+  },
+  "pc-21302": {
+    "gameId": "pc-21302",
+    "query": "prince of persia the forgotten sands",
+    "provider": "pricecharting>libretro",
+    "externalId": "21302",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96h0sxg7eiDWhkxCWshIQc-PDlrCKjfTVedDnKrAI7Xel0nQEQpOb91PmgRA_YyFQSJHm08Mqdi-KnhGv5d4nOzn2tVCN7eGkY1eZEjyP-O4oYYFKQv3r9AekPG4hgs9rEapJCjScehM2VUVJptOtcEfVHLWQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:04.855Z",
+    "status": "resolved",
+    "matchedTitle": "Prince of Persia: The Forgotten Sands",
+    "imagePath": "/covers/pc-21302.jpg"
+  },
+  "pc-21309": {
+    "gameId": "pc-21309",
+    "query": "shrek forever after",
+    "provider": "pricecharting>libretro",
+    "externalId": "21309",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv973Aw_c9ToFtmxLNeVZwf8D379gp266U2QOzeikcgl2EGAApkK8-BPz0k4iao5T3gzwD9i_qJIvAcD3CmpcPJFSxVfTdUztLflbKjswJDCp69UHbaLjRIDdkzWn61ayiYHYeoX3GlD0aOG_OLMSReawiRedSg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:00.206Z",
+    "status": "resolved",
+    "matchedTitle": "Shrek Forever After",
+    "imagePath": "/covers/pc-21309.jpg"
+  },
+  "pc-21353": {
+    "gameId": "pc-21353",
+    "query": "blur",
+    "provider": "pricecharting>libretro",
+    "externalId": "21353",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94csvCjcnpGEh31fbLCN8zEEVJ-XM5puPjCQeimDg7XZDzxRs_np2YjrXli2Np4D1DfdJpdgOGItik6P05QGe09fMqcOattQz986TPEjYNwPmM-WES0FNKTUFEJUjevHO4ILzio14cxMwMH50bBKXCCbcaknw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:09.334Z",
+    "status": "resolved",
+    "matchedTitle": "Blur",
+    "imagePath": "/covers/pc-21353.jpg"
+  },
+  "pc-21540": {
+    "gameId": "pc-21540",
+    "query": "naughty bear",
+    "provider": "pricecharting>libretro",
+    "externalId": "21540",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95EOSyAr8ILh8jcE6LWhGnjeuP7Yn64Wlbe68ry2bytYMBR4TPFQMPTf3trs5Po18VY9l6KaMi_EwYHCL3xtK3y1Nbm4iVpUdLQjlifYxYWz_Kjq1xHjVe6adsifQs9bkWa0QAtxbvWv2A0BCa54E_rqPAW0A/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:43.231Z",
+    "status": "resolved",
+    "matchedTitle": "Naughty Bear",
+    "imagePath": "/covers/pc-21540.jpg"
   },
   "pc-21568": {
     "gameId": "pc-21568",
@@ -735,10 +1863,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97nPA4xCuazif51BtrhICVjW1AI8XDlx2RMAGHgzXvYiftKkNztKm6VBK7pDVqC_DCGXsbXwJ26HUCNkCFo402jXerBC-z3mDeeoEAOSSxjQvNFGVoPIdHTQl7iT29IkzOqjFIz_vKQsSzxK2lRiOvO9BgP7A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:18.401Z",
+    "fetchedAt": "2026-07-16T18:54:28.516Z",
     "status": "resolved",
     "matchedTitle": "LEGO Harry Potter: Years 1-4",
     "imagePath": "/covers/pc-21568.jpg"
+  },
+  "pc-21578": {
+    "gameId": "pc-21578",
+    "query": "singularity",
+    "provider": "pricecharting>libretro",
+    "externalId": "21578",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96o2kAtP7JUvpToBXUDf515AWSiz1Wqw-aM9QYtVQ3opQQU1v4V7gPpgT-CSWpGuzD9PwEmQy-E3aV7PDG-koK9nNOdIw1hDtG1xqOhv3YZUZewWkzYcz49yFcLABgm9iNdh9wYapRAxqANy0G_oKhGqc2xrA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:12.390Z",
+    "status": "resolved",
+    "matchedTitle": "Singularity",
+    "imagePath": "/covers/pc-21578.jpg"
+  },
+  "pc-21607": {
+    "gameId": "pc-21607",
+    "query": "toy story 3 the video game",
+    "provider": "pricecharting>libretro",
+    "externalId": "21607",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95gr-TJcU9PxAB-LurTF2dy4JiUp2zFAWYnMsTgzfVN_olycoFeHgaax_yhfv0Lb2KB7DE5Q3ixzT8_S0DvYkyW5iuVfsA-3tgrA05WyiViII9IuPVO9qmSZ1MDQLnslbETlElt2Gam3i1W5EX7yXivfDyXfA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:27.041Z",
+    "status": "resolved",
+    "matchedTitle": "Toy Story 3: The Video Game",
+    "imagePath": "/covers/pc-21607.jpg"
   },
   "pc-21864": {
     "gameId": "pc-21864",
@@ -748,7 +1902,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv957lEQAkf5eVIPXldfCY5IY2IBeY5GaldJSt3S-FXrMKGJkd0JAmDBwogEgpHYGKvDLg-GKrkBhXLMMswicRi98ERH3bT2TRySx9_zfimu3qrTISHvaJBfC5dIfB8roRQCY6A9ev5nc6RQjZ6bcPJHLHno-8g/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:55.802Z",
+    "fetchedAt": "2026-07-16T18:53:08.995Z",
     "status": "resolved",
     "matchedTitle": "Madden NFL 11",
     "imagePath": "/covers/pc-21864.jpg"
@@ -761,7 +1915,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94kvDEB2jiudWBoijJmMQQzqVYDBWPLPwtZ-j-jPeeRD16G44G7IYy-OKCNPaCvFdfWLQMotKCHPnGEzKAihaFZFMRCufsSq3j3usN1X2pjVGms4eYixOgdcuDJxX08BDyirZZCNBFgRzb7PshZrJbauCr-dw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:09.436Z",
+    "fetchedAt": "2026-07-16T18:50:26.795Z",
     "status": "resolved",
     "matchedTitle": "Mafia II",
     "imagePath": "/covers/pc-21941.jpg"
@@ -774,7 +1928,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97o5r23BwD5Bftiow9BzT_kOGsJtp72t-l8dXXvy0GY36sUFuCm8nbZAVzNra2ISz5H5kf5PwOHzlxO_YV3Mgv2GDwLA_3TfIcLMylUgZsMZN72qk4tDlWLB6cSqNhZasheHX0eJ3J5qzqJlv1mRnlPg6cOzQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:39.801Z",
+    "fetchedAt": "2026-07-16T18:55:43.689Z",
     "status": "resolved",
     "matchedTitle": "Battlefield: Bad Company 2 [Ultimate Edition]",
     "imagePath": "/covers/pc-21964.jpg"
@@ -787,7 +1941,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/50060a55f21a823a21bdb315b5a85c67a0c07d5a1ccc716682b98cf3ff4092ee/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:17.360Z",
+    "fetchedAt": "2026-07-16T18:52:28.345Z",
     "status": "resolved",
     "matchedTitle": "Halo: Reach [Limited Edition]",
     "imagePath": "/covers/pc-22018.jpg"
@@ -800,10 +1954,39 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97WfDXiR9xdJegaB96DEDIlZPNej5rt3DWmXfmZP6Z4mt3C2-ZyDh5-Jf3UFZwvR_jr_h7lcyKpk8rOPpSS70LSK73pEWK_bSxmikvKm7XucmWoVwDdKGlef0FX5KTLhNjuu28m9QnItZcnrXcdElOsuQjBOg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:15.843Z",
+    "fetchedAt": "2026-07-16T18:50:33.298Z",
     "status": "resolved",
     "matchedTitle": "Greg Hastings Paintball 2",
     "imagePath": "/covers/pc-22036.jpg"
+  },
+  "pc-2204420": {
+    "gameId": "pc-2204420",
+    "query": "bloodforge",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:58:33.440Z",
+    "status": "not-found"
+  },
+  "pc-22066": {
+    "gameId": "pc-22066",
+    "query": "dead rising 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "22066",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bae341b899c0939250e89e7cc2169e44163848b4ce0d948d4fe83728ddf38d59/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T19:01:15.038Z",
+    "status": "resolved",
+    "matchedTitle": "Dead Rising 2",
+    "imagePath": "/covers/pc-22066.jpg"
+  },
+  "pc-22134": {
+    "gameId": "pc-22134",
+    "query": "lara croft and the guardian of light",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:57:48.816Z",
+    "status": "not-found"
   },
   "pc-22165": {
     "gameId": "pc-22165",
@@ -813,7 +1996,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/xiknuob77cc5ktfz/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:03.125Z",
+    "fetchedAt": "2026-07-16T18:55:08.371Z",
     "status": "resolved",
     "matchedTitle": "Medal of Honor [Limited Edition]",
     "imagePath": "/covers/pc-22165.jpg"
@@ -826,10 +2009,31 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2fc0e0caf84329826331c8528cfe63eda457e8e2afe9990a0a4fee74730b4266/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:48:00.168Z",
+    "fetchedAt": "2026-07-16T18:57:13.988Z",
     "status": "resolved",
     "matchedTitle": "Guitar Hero World Tour Wireless Guitar Controller",
     "imagePath": "/covers/pc-2290420.jpg"
+  },
+  "pc-2576818": {
+    "gameId": "pc-2576818",
+    "query": "from dust",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-07-16T18:58:23.452Z",
+    "status": "not-found"
+  },
+  "pc-30277": {
+    "gameId": "pc-30277",
+    "query": "saw ii flesh and blood",
+    "provider": "pricecharting>libretro",
+    "externalId": "30277",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv960glG6IMw3nIyB1QAr5XZaED0xCwxAWAcOQXyJs5ozW4WceX3Vg0xGWeI2E7hDeK9iczrqtk4Nx0oSb5455m-AO2WZEaoGO665OUiIzwbi_u7pCFZcXQyGJZJQ95AVMT0hROmz335_S6MxwZ6bmO_rwdq6jA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:50.223Z",
+    "status": "resolved",
+    "matchedTitle": "Saw II: Flesh & Blood",
+    "imagePath": "/covers/pc-30277.jpg"
   },
   "pc-30306": {
     "gameId": "pc-30306",
@@ -839,7 +2043,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/17059de24f86569f4c6ae7b525b977d77ac93d219c3c349f92162756ef5c32d7/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:01.137Z",
+    "fetchedAt": "2026-07-16T18:52:17.089Z",
     "status": "resolved",
     "matchedTitle": "Fable",
     "imagePath": "/covers/pc-30306.jpg"
@@ -852,7 +2056,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97c86XFmSknVQWAOvOUncw5pKlgJVJ_eymTychBdVmPGivOhzMutIqAiyl43gzBHKEqi6lwyzr0slgV13gLp1L__9AX5ENfrIban8gWmjox0WNL9u0iSsf0NQmVUQxneggFydr--aomWxb-GkMfciYOlhTNaw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:10.067Z",
+    "fetchedAt": "2026-07-16T18:56:22.183Z",
     "status": "resolved",
     "matchedTitle": "Fable III",
     "imagePath": "/covers/pc-30378.jpg"
@@ -865,7 +2069,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96iPxPw9uuCYk1S7iCcJrp47LYzvfNJMVeW7JSSblOtjxnKPjKIvRN3AKI2PVfoC2ncMgP4Xf0ci3SAxzly7VNlQzi1SvuEdbP8YP8Y8m-y17nJPqM5Ski0u9Yo0pHFO3wAEZ600AQCVgWwPJ4piD1Rcvul6w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:48.097Z",
+    "fetchedAt": "2026-07-16T18:56:57.086Z",
     "status": "resolved",
     "matchedTitle": "The Sims 3",
     "imagePath": "/covers/pc-30383.jpg"
@@ -878,10 +2082,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97qdQTwYd7-0MZ_tt6cCWTL6YvfjBz45s-O3ibcBWm-yjicCh9JkAtE67bMPqU0VFZbhxnM0QyumHej1H87UPMED1sS7Jhy6o8rEultRNSQUXh_01xM5azUFBMFiA5TArri8rsuzb1-_FqA_L-EJ3T35tAREA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:51.174Z",
+    "fetchedAt": "2026-07-16T18:55:55.582Z",
     "status": "resolved",
     "matchedTitle": "Rock Band 3",
     "imagePath": "/covers/pc-30386.jpg"
+  },
+  "pc-30616": {
+    "gameId": "pc-30616",
+    "query": "james bond 007 blood stone",
+    "provider": "pricecharting>libretro",
+    "externalId": "30616",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/uap2mcd6sp3toe3b/1600.jpg",
+    "confidence": 0.725,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:38.810Z",
+    "status": "resolved",
+    "matchedTitle": "007 Blood Stone",
+    "imagePath": "/covers/pc-30616.jpg"
   },
   "pc-30634": {
     "gameId": "pc-30634",
@@ -891,7 +2108,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/x7rxkfiy3yvkpcke/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:15.693Z",
+    "fetchedAt": "2026-07-16T18:51:29.923Z",
     "status": "resolved",
     "matchedTitle": "Dance Central",
     "imagePath": "/covers/pc-30634.jpg"
@@ -904,7 +2121,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ar27cegz4mo2klwp/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:38.269Z",
+    "fetchedAt": "2026-07-16T18:54:49.122Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Black Ops",
     "imagePath": "/covers/pc-30668.jpg"
@@ -917,10 +2134,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Z9q25wB9cWj2DU29sn7TZvA8R_sAsTpWl-e_Qk_xDUogUnBcJ5oidnD6h0UYjBEj0E0E4c8TuOqv0ZhXWyEXWL6zs9rykbK2xVBBUuD_IUg0w8bH6X8q_Q03eqs_j3qGpWFc1QGpwahbn2Xvqw6rAx--3aA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:12.334Z",
+    "fetchedAt": "2026-07-16T18:50:29.542Z",
     "status": "resolved",
     "matchedTitle": "Gears of War Triple Pack",
     "imagePath": "/covers/pc-30990.jpg"
+  },
+  "pc-31012": {
+    "gameId": "pc-31012",
+    "query": "dragon age ii",
+    "provider": "pricecharting>libretro",
+    "externalId": "31012",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97kr7hCCoVSmNL8S4Yf0mjtS4hpuzCQOaH_QbRB14Sa-Bi-fIYvJP4tHebJx3rYvSwtNEt4gPhc7422CC3PljjDk2pZcWrqAdn_A4kxB3d-Cr8vYQyJrGDX2s7uIifERyrNb75CTKE-Bn-8OTYAUENqxt_N2Q/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:14.271Z",
+    "status": "resolved",
+    "matchedTitle": "Dragon Age II",
+    "imagePath": "/covers/pc-31012.jpg"
   },
   "pc-3102289": {
     "gameId": "pc-3102289",
@@ -930,7 +2160,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bf1f2deb9bed1751b28ad94df10ad9e089466b846480e95e212c7fae4c5e42d4/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:46.767Z",
+    "fetchedAt": "2026-07-16T18:52:58.839Z",
     "status": "resolved",
     "matchedTitle": "Watch Dogs [Signature Edition]",
     "imagePath": "/covers/pc-3102289.jpg"
@@ -943,7 +2173,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jG2tIUeTGXDjuMYirsTrJByXRzV5Dw62kL3XFx5iuag6J1dUPu3Uhk_X6pFp5uDw_I7D9zPCayQLOxHw30zI8TTO2XxVe7dc-RlBXwDudY3CkE0O87crM3N-4vzQH1UHABVgPYCin6lggLXEUbkvwxupEBw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:44.063Z",
+    "fetchedAt": "2026-07-16T18:53:58.916Z",
     "status": "resolved",
     "matchedTitle": "Kinect Adventures",
     "imagePath": "/covers/pc-31052.jpg"
@@ -956,7 +2186,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95lBY6MwTRd1Sa2lPbnIW34dJLwi1cwAho8-Mfib9A0_y8Q2qu1dcep8A0aqZOHY2KJ4wI308y2SmFcPev4c-TPJcLbPn-hYbyqJpVBZOcJrXiKgZchMIZe95xBjkkVfv5qbFF_NBNz_4jHGUvwoZcJ8N_yUA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:55.104Z",
+    "fetchedAt": "2026-07-16T18:53:07.583Z",
     "status": "resolved",
     "matchedTitle": "The First Templar",
     "imagePath": "/covers/pc-31430.jpg"
@@ -969,7 +2199,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/b2ffec4bd976d0690e3916703273ccd0a7dd8878b4b6c010aad6df6a910582dd/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:36.144Z",
+    "fetchedAt": "2026-07-16T18:54:46.912Z",
     "status": "resolved",
     "matchedTitle": "L.A. Noire",
     "imagePath": "/covers/pc-31432.jpg"
@@ -982,7 +2212,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96GD6r-2Lg8fKJYYuVBdxONerPfCNs23tp2N7NM2m3c4u7y2ZK4Gdd4sQl3XTIi_P2_OXqP365r4JJOX9hQ8jgaROu60NG8xFSf9vLLHf-vDsPAZBZiJk-348ShCehpTq6BrHpES5caHbHC5sUhswWi1_TBzw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:35.062Z",
+    "fetchedAt": "2026-07-16T18:53:49.338Z",
     "status": "resolved",
     "matchedTitle": "Duke Nukem Forever",
     "imagePath": "/covers/pc-31478.jpg"
@@ -995,7 +2225,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/54mnow2sqgavglwb/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:58.524Z",
+    "fetchedAt": "2026-07-16T18:56:02.288Z",
     "status": "resolved",
     "matchedTitle": "Alice: Madness Returns",
     "imagePath": "/covers/pc-31481.jpg"
@@ -1008,10 +2238,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/4ff29587090eb3a58557c182b6baea8ffe52409b1d508dc75775214b6e75e378/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:24.570Z",
+    "fetchedAt": "2026-07-16T18:53:39.242Z",
     "status": "resolved",
     "matchedTitle": "Your Shape: Fitness Evolved",
     "imagePath": "/covers/pc-31495.jpg"
+  },
+  "pc-31741": {
+    "gameId": "pc-31741",
+    "query": "gears of war 3",
+    "provider": "pricecharting>libretro",
+    "externalId": "31741",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96W-DgRwAyP1VyvOjvKtSIg-ci_CndLDWA2QrH0IhWzJd1OIGSRHv174tZj4IDgSPjrOqFP184EktyvP9FbSieveJIyMKyPyszKx6oYXDICgX-0J2mKsRkl5wAOCrGCW_N_Z1dIvjBW5g7RaCUjUE6eb1wxNQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:52.263Z",
+    "status": "resolved",
+    "matchedTitle": "Gears of War 3",
+    "imagePath": "/covers/pc-31741.jpg"
   },
   "pc-31818": {
     "gameId": "pc-31818",
@@ -1021,10 +2264,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/c9847e16e831eff32e6ee8a0594c53c168bb6c4238f7b17feb9e7800d42a0609/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:47.904Z",
+    "fetchedAt": "2026-07-16T18:51:06.368Z",
     "status": "resolved",
     "matchedTitle": "Forza Motorsport 4",
     "imagePath": "/covers/pc-31818.jpg"
+  },
+  "pc-31827": {
+    "gameId": "pc-31827",
+    "query": "the cursed crusade",
+    "provider": "pricecharting>libretro",
+    "externalId": "31827",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv9667bUdSWi0Mv1M6aQQh1iFF6TkQ4inUXAt8wdAq4DIdPbCvMh3FcNIT3f-y6FnBqr_tRVz7c9fDmoAbHv5IFzs6c-2NMV2ZrYOOuSr_tQsttYp9qstuFE5d-FXFD_3AXNLRQ06X_GFuR8O4FHIWe_pY5iVcw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:39.862Z",
+    "status": "resolved",
+    "matchedTitle": "The Cursed Crusade",
+    "imagePath": "/covers/pc-31827.jpg"
   },
   "pc-31851": {
     "gameId": "pc-31851",
@@ -1034,7 +2290,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95TqonxrnyE2oRnahVz7j-jLwNWPfXbTaiOrisNAyNVlKWzh4bGlr7QJLpRvnWJtL9l1Kd30Tny0xA6TbkQaQf0qdtScgZe_oHn3vSzAyrXwv4zQUHfdhB6rJAhZp6S3N6RRzcLa1mKxVDjzHrNFZ4afZll8Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:16.192Z",
+    "fetchedAt": "2026-07-16T18:56:22.848Z",
     "status": "resolved",
     "matchedTitle": "Rocksmith",
     "imagePath": "/covers/pc-31851.jpg"
@@ -1047,7 +2303,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/veqpcw6tdjd7iuar/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:13.720Z",
+    "fetchedAt": "2026-07-16T18:51:27.883Z",
     "status": "resolved",
     "matchedTitle": "Battlefield 3",
     "imagePath": "/covers/pc-31891.jpg"
@@ -1060,7 +2316,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/haan3oamkkfilkjo/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:44.164Z",
+    "fetchedAt": "2026-07-16T18:50:46.848Z",
     "status": "resolved",
     "matchedTitle": "Dance Central 2",
     "imagePath": "/covers/pc-31909.jpg"
@@ -1073,7 +2329,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/44f637054821514aa706d14d3e657d43d428e1577d33680acceea1bff1293760/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:20.487Z",
+    "fetchedAt": "2026-07-16T18:52:37.139Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Modern Warfare 3",
     "imagePath": "/covers/pc-32089.jpg"
@@ -1086,7 +2342,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/a241a08e9dffe0e16cc296a939ff1de1c66da758038b35ca65744a5c3d0ed630/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:57.345Z",
+    "fetchedAt": "2026-07-16T18:51:10.415Z",
     "status": "resolved",
     "matchedTitle": "LEGO Harry Potter Years 5-7",
     "imagePath": "/covers/pc-32117.jpg"
@@ -1099,10 +2355,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv962Ph-u8_I0AkmybNb8U2Vu1i_EhDXo2uFrKcciHqDi0psSUjGA5ghKIehCJSTWjSSiZtPVLD6qkIOVsFeK8a74D0JzX5t5LzfYf3g0-GDpICQR2vnVauILX6GD5ZtdOssbYXN-MydmMHw8eqir0FFnUIIs_A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:07.310Z",
+    "fetchedAt": "2026-07-16T18:53:25.761Z",
     "status": "resolved",
     "matchedTitle": "Your Shape: Fitness Evolved 2012",
     "imagePath": "/covers/pc-32139.jpg"
+  },
+  "pc-32177": {
+    "gameId": "pc-32177",
+    "query": "the lord of the rings war in the north",
+    "provider": "pricecharting>libretro",
+    "externalId": "32177",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ENeL70A6OiuvosOEZyN0oi-UZvH6HP-cPplRpu06LnlNVBsU5cHGXahgjyq9U7jEWTgA5o4OZxQsI44jJ5wnhZwad6XdF_2osTvxAAyrD_HK8RY9Yjgp0HOCdWb5Rh1ZJBskj2bwFySo8X2ZTDY2YZnHBOw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:21.408Z",
+    "status": "resolved",
+    "matchedTitle": "Lord Of The Rings: War In The North",
+    "imagePath": "/covers/pc-32177.jpg"
+  },
+  "pc-32281": {
+    "gameId": "pc-32281",
+    "query": "disneyland adventures",
+    "provider": "pricecharting>libretro",
+    "externalId": "32281",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96xTaeQB5bElTWz11okL9TXkjwqvg7Kbpx7e-2lGaOlRNxkO9TuBlJWaRUHFiBPTsx2ipC7lkVJhm6_gMnGGJHPjXJb4R0gSE_hQ1hvaDf9sawtHfO7W7PKPdlrDb-MZKNsYpV_PfeOewjHYDgRJtUyPJGOtA/1600.jpg",
+    "confidence": 0.772,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:36.390Z",
+    "status": "resolved",
+    "matchedTitle": "Kinect Disneyland Adventures",
+    "imagePath": "/covers/pc-32281.jpg"
   },
   "pc-32337": {
     "gameId": "pc-32337",
@@ -1112,7 +2394,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94i2zRrvOWx7Ag0mUmKzXeOFUHkxXB4xruyEVO_2qllhSueu_6I9dsbdZY1Pk1Vi78zJ_4DMIdttzPaoa8rvGtXPeh-4X7QQ_FmFvEOjW6AN7zmDCYiymlXu_NYSipbxdk76IE_FmkX7tZixUcfZETAr97kQg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:42.466Z",
+    "fetchedAt": "2026-07-16T18:53:51.957Z",
     "status": "resolved",
     "matchedTitle": "Karaoke Revolution Glee Vol 3",
     "imagePath": "/covers/pc-32337.jpg"
@@ -1125,7 +2407,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96_hT9UgoUxPmyhCJ6iim1cSueJchCSkgqSOGxcBzVQxX0B77i9c6gm_yYoHblsgdbsui4w1KgSb5Z2ArpMp8xwlUJhByx3Dc2ascS885RBOYluHUpuN2K1kq9LIiONiBeB6luZcfrgIvzRqvSJhdGd9EUO6w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:47.934Z",
+    "fetchedAt": "2026-07-16T18:55:52.345Z",
     "status": "resolved",
     "matchedTitle": "The Darkness II",
     "imagePath": "/covers/pc-32464.jpg"
@@ -1138,10 +2420,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94Xh3z-xSTfIl2NjRmi_jZDzeYKcWihj_hf0vTAjSL6KYvSyKMzic_GsN-BmXCOSql2AIFETa8SlIyQX6Fpgl0K2g8L_fRKJaQfbREq0VhOIos6-VJZhc7tCIg_s5Lp4HZU7SW2JKqQZkyDusDnxawPg6jF_Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:25.218Z",
+    "fetchedAt": "2026-07-16T18:56:27.771Z",
     "status": "resolved",
     "matchedTitle": "Mass Effect 3",
     "imagePath": "/covers/pc-32592.jpg"
+  },
+  "pc-32620": {
+    "gameId": "pc-32620",
+    "query": "silent hill downpour",
+    "provider": "pricecharting>libretro",
+    "externalId": "32620",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97BKOM-lklkerTJGrVC_Gsh-C2v57bmaWctQ5ear3eujVfIVuOAxFR4ShFto4vYx0CxqOrG46W8MZBHaW00EFikWTw3hNHahHVZqL2YeUhPMaxOKSG_2coMASW8e3DiwqYDnYe7_mGIp6R8-D0qZbjiE_Az2g/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:42.199Z",
+    "status": "resolved",
+    "matchedTitle": "Silent Hill Downpour",
+    "imagePath": "/covers/pc-32620.jpg"
   },
   "pc-32665": {
     "gameId": "pc-32665",
@@ -1151,7 +2446,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95qWoUYu2Z5pQVBMV9bL6uEf-p8JQA4R-sxHG-d7cYN2d93JU6KwxZ59Zra1eeDUo0ul_tSSyUAxe-1SZ5PmVHgItLIIoEMnFswxiB7BOXzTjBrV_pW62fVAUEDIEE3F2R13tfyP16H_oJNRzgRGZgObm8rrw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:28.371Z",
+    "fetchedAt": "2026-07-16T18:54:38.756Z",
     "status": "resolved",
     "matchedTitle": "Resident Evil: Operation Raccoon City",
     "imagePath": "/covers/pc-32665.jpg"
@@ -1164,9 +2459,9 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95_LznRDveMA4vrgVbG4xnrhT3n2OPWRzsEmvW3k_ef7USMqkBV9bUvLt6d9donD-Pba9yp3dlNo-NFT1H67nCMc9Z9d0YIhslZ7p9qZMU-rAvFz16TUz1urlTVOgvy_N9OuUMESHZAH9yRmRYz3UnhkskkMw/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:09.195Z",
+    "fetchedAt": "2026-07-16T18:56:13.355Z",
     "status": "resolved",
-    "matchedTitle": "Tiger Woods PGA Tour 13 [Masters Collector&#39;s Edition]",
+    "matchedTitle": "Tiger Woods PGA Tour 13 [Masters Collector's Edition]",
     "imagePath": "/covers/pc-32677.jpg"
   },
   "pc-32683": {
@@ -1177,7 +2472,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ykupplelmq6oqtqj/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:43.036Z",
+    "fetchedAt": "2026-07-16T18:53:57.927Z",
     "status": "resolved",
     "matchedTitle": "Grand Theft Auto IV [Complete Edition]",
     "imagePath": "/covers/pc-32683.jpg"
@@ -1190,7 +2485,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/qdlkwterrmwryihd/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:45.069Z",
+    "fetchedAt": "2026-07-16T18:53:59.983Z",
     "status": "resolved",
     "matchedTitle": "Prototype 2",
     "imagePath": "/covers/pc-32714.jpg"
@@ -1203,7 +2498,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97AoieGDLOJFOeY19kfmvTpodMYL111NFSbBPQP3RSAmaUwnQZuD6iOU_ldvzDH-JgxXGOUKLVxMAiBZwkjr1iIc98thHXZSaJis878w-5D-ZtDUHEjUPOKSdgl3J5CbzqiqK4QuoL2tbu2kZeeEuyp2pac3Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:13.577Z",
+    "fetchedAt": "2026-07-16T18:50:30.718Z",
     "status": "resolved",
     "matchedTitle": "Max Payne 3",
     "imagePath": "/covers/pc-32746.jpg"
@@ -1216,7 +2511,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/457a8598c29bee45b85588efb6ae5e965145a5046c21e705666c182446196db7/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:51:36.285Z",
+    "fetchedAt": "2026-07-16T18:50:35.999Z",
     "status": "resolved",
     "matchedTitle": "Dragon's Dogma",
     "imagePath": "/covers/pc-32752.jpg"
@@ -1229,10 +2524,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96qSYV-LCTJvcc9LieKyGBzVWxgX_APd99BoRLZSEavsNf-Lvk_Jue0uga6irPPl07KJL4nz80skBb0jYnENE5AmMv4oabqHmZQLHIgJ-bGMN43N6l9JSl4_c1XLny34QpalhOnPloc9Fg2AYb5Q9J2aBQjNg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:52.285Z",
+    "fetchedAt": "2026-07-16T18:52:08.648Z",
     "status": "resolved",
     "matchedTitle": "LEGO Batman 2",
     "imagePath": "/covers/pc-32858.jpg"
+  },
+  "pc-32895": {
+    "gameId": "pc-32895",
+    "query": "spec ops the line",
+    "provider": "pricecharting>libretro",
+    "externalId": "32895",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97gcGFawqmc3AcjbXpwMaT3tup8mAOUE9_6Oln2SYFHpNBkiVzfJGTYaTddSxeH2kn48aIfUcqIS7JVnRXlNWo9nAaYN9ArF7F_F4GFeWNJUk7Q7YQENgG-thkV-cuzwpzcXWQ123E2L11NrebM0UpPMttmYw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:41.075Z",
+    "status": "resolved",
+    "matchedTitle": "Spec Ops The Line",
+    "imagePath": "/covers/pc-32895.jpg"
   },
   "pc-32952": {
     "gameId": "pc-32952",
@@ -1242,7 +2550,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/oansharib54xwveb/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:47.689Z",
+    "fetchedAt": "2026-07-16T18:53:05.236Z",
     "status": "resolved",
     "matchedTitle": "Dance Dance Revolution",
     "imagePath": "/covers/pc-32952.jpg"
@@ -1255,7 +2563,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94G6J-61jUIHmnRRWeXWvdziLxLK9eq2VRLw9u1wNCDjawiJjIsaRcTq4d7ssBwVZf8tjfl48THDH97M8rn_1CSTKl_0TjtBjufosbtQkzHKRuCnVKKBhf0hjywdVf_sR-tbUY0xNCdhB4uDPouypkR4uhdFw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:59.321Z",
+    "fetchedAt": "2026-07-16T18:56:03.396Z",
     "status": "resolved",
     "matchedTitle": "Sleeping Dogs",
     "imagePath": "/covers/pc-32987.jpg"
@@ -1268,7 +2576,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/xypyqlgyy6ez33ag/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:26.840Z",
+    "fetchedAt": "2026-07-16T18:53:41.359Z",
     "status": "resolved",
     "matchedTitle": "Borderlands 2",
     "imagePath": "/covers/pc-33057.jpg"
@@ -1281,7 +2589,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Xz1tEkG_EM6UxOppy2kYOq9cDU0Zlp8EfMgCPntnxo8VKFGdPNoMJZkwBbpE4XRFgbD6ZAsr4MFQ-g43yWzrI-3qqXULs5caq8FV9cEeL-R7RNU6ucXSX9dwbPwIUM2szLVRN9vRXxR3wpCLltEfmQ4SGgA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:33.928Z",
+    "fetchedAt": "2026-07-16T18:51:50.149Z",
     "status": "resolved",
     "matchedTitle": "NBA 2K13",
     "imagePath": "/covers/pc-33146.jpg"
@@ -1294,7 +2602,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv941LBeeJtcJbmySoDQpT82NnI10ow9qMOyKYanB8KnWFTNjJGnj7wqTIP4eOTzKFIwEk4GNg9ZJm_3abKsvrAWYQGa9kPvx9Jbv7wlbwCxh81QOC_G5nXsMzYR0PhOpya59qQz45hOrDi5GewnxYMeWVd8BJg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:44.056Z",
+    "fetchedAt": "2026-07-16T18:52:00.010Z",
     "status": "resolved",
     "matchedTitle": "Resident Evil 6",
     "imagePath": "/covers/pc-33150.jpg"
@@ -1307,7 +2615,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95eTOfQqCV8_VXMV7YW2A8dA_dZ2cRliro-Jcgz9bqeBog2x3hT2TDHO7T8gdEwuRo_DeQjamT1N56llu5BUQJp3xC2Y7hGnkROdS5kdAvYKVa5AnmYTy_huOp6EuQqturruwRzuIgfSF_jbt14cz7HwkvvZQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:04.290Z",
+    "fetchedAt": "2026-07-16T18:55:15.539Z",
     "status": "resolved",
     "matchedTitle": "Zumba Fitness Core",
     "imagePath": "/covers/pc-33199.jpg"
@@ -1320,7 +2628,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/0866b7505482e5dcbff1979784d869959d972c7573ddb13d4359987ca3d5a05d/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:00.105Z",
+    "fetchedAt": "2026-07-16T18:52:10.684Z",
     "status": "resolved",
     "matchedTitle": "Medal of Honor Warfighter [Limited Edition]",
     "imagePath": "/covers/pc-33218.jpg"
@@ -1333,7 +2641,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97XZDJcMQpvIHRYHia5iw2NuUpdarc7sRYv1inkl-emPJB6mLGKr0HCLvm_MTSsJWdwZZJbn8QZqEXc_2eYk7Z7J-czF1L6pDsKn9zlhhZ30cdjy1mJ3QcVasbmmEYQdCqVtpW90B6qsFNe65XMAegnDAkW1w/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:51:40.588Z",
+    "fetchedAt": "2026-07-16T18:56:34.618Z",
     "status": "resolved",
     "matchedTitle": "Nike + Kinect Training",
     "imagePath": "/covers/pc-33251.jpg"
@@ -1346,7 +2654,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/vlab55rlwp5ytffx/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:03.079Z",
+    "fetchedAt": "2026-07-16T18:52:19.582Z",
     "status": "resolved",
     "matchedTitle": "Halo 4",
     "imagePath": "/covers/pc-33285.jpg"
@@ -1359,7 +2667,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95qi1v1-K6SUGySQ_dZ3LfKDRB2u9N9alTTbncIor8LFbM7ZSqI6yL1x2T8ZCkWdP1A0w_Uejf3iUy7-8zB27-H34Tm9dP-WcGWtduplv-4-fiDYzZwdr7cR3nukaJHx2x7MyZKTOlW09jgvJqHcMcOcrJl6w/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:07.181Z",
+    "fetchedAt": "2026-07-16T18:55:18.750Z",
     "status": "resolved",
     "matchedTitle": "Halo 4 Limited Edition Console",
     "imagePath": "/covers/pc-33308.jpg"
@@ -1372,10 +2680,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/gme7z2px6qjrm6qy/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:40.940Z",
+    "fetchedAt": "2026-07-16T18:55:45.560Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Black Ops II",
     "imagePath": "/covers/pc-33319.jpg"
+  },
+  "pc-33333": {
+    "gameId": "pc-33333",
+    "query": "lego the lord of the rings",
+    "provider": "pricecharting>libretro",
+    "externalId": "33333",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95yhEOFOfx51BQstKV5CdtlzHv82xvBoYX5KAdnyr-t-O1NtpxZGd1cUpQo8xvzVNjG5xrnGgG_mk2VdHq4MjqisV_6amN5FAAhTU7g0Je-O0TNaTRuLv1H1ZPKfGvkQhKZUftMjMOwVEaZH1w3a6GoTxjcEA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:22.828Z",
+    "status": "resolved",
+    "matchedTitle": "LEGO Lord Of The Rings",
+    "imagePath": "/covers/pc-33333.jpg"
   },
   "pc-33827": {
     "gameId": "pc-33827",
@@ -1385,7 +2706,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94BO6H-5jPoFmd9G9e76JrrZ6r-Krhn8rlrwrgTBPZ4DDUaDInhWYjMFBT5LINqQ4aNIszIqQuadZL705MB5XySuJsgjSYeFjkgGO-4oLLcYgujGrnZyVmz5LB8yfHn7i_KoMSgnCOnkeCH-3331erIovmCJA/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:57.219Z",
+    "fetchedAt": "2026-07-16T18:57:05.773Z",
     "status": "resolved",
     "matchedTitle": "Need For Speed: Hot Pursuit [Limited Edition]",
     "imagePath": "/covers/pc-33827.jpg"
@@ -1398,7 +2719,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94K_rrStqqWZfzOI8qqH7WSR8dqrwlJCQEkMeeAUbWwv9nHab10hegbkIjqw3woRpRe1pWSu5C_5sl1Kxeu-hTvlnvfxx_CmdwTk81651Yo6pGiqqAnRb478hZgPZCUFBplUCaNbDbh-qwSvWD2KGj_SvUKOg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:26.105Z",
+    "fetchedAt": "2026-07-16T18:51:41.114Z",
     "status": "resolved",
     "matchedTitle": "The Walking Dead: A Telltale Games Series",
     "imagePath": "/covers/pc-33874.jpg"
@@ -1411,10 +2732,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2fcilwyyslfs2sa7/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:56.856Z",
+    "fetchedAt": "2026-07-16T18:55:07.525Z",
     "status": "resolved",
     "matchedTitle": "Tomb Raider",
     "imagePath": "/covers/pc-33902.jpg"
+  },
+  "pc-33926": {
+    "gameId": "pc-33926",
+    "query": "gears of war judgment",
+    "provider": "pricecharting>libretro",
+    "externalId": "33926",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/fpj4xnvekzdy4gyf/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:55.906Z",
+    "status": "resolved",
+    "matchedTitle": "Gears of War Judgment",
+    "imagePath": "/covers/pc-33926.jpg"
+  },
+  "pc-33974": {
+    "gameId": "pc-33974",
+    "query": "the walking dead survival instinct",
+    "provider": "pricecharting>libretro",
+    "externalId": "33974",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Pg0H2WvSKXS7TJqLUqIw-AwQtVLqPF2YfADgQS9_x86W7vgd-dYGL1hUaJRwcstEAdXSY4CDfvqQRQUNzEskPZOzitplqG4fC0N59MuwHjTRDQQjrvTbUdVzo4Jpna2SYwQ4gOukUzjkWF4326b2a655ncQ/1600.jpg",
+    "confidence": 0.865,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:41.245Z",
+    "status": "resolved",
+    "matchedTitle": "Walking Dead: Survival Instinct",
+    "imagePath": "/covers/pc-33974.jpg"
   },
   "pc-33989": {
     "gameId": "pc-33989",
@@ -1424,7 +2771,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95pMEsk6r2IIgel-XSzm0YBO5aSbn_t2wpLSUiZWKQ4rlFJE2U4u6aYV03ZNejoTjvdJnDo9lY908d3MQz0ZToeQ--XT5HqoltO8DTey4yvPzjsWz7u-TQ9s_khgIHk_GQHn85f22V5ExVgSxUDcV15Du7YxQ/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:48:06.064Z",
+    "fetchedAt": "2026-07-16T18:57:15.114Z",
     "status": "resolved",
     "matchedTitle": "Shift 2 Unleashed [Limited Edition]",
     "imagePath": "/covers/pc-33989.jpg"
@@ -1437,7 +2784,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96iQ_Aaafa8l2HqNaikyy9xpY20v5khf9r7U4ZcyJZIR2Eb8-fzPsiR4QqrLRo8R7R9BJSLpkeEluA0iIEddfI4vwCCVC3W5Hvm3YA1CUFA9rXhWUQDvYmC7F1nGGprPdlqVDajJKm5kZLX5os5lrP95zPz0Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:55.078Z",
+    "fetchedAt": "2026-07-16T18:51:08.597Z",
     "status": "resolved",
     "matchedTitle": "Resident Evil Revelations",
     "imagePath": "/covers/pc-34039.jpg"
@@ -1450,7 +2797,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/5pt5gtdm7vg4om7u/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:16.906Z",
+    "fetchedAt": "2026-07-16T18:50:34.081Z",
     "status": "resolved",
     "matchedTitle": "Elder Scrolls V: Skyrim [Legendary Edition]",
     "imagePath": "/covers/pc-34059.jpg"
@@ -1463,10 +2810,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96K0-aQPz37fQkexgzjlNEm7jpRiPwxOxCvNanF-aBgtbxDcAwEnBfJhRy6ZZLondz4H2ictcKoUgx9tcSTWPMFLiyoBI5YSzcNB4yBcv1Ifka44L26MfZqDj8AXXZb12YPFdb1gm3RKKapbEuyN-yiFhrEXQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:07.830Z",
+    "fetchedAt": "2026-07-16T18:56:11.962Z",
     "status": "resolved",
     "matchedTitle": "Minecraft",
     "imagePath": "/covers/pc-34061.jpg"
+  },
+  "pc-34087": {
+    "gameId": "pc-34087",
+    "query": "deadpool",
+    "provider": "pricecharting>libretro",
+    "externalId": "34087",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95nsy2BRGGYVUkX0KWkJvZbwOx4RXjqAumTedTKuqH4SG8REckMnhMLby06RctmWtcHOkHlSu9NY5u-GslRFRWosdwBlvLac5cR290xFs6ifwJrKBhHSVJy_Gh3E97MpBRpLo99K3F1Ax7uhQiNbpn9T5-zYA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:57.352Z",
+    "status": "resolved",
+    "matchedTitle": "Deadpool",
+    "imagePath": "/covers/pc-34087.jpg"
+  },
+  "pc-34099": {
+    "gameId": "pc-34099",
+    "query": "dark",
+    "provider": "pricecharting>libretro",
+    "externalId": "34099",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95tjx2BtrCdwotEL7lJQ2tZ0CyFgW2UatGqksX3wxsYyfTo20PR1eU3bxO-qmUF2ss9f8XIKo00syNI3YRYfTltG_KUQAI1OZUyHPEjZe-PUC6AMX-Ttu2mdDMihjwm6jLaVa1h8RX0aOuAneaE5Fqiu28xbw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:30.314Z",
+    "status": "resolved",
+    "matchedTitle": "Dark",
+    "imagePath": "/covers/pc-34099.jpg"
   },
   "pc-34186": {
     "gameId": "pc-34186",
@@ -1476,7 +2849,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/y2zvmyn7i6icnbnc/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:38.604Z",
+    "fetchedAt": "2026-07-16T18:56:47.905Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell: Blacklist",
     "imagePath": "/covers/pc-34186.jpg"
@@ -1489,7 +2862,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ce1e1fa1667b5613215f3bc4f60e4baef7d868195268bc88385612d631cd6181/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:53.345Z",
+    "fetchedAt": "2026-07-16T18:54:08.528Z",
     "status": "resolved",
     "matchedTitle": "Diablo III",
     "imagePath": "/covers/pc-34244.jpg"
@@ -1502,7 +2875,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/o7sfothrbhnfwbyv/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:11.348Z",
+    "fetchedAt": "2026-07-16T18:50:28.728Z",
     "status": "resolved",
     "matchedTitle": "Grand Theft Auto V",
     "imagePath": "/covers/pc-34273.jpg"
@@ -1515,7 +2888,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96cHdhrGqn0p4rUizb5zPr0NuTjp-eAqd-W07afCqxbma9gJDmAEosYte_-vrN_mfTIbGJTRK7AyQR8zuR4dJHd_IEjohcebZhQ7oKQbJRc1_foC2B8XqVE3JhznHXq-tcc8treJmLIOo_olV9DWV_Tjjj9GA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:51:38.409Z",
+    "fetchedAt": "2026-07-16T18:53:16.143Z",
     "status": "resolved",
     "matchedTitle": "Assassin's Creed: Ezio Trilogy",
     "imagePath": "/covers/pc-34299.jpg"
@@ -1528,7 +2901,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/fd4107e1936a2ea646eaedfe4b6a1513ad05e908f7d099a64c738223dd776ad6/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:54.591Z",
+    "fetchedAt": "2026-07-16T18:55:05.515Z",
     "status": "resolved",
     "matchedTitle": "Battlefield 4",
     "imagePath": "/covers/pc-34479.jpg"
@@ -1541,10 +2914,36 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/77lg52wgg2vkltac/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:55.826Z",
+    "fetchedAt": "2026-07-16T18:55:06.570Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Ghosts",
     "imagePath": "/covers/pc-34507.jpg"
+  },
+  "pc-34617": {
+    "gameId": "pc-34617",
+    "query": "zoo tycoon",
+    "provider": "pricecharting>libretro",
+    "externalId": "34617",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/pgdnhggrmj7r6uef/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:42.132Z",
+    "status": "resolved",
+    "matchedTitle": "Zoo Tycoon",
+    "imagePath": "/covers/pc-34617.jpg"
+  },
+  "pc-34664": {
+    "gameId": "pc-34664",
+    "query": "fable anniversary",
+    "provider": "pricecharting>libretro",
+    "externalId": "34664",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94yCvWWVSGjLa9e8PuXRt21HXqJRNGdtwYP31jnbQMQtua3HNDesLL1Cb9l3R3gNJi-PVxNcHE7NeYImO6RMoyTTKvugyO5xTN1JleK88EchltC8JX9LQlpNaC8Gfrvk-_axch8GUJYOWALdrxK8ZlrrR4O4w/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:17.053Z",
+    "status": "resolved",
+    "matchedTitle": "Fable Anniversary",
+    "imagePath": "/covers/pc-34664.jpg"
   },
   "pc-34752": {
     "gameId": "pc-34752",
@@ -1554,10 +2953,62 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97YRMUc2_HxGN_6Ro8JH8VFjKqbT8vsGjMRpcvp2BSohSa8kJM7n2LQFwBgnsAN91T5Musa1xMiHSyK1Lcpqi6LQljRPXpfpTDOv9HNdhjdeFZLBGDj4xQ_LTtvyhF9nF6G-a6IeP6BwCWX45r6RbnHiFJgkg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:14.534Z",
+    "fetchedAt": "2026-07-16T18:53:27.812Z",
     "status": "resolved",
     "matchedTitle": "Metal Gear Solid V: Ground Zeroes",
     "imagePath": "/covers/pc-34752.jpg"
+  },
+  "pc-34757": {
+    "gameId": "pc-34757",
+    "query": "terraria",
+    "provider": "pricecharting>libretro",
+    "externalId": "34757",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv948Qhx7EH_cjG345LU7vRNdIy4DG7FrBCWSZ9p2QRrXeIi7s13KMux2q4iU0PdqdDCR2qf2pREHO4DblpmT6wEKWlTvUmNRXl2IIVA-K4_3Tvm-Dhzus0zB4Ct-ED3Pm-wJFYfctyz9zvLZMpsIaKDdMyU-7w/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:24.963Z",
+    "status": "resolved",
+    "matchedTitle": "Terraria",
+    "imagePath": "/covers/pc-34757.jpg"
+  },
+  "pc-34881": {
+    "gameId": "pc-34881",
+    "query": "wolfenstein the new order",
+    "provider": "pricecharting>libretro",
+    "externalId": "34881",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/5f5abbfd6b8cbe121ea9cfa9526c854946f6374532540713921f5fecfdb956e7/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:47.684Z",
+    "status": "resolved",
+    "matchedTitle": "Wolfenstein: The New Order",
+    "imagePath": "/covers/pc-34881.jpg"
+  },
+  "pc-34964": {
+    "gameId": "pc-34964",
+    "query": "far cry compilation",
+    "provider": "pricecharting>libretro",
+    "externalId": "34964",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94S6_qxSZwhZz3EzxPonoW2zQGwkV8XdL34ZYKqVqS-2yEeYdKD4HkNw_bcwPWzZvXzt-O5FQqPqWp8R3K_KAB_1sePkEUkfXuSRnr3R6mrpFE2oNmfKAyzR8HnJwqLPCUukG3-aUR-56MW71DM2ERoDJBDVA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:33.997Z",
+    "status": "resolved",
+    "matchedTitle": "Far Cry Compilation",
+    "imagePath": "/covers/pc-34964.jpg"
+  },
+  "pc-34987": {
+    "gameId": "pc-34987",
+    "query": "sacred 3",
+    "provider": "pricecharting>libretro",
+    "externalId": "34987",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv956TW4Ye_Sq8zD4W-a_WGhqh22ZzHVQVNQ19RVySwx81BRS4une2wXbgh4a8jhuS1vYhDyHhG9Csc9KPTVCM7w3UBEG5WLkh4a3ZQwdFbFHe1SL8rz0d0LCxsbWmrhR370PRY6c4RvvCJ0jDmA5GuuurNI_hw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:26.278Z",
+    "status": "resolved",
+    "matchedTitle": "Sacred 3",
+    "imagePath": "/covers/pc-34987.jpg"
   },
   "pc-35032": {
     "gameId": "pc-35032",
@@ -1567,7 +3018,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97zdO3BhMlRpldRbE_I5GzuVJyItfy_NckFKdjzlVzKXqQOYg6bB4Eqh_0MYJfb8YomGLcK6nq87Mbl64GAQnWmJR02hKwVAtb67s_QNwQz_ndib6EDKFoMPRAvT4zY3IYZXc0I0JCoWJhSrK7gJk4wBzOWaQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:46.024Z",
+    "fetchedAt": "2026-07-16T18:50:59.424Z",
     "status": "resolved",
     "matchedTitle": "Destiny",
     "imagePath": "/covers/pc-35032.jpg"
@@ -1580,10 +3031,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95-23EFDtVJP5u7HjA-lvCDqUsMmTHow00F6hZVgXhbKj2TBJECSm4idedcYuwI9ir-DY38cw9AXbxCddaSwNJzQY8oMiwDVhK4IQjIToLlEJrjTY5cCom6PaCCrREK8CEVRAQL0-eeavqfsSPDhLmpvJ5AHg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:15.316Z",
+    "fetchedAt": "2026-07-16T18:53:28.425Z",
     "status": "resolved",
     "matchedTitle": "Middle Earth: Shadow of Mordor",
     "imagePath": "/covers/pc-35100.jpg"
+  },
+  "pc-35136": {
+    "gameId": "pc-35136",
+    "query": "alien isolation",
+    "provider": "pricecharting>libretro",
+    "externalId": "35136",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97aX3Ph2namRY7_cJl2BAoBhiRgN5VYjpEDd7fdjZVOXZIAD5eNR58l-416FWmBCHmRCbANJ8dM_2qeZoi1Hg6XkuquZc7_m7mcCk9fvJe56lkPuqvcy98pebK6dq_oT54K7Q9enimeiQj2Nr_KbRFcXA7DLg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:20.374Z",
+    "status": "resolved",
+    "matchedTitle": "Alien: Isolation",
+    "imagePath": "/covers/pc-35136.jpg"
   },
   "pc-35333": {
     "gameId": "pc-35333",
@@ -1593,10 +3057,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94aiH2v_uYcg-BD6oIOcsqt8f1fRJv2riRhh6VftCX9k-8dErEAUfT3KsKHr1nILdDxvprdRaNLeIuR9n8Jbqu0u-Pz0fRACNdxrJ8QlIkZcJIaA2_RbNOU61lvalb7YXz9ZQKdbpqOoUDXyL_H3euYbIkSGg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:17.585Z",
+    "fetchedAt": "2026-07-16T18:50:34.885Z",
     "status": "resolved",
     "matchedTitle": "Dragon Age: Inquisition",
     "imagePath": "/covers/pc-35333.jpg"
+  },
+  "pc-35345": {
+    "gameId": "pc-35345",
+    "query": "far cry 4",
+    "provider": "pricecharting>libretro",
+    "externalId": "35345",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97XWeJ-jdtPBidFybPtvjeIkpY6KD0qfvQdGAdqbEKzGgtmyIRCXDykNN4Qo-kleFvx_XwGO-i7KpvnnUUfcpx5oO1LEeLtaZEMOXTbQ1M53BV3EcLoA35SzPCw6lJg2xUqEZU97Beg-VQY3gnbT6f6kwPcLw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:35.134Z",
+    "status": "resolved",
+    "matchedTitle": "Far Cry 4",
+    "imagePath": "/covers/pc-35345.jpg"
   },
   "pc-35547": {
     "gameId": "pc-35547",
@@ -1606,10 +3083,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2drlv2tuakub6n6v/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:19.032Z",
+    "fetchedAt": "2026-07-16T18:52:30.545Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Advanced Warfare [Day Zero]",
     "imagePath": "/covers/pc-35547.jpg"
+  },
+  "pc-35596": {
+    "gameId": "pc-35596",
+    "query": "screamride",
+    "provider": "pricecharting>libretro",
+    "externalId": "35596",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94qWobCaoibE3utqUoDcpKGgZ6D64cdeLG-7FfaBjyMmvvEIz1jjThT7Mfd3WZ5bTvV9NFWS6mjw1Rw0d3BhfHs5b3fAsAwobkAmGK8rLZ4dQi0isnsvZkgPpZCc_6SqSV7ja6pwWHrmgywB0v2JSV-ASRaEQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:43.134Z",
+    "status": "resolved",
+    "matchedTitle": "ScreamRide",
+    "imagePath": "/covers/pc-35596.jpg"
   },
   "pc-35614": {
     "gameId": "pc-35614",
@@ -1619,10 +3109,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96_7tBXukWfpSEEVABW5TnBy4ucTcj-wwfEYRgOvVMOghqSbrqnrbma4whdwRpUCDTsnFmCERsv_WZPdoa8meWxqfgBgMubHfzRJZozRtpT9DJ0-HlTX2BRxTP5EjXLlfxeNMrUVB3LHq3HjDxFmd0o0RNh6Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:18.121Z",
+    "fetchedAt": "2026-07-16T18:52:29.615Z",
     "status": "resolved",
     "matchedTitle": "Battlefield Hardline",
     "imagePath": "/covers/pc-35614.jpg"
+  },
+  "pc-35631": {
+    "gameId": "pc-35631",
+    "query": "resident evil revelations 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "35631",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97AnbHvQJN-zPvt_-97A7-tMavSl73DHPn4spBsrb-uLk3KXVSKC4GNZTqzTm4C5-fxyeJmsX0lkZLTVP1b91UvdJuCzkJxOVmBR_S7HnrHxcva5kftYWnh8d8ZcrgGwUeXQuTyywL93_79GEgsaeYGiEQ10Q/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:00.553Z",
+    "status": "resolved",
+    "matchedTitle": "Resident Evil Revelations 2",
+    "imagePath": "/covers/pc-35631.jpg"
   },
   "pc-35638": {
     "gameId": "pc-35638",
@@ -1632,7 +3135,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2okjebe6t4numtqt/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:28.813Z",
+    "fetchedAt": "2026-07-16T18:52:40.092Z",
     "status": "resolved",
     "matchedTitle": "Tomb Raider [Platinum Hits]",
     "imagePath": "/covers/pc-35638.jpg"
@@ -1645,7 +3148,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94jfONgm8jj-LO01g8adXuj4tGzyUOb36PSPvzPn-P6ehd-_JR7UOyTbVJXGiDIC5gk08jU9y68obhVRjbrV9a3-ouvTLTAkghC9xeSUiaYNpEMmLnO2QGebD1dhcdokJc2DaaoTjOkJSc6ujB4K4qfjnx-pQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:00.636Z",
+    "fetchedAt": "2026-07-16T18:54:10.357Z",
     "status": "resolved",
     "matchedTitle": "Call of Duty Black Ops III",
     "imagePath": "/covers/pc-36241.jpg"
@@ -1658,7 +3161,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/u36ldmdrl4pxbl5j/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:49.049Z",
+    "fetchedAt": "2026-07-16T18:55:53.171Z",
     "status": "resolved",
     "matchedTitle": "Dead Island Riptide [Special Edition]",
     "imagePath": "/covers/pc-36463.jpg"
@@ -1671,7 +3174,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv976T4zUjzNmvsEop6kFv0X_Jn4WoEtpE35R-9RhjIaqk1tcDRw2xkaFUlqhtW5GcHBh24kEkCOk1PUy73Gk3y4IqZdchFg_cS1O3M8LlRaVpQVLpxTdpgot_I29oz-sMQR2T9LUYpRUs5XY-RCC_chugpJ4XQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:35.355Z",
+    "fetchedAt": "2026-07-16T18:54:40.405Z",
     "status": "resolved",
     "matchedTitle": "Minecraft: Story Mode Complete Adventure",
     "imagePath": "/covers/pc-37057.jpg"
@@ -1684,7 +3187,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/7l6maiug3zppraay/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:29.367Z",
+    "fetchedAt": "2026-07-16T18:54:39.673Z",
     "status": "resolved",
     "matchedTitle": "Kinect Sensor",
     "imagePath": "/covers/pc-40429.jpg"
@@ -1697,7 +3200,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bd934d4fbbf99f118bc06b70f547a466febd01b8dd8572faf6d2cad8e3205260/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:35.620Z",
+    "fetchedAt": "2026-07-16T18:52:47.752Z",
     "status": "resolved",
     "matchedTitle": "Forza Motorsport 3 [Not For Resale]",
     "imagePath": "/covers/pc-4708345.jpg"
@@ -1710,7 +3213,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/aa1fbbff1fe2178dcedd46a01f77c4f60dbbcfeb6e2aa5859458b4a6090b4abc/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:04.511Z",
+    "fetchedAt": "2026-07-16T18:51:17.920Z",
     "status": "resolved",
     "matchedTitle": "Dishonored [Game of the Year Edition Platinum Hits]",
     "imagePath": "/covers/pc-4990226.jpg"
@@ -1723,7 +3226,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/2fd73396c87770ba2b259fe471e0e97ca8cc5b69ecfed4be80d3313b340865af/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:54.015Z",
+    "fetchedAt": "2026-07-16T18:53:06.154Z",
     "status": "resolved",
     "matchedTitle": "Halo Reach [Bonus Spartan Recon Helmet]",
     "imagePath": "/covers/pc-5063368.jpg"
@@ -1736,10 +3239,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97643ZL0Xnb-qdeNMzcnhxFVdtyeaAIr8_Q5y3kv_0QV87BI3VWzVJ_DmkFYDLKxl6y7GtBmNxg0va-sUs0kprZB_CnFJa8AoZ0tI1bd98Jgo3dpdp8j2ZAMq3uCnyKmFRi_MIbbUHROpQkh9UePNmLBuzbcw/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:52:33.596Z",
+    "fetchedAt": "2026-07-16T18:53:40.265Z",
     "status": "resolved",
     "matchedTitle": "Assassin's Creed: Rogue [Limited Edition]",
     "imagePath": "/covers/pc-55867.jpg"
+  },
+  "pc-60674": {
+    "gameId": "pc-60674",
+    "query": "dragon age origins awakening",
+    "provider": "pricecharting>libretro",
+    "externalId": "60674",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97wkoLY7HxQNg7VlmHH898YF4l_hg79fwL_B4LzG8mcJzh3c4UTCSt1WlS9RSrYOnbgr4SCz3UygVAOuTsGQU-gc22LK4qyh8Jz_DA3gud0lzLgpZaD3hgN10q0_UHjjHCaH-T-8FJ66UVgUbSpzOMtVn8AWg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:13.152Z",
+    "status": "resolved",
+    "matchedTitle": "Dragon Age: Origins Awakening",
+    "imagePath": "/covers/pc-60674.jpg"
   },
   "pc-6079": {
     "gameId": "pc-6079",
@@ -1747,11 +3263,11 @@
     "provider": "pricecharting>libretro",
     "externalId": "6079",
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94XbSvgmDGAl1tAWg7YkO9J-kfc3wvuMJHk1Dbw54pfK73vFRhxuVu7MGg-r9qvouQeKJpPAvQRoH2gse1DY7MjPt4EHSTdH_M6h4ydBum0ieYO2AvkEzRDmrj-wctlKQFaqwNhDwQPWg3oolAzqB6outP3Vw/1600.jpg",
-    "confidence": 0.725,
+    "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:35.370Z",
+    "fetchedAt": "2026-07-16T18:56:43.530Z",
     "status": "resolved",
-    "matchedTitle": "Baldur&#39;s Gate Dark Alliance 2",
+    "matchedTitle": "Baldur's Gate Dark Alliance 2",
     "imagePath": "/covers/pc-6079.jpg"
   },
   "pc-6107": {
@@ -1762,7 +3278,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94WKjY5szSzD6uIBFL5OT-xFc-oNjg34J9PXoBAy-vdLuySOQpxW1NxoLUNFF8dVMXYihGCRskXW4c6NF3dXHd8PoVpu-94yJ1Da6ClKOMqa5_3HsWQHvri3z3bClcYph4uCIp5cw2n6qDuEOakqY51QN5OMw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:18.060Z",
+    "fetchedAt": "2026-07-16T18:56:24.799Z",
     "status": "resolved",
     "matchedTitle": "Brothers in Arms Road to Hill 30",
     "imagePath": "/covers/pc-6107.jpg"
@@ -1775,7 +3291,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96oRzdwVbxT9TlOw4SsBXVyjsNZuRqalEQmHB4il9QpDsSfa-r1l9Eck31qw4LanzAt0oa6EvCiiw50nXRJ4Dx0J7PCbmDtfVCNO9QAavwJgTrpu1XrBZkjymdvm_1etx5WEfK5GEdqSYrXREbNAwvqIpnR6A/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:19.232Z",
+    "fetchedAt": "2026-07-16T18:56:26.739Z",
     "status": "resolved",
     "matchedTitle": "Brute Force",
     "imagePath": "/covers/pc-6109.jpg"
@@ -1788,7 +3304,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Bpx_IzaimGucP_P0LnyTuMoABLRCytDYp2HyOcFTuHu2BFeb81tvYhRPXRrkXbdi2dIfxF8fWVvubF3ungVc0EmGF2i-H80soMjn8n0WNl_qA2CSnfJ-RF7iWhXe_mkB8jxiSO9RIUqdESYb5sjELC-rVmA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:50.040Z",
+    "fetchedAt": "2026-07-16T18:55:54.363Z",
     "status": "resolved",
     "matchedTitle": "Commandos 2 Men of Courage",
     "imagePath": "/covers/pc-6150.jpg"
@@ -1801,7 +3317,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97JEjwzVzGz7tsW1APRk9g_1hCfbOeqEjr2ru7Kjpmd-sqKQPPDrkQOW3aT1meMH6BS6MWwdSQbVMhHtOz1K4fKqcrlBgvGDYYnWZ_70kYI2_dtiM5NIGnjEbQM3EyOQAFgK95LaUTr58xQ-7rYPGhKf-kiFA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:58.162Z",
+    "fetchedAt": "2026-07-16T18:51:16.974Z",
     "status": "resolved",
     "matchedTitle": "Conker Live and Reloaded",
     "imagePath": "/covers/pc-6154.jpg"
@@ -1812,11 +3328,11 @@
     "provider": "pricecharting>libretro",
     "externalId": "6202",
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94DTUFQReOlixMzMYgGRTzB3koP2wqfF_FLxmZxCKwAWgwW4wZFr1gVFFT4vu3C0klAySd3X5PcfQD6uUVJjm_LrtoKzjQLBRzK9hJgnmJh0iqCMX7iFyI1a0Ka_eqIryCpLaIWmDNGODUG8e1yymBpYEeI7Q/1600.jpg",
-    "confidence": 0.76,
+    "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:07.141Z",
+    "fetchedAt": "2026-07-16T18:56:11.350Z",
     "status": "resolved",
-    "matchedTitle": "Dungeons &amp; Dragons Heroes",
+    "matchedTitle": "Dungeons & Dragons Heroes",
     "imagePath": "/covers/pc-6202.jpg"
   },
   "pc-6264": {
@@ -1827,7 +3343,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94soLrBuglAJ_tSY1Bs-I1FJO-ip8Vw0zi58yzZcIGjZLBaqz07VVvQo76UNXaK5gLSLU-hMOg2c0hrxtk6OU_fCgEH1Urr2xsp3B27WCdeVL1f5oSVcTvQDlTpnqkRYXMGLrFgp3pO30fkROpCtBinmJY2tA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:05.050Z",
+    "fetchedAt": "2026-07-16T18:53:18.130Z",
     "status": "resolved",
     "matchedTitle": "Ghost Recon",
     "imagePath": "/covers/pc-6264.jpg"
@@ -1840,7 +3356,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94PLr6LDlvjq7KTUhhRstsYaSu-sEpSozx45yUa_fBF2ZmW9CT0Qy_OY5yboJMY_--OkN5g-0CdBO6TXRIBBiMgK5eVvJWIZKPl2M_5fHYPUSssyFXXl81D_fBGjE0-wrMT3kmtgtNc8ZbisxBUmAPfnOvbQA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:09.781Z",
+    "fetchedAt": "2026-07-16T18:52:21.236Z",
     "status": "resolved",
     "matchedTitle": "Ghost Recon 2",
     "imagePath": "/covers/pc-6265.jpg"
@@ -1853,7 +3369,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96ovlxpEV98Iu9nBEFN2Jfv56PsfkK3qNuOkz3QS3NtdjdQzruPr_znA7oApz9guiGUo7LAbdUqn0I6XXCdsNkcIBxl1re9kZD8zgcbHHX3qz5b_TUnUZBc7dCRhu9E6daI6xLqpQFfzTyQG6o2A51HTmVcCQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:05.868Z",
+    "fetchedAt": "2026-07-16T18:53:19.253Z",
     "status": "resolved",
     "matchedTitle": "Ghost Recon Advanced Warfighter",
     "imagePath": "/covers/pc-6267.jpg"
@@ -1866,7 +3382,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97b5fKzk2W6U0CsT-bPnA7hX1p65yOfZVXkdaHriTgTkAChAAwu7HVqAhJTIMkyU2AxWwjnBDHxseioy3eWJjw5-7fXr0PTM_kloRzTl3Afrv3o_VDmN1atjRmHQMVx6XEEi1QXfJ8rC5Z6NazIwaNvf_J5sQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:45.003Z",
+    "fetchedAt": "2026-07-16T18:50:53.054Z",
     "status": "resolved",
     "matchedTitle": "Ghost Recon Island Thunder",
     "imagePath": "/covers/pc-6268.jpg"
@@ -1879,9 +3395,9 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96m-iC3N84TdTYZf0mzpP1uZ2N_ZoD4ykgihL9RfGXyzl0PAqfIr8ctt7juaLK_ywBW57M1dpVrR6r0O7Fbc-Ou7VmevkT0nGJydcVqdVget6kf1OOBCO8EHzUIRIgNi7luq7VvALOTXfZUuWhC5SRUtrLtMA/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:24.020Z",
+    "fetchedAt": "2026-07-16T18:51:39.135Z",
     "status": "resolved",
-    "matchedTitle": "Halo 2 [Limited Collector&#39;s Edition]",
+    "matchedTitle": "Halo 2 [Limited Collector's Edition]",
     "imagePath": "/covers/pc-6290.jpg"
   },
   "pc-6362": {
@@ -1892,7 +3408,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95cVUP-Ip6IG2NAlsMwY-TuCs-SC-qysM2ypxYHw4_rbAs96rmw8iGgSnQUm5iabbiiQ5eCW0h9QmoHVN_yhfR2nr9PvpjFNOMBNBZwwgSeeG9KFa19RujrZb0LoNYEEAM3WpzbjmgTeSrxELMuJ4iKtjRY7g/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:28.791Z",
+    "fetchedAt": "2026-07-16T18:56:35.604Z",
     "status": "resolved",
     "matchedTitle": "Madden 2007",
     "imagePath": "/covers/pc-6362.jpg"
@@ -1905,7 +3421,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96MKeAHt-QWchCeqn5DFfOC7qKyT8Ag5WSiVinVW_rLjgkj4VLJDyPmkI7xPtXp3J7Jpe-dZwntYxEUA6tGt0hkQhRp1NcgTvxX12HC2ZXs_WT9dsSTAIXTCHprexKVBxdG2N88GzLQq7WjsPu7ylUq2hfifA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:19.112Z",
+    "fetchedAt": "2026-07-16T18:54:29.228Z",
     "status": "resolved",
     "matchedTitle": "Max Payne",
     "imagePath": "/covers/pc-6371.jpg"
@@ -1918,7 +3434,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97ogCRUag2M6JwntKYsJhuSqEc8cbcLICsz-BSZZ79cMtXI8IF1NWXAGWSBCGkJmPiHdLlmd5J8N6AmFh5sUfD6D6yvpIbOzbvXjs1KJS3N95VBdvYmyGpkK2emQ5NHxB9YojRqv1mHZFIz44annyq-IMnMuw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:38.955Z",
+    "fetchedAt": "2026-07-16T18:52:55.898Z",
     "status": "resolved",
     "matchedTitle": "Medal of Honor Frontline",
     "imagePath": "/covers/pc-6377.jpg"
@@ -1931,7 +3447,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97WTgDRuo0VHNn4OEzTu5A3E6mI8whrsoGhtLWXvccWLC3N4ZKu2RNko1yTe4udkiOSNRz3PDb7V2KSluI6UX8UjM4K0yQx_SO-E_yIy1Kxid5Qs_BXvuBNrei3HFlPiYd1OG0uAIJYSoJRLKAs78_pTceMYw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:50.319Z",
+    "fetchedAt": "2026-07-16T18:52:06.891Z",
     "status": "resolved",
     "matchedTitle": "NBA Ballers Phenom",
     "imagePath": "/covers/pc-6435.jpg"
@@ -1944,7 +3460,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94zHhHbP-KcRKjMBpSFvNOJC9X2Cqzw-7NpVw7aGc7jGSrArMmsSdF2HaYpTG5KOAukaCahtYd0k-jRlvZRaKGU3m4UpQXIlGuWRU_beEWKgZWH0GgjSuYHc1UGn968x-diUqaGO-hpQZXGVbV-cbOKbOlBNw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:32.317Z",
+    "fetchedAt": "2026-07-16T18:55:40.604Z",
     "status": "resolved",
     "matchedTitle": "Ninja Gaiden",
     "imagePath": "/covers/pc-6491.jpg"
@@ -1957,7 +3473,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ofP5fFaIcTUYd_BXQ5uuGLfyDIJhtl2MCQFvbKKE6fnXOW040I3zzh26rg4187EbGsGaCt3-afrHhlOwDG0tkd6mLvemGQZ7zWRsku9Pw79gM7eJXpnaiqixvKPgvRMUJ55Uf8oz1MpX_yaK6FIKGPHhh7w/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:06.301Z",
+    "fetchedAt": "2026-07-16T18:50:22.583Z",
     "status": "resolved",
     "matchedTitle": "Army of Two [Platinum Hits]",
     "imagePath": "/covers/pc-65120.jpg"
@@ -1970,7 +3486,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97p44IKJVD0xh039H0CN7rkJ2TJJL6zQPWgc-LnvXHnUusxzcl8oATKPGe3Wo3wPvNs18TQO1S6ACgytPJJ5r5T2XcTbv2d4az870awM7iLAT9NEV4UMC0oqF08nMS2SrzVJx1ayhSM6AbHD95XWYgwKYbN5Q/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:36.559Z",
+    "fetchedAt": "2026-07-16T18:56:44.508Z",
     "status": "resolved",
     "matchedTitle": "Prince of Persia Sands of Time",
     "imagePath": "/covers/pc-6516.jpg"
@@ -1983,7 +3499,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97qo3mYsq7C6imytQaezWHyxhJhsj56GFSNIuW7Tkfznw_sp_6BvcVPtaD3guG4pAlRmU3uWIP5qm_0oQKp6x9z2nlr3MiXML1kBBBq_zbx6NkcZIBBpaLdw9xKLbmFGN-FN4_0W9AQIvJhO4NR_lhdnWlO3Q/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:09.026Z",
+    "fetchedAt": "2026-07-16T18:52:20.340Z",
     "status": "resolved",
     "matchedTitle": "Plants vs. Zombies: Garden Warfare [Platinum Hits]",
     "imagePath": "/covers/pc-65175.jpg"
@@ -1996,7 +3512,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97DmQ9lNlcmDUZ2NEODKqTWqNVSqsmtkVhxKvcKFaLoQ5N3KpMODyFBQQRjh1oNhTSTdCuu-FNu9_WiLBirj6A1WvEv526mtVLD1bUDNJPQoFIQWy2wVoU_l8OyMfalduhQqGo7VxR4Km6wjzCyo8waBF9CSA/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:47.046Z",
+    "fetchedAt": "2026-07-16T18:56:56.098Z",
     "status": "resolved",
     "matchedTitle": "Star Wars The Force Unleashed [Platinum Hits]",
     "imagePath": "/covers/pc-65182.jpg"
@@ -2009,7 +3525,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/daa6aa5d27d55d45338755fe284b6eb9b4cf44e8b8f12d7b8768571ee9318c62/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:42.092Z",
+    "fetchedAt": "2026-07-16T18:55:51.350Z",
     "status": "resolved",
     "matchedTitle": "Dead Rising [Platinum Hits]",
     "imagePath": "/covers/pc-65185.jpg"
@@ -2022,7 +3538,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/howzyvizlgukrg34/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:45.777Z",
+    "fetchedAt": "2026-07-16T18:52:58.166Z",
     "status": "resolved",
     "matchedTitle": "Grand Theft Auto: Episodes from Liberty City [Platinum Hits]",
     "imagePath": "/covers/pc-65214.jpg"
@@ -2035,7 +3551,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95WUvt5qQyXK-h6yh2wdfI9oLEJH6YnKhRZ2ZLPvgAyoweVVNyeBYunFV1P1PiD_SmU7KzC5pLcZiG7Bqo0slC2DwBUR-jo3ltuBeikE3xwbgh_UOCl6XdsxNHthav1IdSUXYxSwInzRN12AbbXkUyahtsdlQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:37.039Z",
+    "fetchedAt": "2026-07-16T18:50:39.461Z",
     "status": "resolved",
     "matchedTitle": "Rainbow Six 3",
     "imagePath": "/covers/pc-6528.jpg"
@@ -2048,7 +3564,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/znauj25erncehzph/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:46.294Z",
+    "fetchedAt": "2026-07-16T18:54:57.194Z",
     "status": "resolved",
     "matchedTitle": "Rainbow Six 3 Lockdown",
     "imagePath": "/covers/pc-6530.jpg"
@@ -2061,7 +3577,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94YmyzNbhl19LymmwMtds5rekZ7X1z8vzWyQMOx_fG0zq03ATDY6ovemwq8K-k-f6uE0gMmh5Fj8DUdBpdOAidVF5muHzI4B5qJN42coT4hXFfcYzdfcuL4fwUU7sMMaRiB-COTBMk6Zz-GQPhkCAaVqoJgbw/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:46.173Z",
+    "fetchedAt": "2026-07-16T18:56:55.084Z",
     "status": "resolved",
     "matchedTitle": "Fuzion Frenzy [Platinum Hits]",
     "imagePath": "/covers/pc-65420.jpg"
@@ -2074,7 +3590,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96wCGaj_P9zu1MzEN9puiCk0wa-nTuXVFd0O-LL4sMO_WweC2wxTad60-64awY1zCZhOgoCRQk-t4Z1GVNY0wtRtCEkmKPjanCwtv_adaBibdFGXiT1eYyHiwV_xqqwhgGvUj5_mWFhZLtCT7ye9purBisXrw/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:42.947Z",
+    "fetchedAt": "2026-07-16T18:51:59.309Z",
     "status": "resolved",
     "matchedTitle": "Return to Castle Wolfenstein",
     "imagePath": "/covers/pc-6543.jpg"
@@ -2087,7 +3603,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97XJSQTQQSW2qr3D3mvKaNyN6q4Fwlf7RTZd0G1ZNBBVxXBOkwicCy_vexX40uYH3hsTDF6uOUuEruyhiNJr_08MIuC2YGTRqFfKKlWiF9glYZerlpBmYuf-5uYG3ZSriCkP_ZWlZM8OuClO6OaXkmip3LMIQ/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:44.782Z",
+    "fetchedAt": "2026-07-16T18:52:56.610Z",
     "status": "resolved",
     "matchedTitle": "Halo: Combat Evolved Anniversary [Platinum Hits]",
     "imagePath": "/covers/pc-65435.jpg"
@@ -2100,7 +3616,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95USLqxuwgpvqq9ltjUc2jw4BJqyEsa5ZHV_DVB2TWbegYc1rII0g1gLb9Q1xnpQdqW6gG10n4WCFMa5HJ86OYbY_8KdVdd46u8KQg2aFsjuPEEX28M9BfJeHR73bzHIaKsZxRKesZB8ZLjrExVTNfElg6p9g/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:08.376Z",
+    "fetchedAt": "2026-07-16T18:50:25.219Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell",
     "imagePath": "/covers/pc-6594.jpg"
@@ -2113,7 +3629,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/qv7dmxbxikzzkixk/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:54.354Z",
+    "fetchedAt": "2026-07-16T18:51:07.597Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell Chaos Theory",
     "imagePath": "/covers/pc-6595.jpg"
@@ -2126,7 +3642,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97EHeHLFHVyX85qtDO0AB89dYXDCetvGS-oVbA8P2WXBdceMP2Z950J1wiCErGMzMB6wvduNzAXFuEXb_IfdeQ-97S4p7kSg6nBwdVjyd3LJzYyBw1Dvk0z-VTUIwSOlI3FWZZX1o_49VlRWlb0zi-xaUxntQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:42.210Z",
+    "fetchedAt": "2026-07-16T18:51:58.160Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell Double Agent",
     "imagePath": "/covers/pc-6596.jpg"
@@ -2139,7 +3655,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/maym4ytbpvdy6o37/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:37.338Z",
+    "fetchedAt": "2026-07-16T18:54:48.171Z",
     "status": "resolved",
     "matchedTitle": "Star Wars Battlefront 2",
     "imagePath": "/covers/pc-6612.jpg"
@@ -2152,7 +3668,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/qyboqw757vwamabc/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:33.694Z",
+    "fetchedAt": "2026-07-16T18:55:41.693Z",
     "status": "resolved",
     "matchedTitle": "Star Wars Knights of the Old Republic",
     "imagePath": "/covers/pc-6617.jpg"
@@ -2165,7 +3681,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/c6423f1827a5c163bb32cc9781535052397a02d620d93c69da406b288c999c76/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:17.428Z",
+    "fetchedAt": "2026-07-16T18:53:32.049Z",
     "status": "resolved",
     "matchedTitle": "Star Wars Knights of the Old Republic II",
     "imagePath": "/covers/pc-6618.jpg"
@@ -2178,7 +3694,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/tti6wzezykvy5x2j/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:06.526Z",
+    "fetchedAt": "2026-07-16T18:51:20.605Z",
     "status": "resolved",
     "matchedTitle": "Tetris Worlds",
     "imagePath": "/covers/pc-6653.jpg"
@@ -2191,7 +3707,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv978wUY-ul5vkjj8y6p3q9VmPLapqRNDNgXz--Vm8OMorhIeKHSCLGqjBvjIk5N5yKoANQPl27zFrtTeJaXoBWVMj9zXFdbFd7e9EDrp-Vn4MmNvE2ge1tpQpEabCWfDDjQNK2kIuncBjzCHdpFLcAxJBoFtMA/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:04.552Z",
+    "fetchedAt": "2026-07-16T18:50:20.502Z",
     "status": "resolved",
     "matchedTitle": "The Hobbit",
     "imagePath": "/covers/pc-6656.jpg"
@@ -2204,7 +3720,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97ssJNP4tKGrvQ_5G-KMoGgDYiCiBW495ie4zjH_v58_Zs7lU29OP0fnEkhR9YBYum2FalNbd5xQQtHJrPyG0P2lvqEGady2BYhRpOQqjLsjAP7WOUYKvvjTzTPla4xY5NaLbEajMwd-KCiD8Vxwa4p1Ieoow/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:10.796Z",
+    "fetchedAt": "2026-07-16T18:54:20.619Z",
     "status": "resolved",
     "matchedTitle": "The Suffering",
     "imagePath": "/covers/pc-6667.jpg"
@@ -2217,7 +3733,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/efe0e54b4b311fe2b84d0af09123d6d6425ec9243a447c42b56ea9281c0a98f5/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:14.861Z",
+    "fetchedAt": "2026-07-16T18:55:26.497Z",
     "status": "resolved",
     "matchedTitle": "Tony Hawk 2x",
     "imagePath": "/covers/pc-6686.jpg"
@@ -2230,7 +3746,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/a36zneii5f3mkne7/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:26.528Z",
+    "fetchedAt": "2026-07-16T18:52:37.868Z",
     "status": "resolved",
     "matchedTitle": "Unreal Championship",
     "imagePath": "/covers/pc-6710.jpg"
@@ -2243,7 +3759,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97iWaWrilp3was0AMPfwdwnW-PWbioRzYXBvp0upMYWUSuquaJVll9I2uP6TteN9V8tNmY-vK2LfmsLsAT1uVIA6fZIScY6Jo1I2zQRSBnanJdE6S9IxvU-3W_SGN1NcBSRx_xaa1bLs4Nk-bPhnaojJ9JDSg/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:06.147Z",
+    "fetchedAt": "2026-07-16T18:55:17.106Z",
     "status": "resolved",
     "matchedTitle": "Unreal Championship 2",
     "imagePath": "/covers/pc-6711.jpg"
@@ -2256,7 +3772,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94mx85eYCJQ9e2k1I8w-V1KlIMveJflYslgwZmsrLteh5mkKjGYAJ8lFlxXdzFSpYTPT1tSglfWK-G4WuUj-GDzMoF7n7aEjf_tvqgdEeeFQ1frDbSQKOrtvLHC97X9kMpMKcy4AS4M_6EpOFDn5M6HI8S1Ow/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:47:29.320Z",
+    "fetchedAt": "2026-07-16T18:56:42.110Z",
     "status": "resolved",
     "matchedTitle": "Vexx",
     "imagePath": "/covers/pc-6714.jpg"
@@ -2269,7 +3785,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94OuDHQp0L8Y7YfMlma2ugeBLWnHI8vqEXnBXD1G9MqRoymOIOYl7ReY3zIqIi4HRjk-Dsj3a_I87zdWCCtAG8ZQFgqNG7CC9yC4-35NAjqQICrzZ4K0MKTUR7P4vMl_pUCT5XucR5zTdaTUZJ1eGC0rheCoQ/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:33.080Z",
+    "fetchedAt": "2026-07-16T18:53:47.604Z",
     "status": "resolved",
     "matchedTitle": "Mortal Kombat Vs. DC Universe [Platinum Hits]",
     "imagePath": "/covers/pc-67238.jpg"
@@ -2280,11 +3796,11 @@
     "provider": "pricecharting>libretro",
     "externalId": "67360",
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/dd543056d5d7603a2ee436af8eb7023fceb5a8ae2839007eb30e8db9f1b30b9f/1600.jpg",
-    "confidence": 0.775,
+    "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:14.520Z",
+    "fetchedAt": "2026-07-16T18:51:28.972Z",
     "status": "resolved",
-    "matchedTitle": "Assassin&#39;s Creed IV: Black Flag [Special Edition]",
+    "matchedTitle": "Assassin's Creed IV: Black Flag [Special Edition]",
     "imagePath": "/covers/pc-67360.jpg"
   },
   "pc-67612": {
@@ -2295,10 +3811,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/d2abfa6b31bb3f9fa7fa97dfbc0057f89f5999496ae702821cc8c64819601f5c/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:42:35.414Z",
+    "fetchedAt": "2026-07-16T18:51:50.766Z",
     "status": "resolved",
     "matchedTitle": "Pac-Man World 2 [Platinum Hits]",
     "imagePath": "/covers/pc-67612.jpg"
+  },
+  "pc-6768": {
+    "gameId": "pc-6768",
+    "query": "tom clancy s rainbow six vegas",
+    "provider": "pricecharting>libretro",
+    "externalId": "6768",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/wsb3q6vyvjpjjcni/1600.jpg",
+    "confidence": 0.655,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:58:06.028Z",
+    "status": "resolved",
+    "matchedTitle": "Rainbow Six Vegas",
+    "imagePath": "/covers/pc-6768.jpg"
   },
   "pc-6770": {
     "gameId": "pc-6770",
@@ -2308,7 +3837,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96Oph13tyBDu7HrqlcmMGhkoAiKZ7U8-Ry20V7ytHMAsosaW5IC0W0PSxXNopwQotVFqjjRBH-YBoqc858fv3v466kdY-X1UU1GmXP1xMu1zCHD2UjyeRYzUi82C_035Ak9xf1u5pth4Q1TIzMqfPGzlZLnnQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:41:35.217Z",
+    "fetchedAt": "2026-07-16T18:50:37.044Z",
     "status": "resolved",
     "matchedTitle": "Tenchu Z",
     "imagePath": "/covers/pc-6770.jpg"
@@ -2321,7 +3850,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97zelOCy78FKIGz8f31iUz7q5vtViYXaKcAblrcJ5C5qb9h3cnuU783YKjJqRwQJBfUHbNPvfrrdFSENe6O3IRAE77YhPUYnzU7X6QfxmUxeFGXCbDBGjnwmHTOD9jV9aEFrszczEt9pdlxhhSgQRDjVuM8iQ/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:16.449Z",
+    "fetchedAt": "2026-07-16T18:53:29.777Z",
     "status": "resolved",
     "matchedTitle": "Two Worlds",
     "imagePath": "/covers/pc-6775.jpg"
@@ -2334,7 +3863,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/f7a6bfd0cd91797ff7bba36a05071f88c18b6aaa734c64198e5d458cc0870112/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:36.045Z",
+    "fetchedAt": "2026-07-16T18:53:50.544Z",
     "status": "resolved",
     "matchedTitle": "Dead or Alive 3 [Platinum Hits]",
     "imagePath": "/covers/pc-67899.jpg"
@@ -2347,7 +3876,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/432e3fded755f4d5a89d3e4a039165187c26c98bc1389c542a37ac03e7fb1016/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:45:10.072Z",
+    "fetchedAt": "2026-07-16T18:54:19.358Z",
     "status": "resolved",
     "matchedTitle": "Splinter Cell Pandora Tomorrow [Platinum Hits]",
     "imagePath": "/covers/pc-67965.jpg"
@@ -2360,7 +3889,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/957dc18c35bb580de239222203108b4a2224102af31e9ff8ee3426c95a77a7fd/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:52:39.854Z",
+    "fetchedAt": "2026-07-16T18:55:39.926Z",
     "status": "resolved",
     "matchedTitle": "Oddworld Munch's Oddysee [Platinum Hits]",
     "imagePath": "/covers/pc-67990.jpg"
@@ -2371,11 +3900,11 @@
     "provider": "pricecharting>libretro",
     "externalId": "68582",
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/8cf6142e7393df9d84f9247f28915ea85bb656febf8c374877edee1896e3b5d1/1600.jpg",
-    "confidence": 0.717,
+    "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:36.532Z",
+    "fetchedAt": "2026-07-16T18:52:48.603Z",
     "status": "resolved",
-    "matchedTitle": "Assassin&#39;s Creed III [Signature Edition]",
+    "matchedTitle": "Assassin's Creed III [Signature Edition]",
     "imagePath": "/covers/pc-68582.jpg"
   },
   "pc-68694": {
@@ -2386,7 +3915,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/e445ee997a0ee6512b8d7d428ee44e8d70dc929af2bad2d75885e4425a52cc8c/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:46:13.270Z",
+    "fetchedAt": "2026-07-16T18:55:19.676Z",
     "status": "resolved",
     "matchedTitle": "Left 4 Dead [Game of the Year Platinum Hits]",
     "imagePath": "/covers/pc-68694.jpg"
@@ -2399,7 +3928,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/f1e17b9758ab41e9b844e4381f958e98156014d3099ead5fe18c378f9acac3b3/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:08.294Z",
+    "fetchedAt": "2026-07-16T18:53:26.617Z",
     "status": "resolved",
     "matchedTitle": "Far Cry 4 [Platinum Hits]",
     "imagePath": "/covers/pc-68697.jpg"
@@ -2412,7 +3941,7 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/c9068267b198cf2238c5a0278a430ce18b59c57088c7bbeba748db606c9cd4ea/1600.jpg",
     "confidence": 0.9,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:54.357Z",
+    "fetchedAt": "2026-07-16T18:54:09.355Z",
     "status": "resolved",
     "matchedTitle": "Far Cry 2 [Pre-Order Edition]",
     "imagePath": "/covers/pc-68699.jpg"
@@ -2425,10 +3954,23 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/e0983eef07975f4b2cc238bf1ddee4016cb9581e0e26812db2044786ef074960/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:43:27.290Z",
+    "fetchedAt": "2026-07-16T18:52:38.976Z",
     "status": "resolved",
     "matchedTitle": "Halo 3 [Essentials]",
     "imagePath": "/covers/pc-69040.jpg"
+  },
+  "pc-8772": {
+    "gameId": "pc-8772",
+    "query": "crash of the titans",
+    "provider": "pricecharting>libretro",
+    "externalId": "8772",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv967yfc34_S8ToNlwR3QzeyA4Enl9REzJbI953J44gq4wIkHCfDUwMMMF3YxzUuuNeK-DycZ-SX15CFYN3eb_rX5Qux5ARoIVAz7_RDk1WlJHdYoX324VH0doN6vzOJpSYvyhTP9DF5Ahxbig0gV1UrCSfJF_A/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:59:25.654Z",
+    "status": "resolved",
+    "matchedTitle": "Crash of the Titans",
+    "imagePath": "/covers/pc-8772.jpg"
   },
   "pc-9002": {
     "gameId": "pc-9002",
@@ -2450,9 +3992,22 @@
     "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bqeqd6ejg2tyscch/1600.jpg",
     "confidence": 0.95,
     "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T12:44:04.057Z",
+    "fetchedAt": "2026-07-16T18:53:17.134Z",
     "status": "resolved",
     "matchedTitle": "Halo 3 [Limited Edition]",
     "imagePath": "/covers/pc-9086.jpg"
+  },
+  "pc-9508": {
+    "gameId": "pc-9508",
+    "query": "the orange box",
+    "provider": "pricecharting>libretro",
+    "externalId": "9508",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv959lw7EET5ZCZ4kyKk7TfWUT8aRphjB8PBKn1QX1X-OUQT9Xaq8cZwmG77Hmkvj2xE1Kr9uPcMhpcOI5RwGodcZRg5ey8q2kOqVAHTWE7CGDxO-hNWQl6fTPVAwI8pjpgOvzBh2BRGImC36lpNx_2UGP33wFQ/1600.jpg",
+    "confidence": 0.772,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-07-16T18:57:56.636Z",
+    "status": "resolved",
+    "matchedTitle": "Orange Box",
+    "imagePath": "/covers/pc-9508.jpg"
   }
 }
