@@ -1,15 +1,27 @@
 ---
 import type { TranslateFn } from '../utils/i18n';
+import { link, type RouteKey } from '../utils/routing';
 import { siteConfig, isPlaceholder } from '../config/site';
 
 interface Props {
+  lang: string;
   t: TranslateFn;
 }
-const { t } = Astro.props;
+const { lang, t } = Astro.props;
 const year = new Date().getFullYear();
 const owner = isPlaceholder(siteConfig.ownerName) ? siteConfig.siteName : siteConfig.ownerName;
 const hasLocation = siteConfig.location.trim() && !isPlaceholder(siteConfig.location);
 const hasCreator = siteConfig.creatorName.trim() && !isPlaceholder(siteConfig.creatorName);
+const hasEmail = siteConfig.email.trim() && !isPlaceholder(siteConfig.email);
+
+// Liens de navigation du pied de page (mêmes pages logiques que l'entête).
+const navLinks: { key: RouteKey; label: string }[] = [
+  { key: 'forSale', label: t('nav.forSale') },
+  { key: 'wishlist', label: t('nav.wishlist') },
+  { key: 'collection', label: t('nav.collection') },
+  { key: 'about', label: t('nav.about') },
+  { key: 'contact', label: t('nav.contact') },
+];
 ---
 
 <footer class="site-footer">
@@ -19,24 +31,55 @@ const hasCreator = siteConfig.creatorName.trim() && !isPlaceholder(siteConfig.cr
       <p class="site-footer__tagline">{t('footer.tagline')}</p>
       {hasLocation && <p class="site-footer__location">{siteConfig.location}</p>}
     </div>
-    <div class="site-footer__legal">
-      <p>© {year} — {owner}</p>
-      <p>{t('footer.dataSource')}</p>
-      <p>{t('footer.disclaimer')}</p>
+
+    <nav class="site-footer__nav" aria-label={t('footer.navTitle')}>
+      <p class="site-footer__heading">{t('footer.navTitle')}</p>
+      <ul class="site-footer__links">
+        {
+          navLinks.map((item) => (
+            <li>
+              <a href={link(lang, item.key)}>{item.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div class="site-footer__contact">
+      <p class="site-footer__heading">{t('footer.contactTitle')}</p>
+      <p class="site-footer__contact-lead">{t('footer.contactLead')}</p>
       {
-        hasCreator && (
-          <p class="site-footer__credit">
-            {t('footer.createdBy')}{' '}
-            {siteConfig.creatorUrl.trim() ? (
-              <a href={siteConfig.creatorUrl} rel="noopener noreferrer">
-                {siteConfig.creatorName}
-              </a>
-            ) : (
-              siteConfig.creatorName
-            )}
-          </p>
+        hasEmail ? (
+          <a class="site-footer__contact-link" href={`mailto:${siteConfig.email.trim()}`}>
+            {siteConfig.email.trim()}
+          </a>
+        ) : (
+          <a class="site-footer__contact-link" href={link(lang, 'contact')}>
+            {t('footer.contactCta')}
+          </a>
         )
       }
     </div>
+  </div>
+
+  <div class="container site-footer__bottom">
+    <p>© {year} {owner}. {t('footer.rights')}</p>
+    <p class="site-footer__fineprint">
+      {t('footer.dataSource')}{' '}{t('footer.disclaimer')}
+    </p>
+    {
+      hasCreator && (
+        <p class="site-footer__credit">
+          {t('footer.createdBy')}{' '}
+          {siteConfig.creatorUrl.trim() ? (
+            <a href={siteConfig.creatorUrl} rel="noopener noreferrer">
+              {siteConfig.creatorName}
+            </a>
+          ) : (
+            siteConfig.creatorName
+          )}
+        </p>
+      )
+    }
   </div>
 </footer>

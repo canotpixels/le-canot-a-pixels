@@ -11,7 +11,7 @@ import { LOCALES, DEFAULT_LOCALE } from './src/utils/locales.ts';
 // Aucune valeur sensible ici. `SITE_URL` et `BASE_PATH` proviennent de
 // l'environnement (voir .env.example et le workflow GitHub Actions).
 // -----------------------------------------------------------------------------
-const SITE_URL = process.env.SITE_URL ?? 'https://exemple-collection-xbox.pages.dev';
+const SITE_URL = process.env.SITE_URL ?? 'https://otisdave.github.io';
 const BASE_PATH = process.env.BASE_PATH ?? '/';
 
 const localeIds = LOCALES.map((locale) => locale.id);

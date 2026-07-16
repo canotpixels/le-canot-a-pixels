@@ -23,9 +23,9 @@
   },
   "home": {
     "heroTitle": "Le Canot à Pixels",
-    "heroTagline": "Collection de jeux vidéo, wishlist et trésors à vendre",
+    "heroTagline": "Achat et vente de jeux vidéo rétro à Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Comme le canot volant de la légende, cette collection traverse les époques : jeux Xbox et Xbox 360 soigneusement catalogués — ma collection personnelle, mes trésors à vendre et les jeux que je recherche.",
+    "heroLead": "Comme le canot de la chasse-galerie qui filait au-dessus des clochers, on fait voyager les jeux Xbox et Xbox 360 d'une génération de joueurs à l'autre. On vend des jeux testés et décrits honnêtement, et on achète les vôtres. Embarquez, le canot est paré.",
     "statCollection": "jeux en collection",
     "statForSale": "jeux à vendre",
     "statWishlist": "jeux recherchés",
@@ -33,15 +33,19 @@
     "ctaForSale": "Voir les jeux à vendre",
     "ctaWishlist": "Voir les jeux recherchés",
     "recentTitle": "Ajouts récents",
-    "exploreTitle": "Explorer le catalogue"
+    "exploreTitle": "Explorer le catalogue",
+    "sellTitle": "Des jeux qui dorment dans le fond d'un placard?",
+    "sellBody": "On achète des jeux Xbox et Xbox 360, à l'unité ou en lot. Jetez un coup d'œil à la liste des jeux recherchés ou écrivez-nous directement avec ce que vous avez : on regarde tout et on fait des offres honnêtes.",
+    "sellCtaWishlist": "Consulter les jeux recherchés",
+    "sellCtaContact": "Nous écrire"
   },
   "catalog": {
     "collectionTitle": "Collection",
-    "collectionLead": "L'ensemble des jeux de ma collection personnelle.",
+    "collectionLead": "Les jeux de la collection personnelle, ceux qui restent dans le canot.",
     "forSaleTitle": "Jeux à vendre",
-    "forSaleLead": "Les jeux actuellement disponibles à la vente.",
+    "forSaleLead": "Des jeux testés, avec l'état décrit et le prix affiché sur chaque fiche. Pas de cachette.",
     "wishlistTitle": "Jeux recherchés",
-    "wishlistLead": "Les jeux que je recherche pour compléter la collection.",
+    "wishlistLead": "Les jeux qu'on cherche à acheter. Vous en avez un qui traîne? Écrivez-nous, on vous fait une offre.",
     "searchLabel": "Rechercher par titre",
     "searchPlaceholder": "Titre du jeu…",
     "consoleLabel": "Console",
@@ -78,7 +82,7 @@
     "viewDetail": "Voir la fiche de {title}",
     "salePrice": "Prix",
     "estimatedValue": "Valeur estimée",
-    "referenceNote": "Image de référence — l'article réel peut différer."
+    "referenceNote": "Image de référence : l'article réel peut différer."
   },
   "detail": {
     "backToCollection": "Retour à la collection",
@@ -98,24 +102,30 @@
     "referenceDisclaimer": "Valeur de référence provenant des données importées; le prix réel peut varier.",
     "updatedAt": "Données mises à jour le {date}",
     "contactButton": "Contacter au sujet de ce jeu",
-    "genericImageNote": "Image de référence — l'article réel peut différer.",
+    "genericImageNote": "Image de référence : l'article réel peut différer.",
     "saleNoPhotoNote": "Aucune photo réelle disponible : l'image affichée est une image de référence. L'article réel peut différer.",
     "prefillSubject": "Intérêt pour : {title} ({console})",
     "prefillBody": "Bonjour, je suis intéressé(e) par le jeu « {title} » sur {console}. Est-il toujours disponible ?"
   },
   "about": {
     "title": "À propos du Canot à Pixels",
-    "lead": "Un catalogue de jeux vidéo rétro, ancré à Lavaltrie, Québec.",
-    "body1": "Le Canot à Pixels tire son nom de la légende de la chasse-galerie, le canot volant bien vivant dans l'imaginaire de Lavaltrie. Ce site présente ma collection de jeux Xbox et Xbox 360 : les données proviennent d'un export CSV de PriceCharting, transformé en catalogue navigable.",
-    "body2": "Les images sont, en priorité, mes propres photos. À défaut, une pochette de référence peut être affichée; l'article réel peut différer.",
-    "sourceTitle": "Sources des données",
-    "sourceBody": "Les informations de base (titre, console, valeur de référence, état) sont importées depuis PriceCharting. Les statuts, prix de vente et notes propres au site sont gérés localement.",
-    "disclaimerTitle": "Avertissement sur les valeurs",
-    "disclaimerBody": "Les valeurs affichées sont des valeurs de référence issues des données importées et ne constituent pas une garantie de prix de vente."
+    "lead": "Achat et vente de jeux vidéo rétro, ancré à Lavaltrie, au Québec.",
+    "storyTitle": "La légende derrière le nom",
+    "storyBody": "Le Canot à Pixels tire son nom de la chasse-galerie, cette légende bien vivante à Lavaltrie où un canot volant ramenait les gars de chantier à bon port le temps d'une nuit. Ici, le canot transporte autre chose : des jeux Xbox et Xbox 360 qui reprennent du service au lieu de dormir dans une boîte au fond du sous-sol.",
+    "buyTitle": "On achète vos jeux",
+    "buyBody": "Vous avez des jeux Xbox ou Xbox 360 qui ramassent la poussière? On les achète, à l'unité ou en lot. Consultez la liste des jeux recherchés ou écrivez-nous avec ce que vous avez : on regarde tout et on répond vite, avec des offres honnêtes.",
+    "buyCta": "Voir les jeux recherchés",
+    "sellTitle": "On vend des jeux vérifiés",
+    "sellBody": "Chaque jeu mis en vente est testé, et sa fiche décrit franchement ce qui vient avec : disque, boîtier, livret. Le prix est affiché clairement, pas de surprise rendu chez vous. En priorité, les photos montrent l'article réel; sinon, une pochette de référence est affichée et c'est indiqué.",
+    "sellCta": "Voir les jeux à vendre",
+    "sourceTitle": "D'où viennent les données",
+    "sourceBody": "Les informations de base (titre, console, valeur de référence, état) sont importées depuis PriceCharting. Les statuts, les prix de vente et les notes propres au site sont gérés localement.",
+    "disclaimerTitle": "Un mot sur les valeurs",
+    "disclaimerBody": "Les valeurs affichées sont des valeurs de référence issues des données importées. Elles donnent une idée du marché, mais ne constituent pas une garantie de prix."
   },
   "contact": {
     "title": "Contact",
-    "lead": "Une question sur un jeu ou une transaction ? Voici comment me joindre.",
+    "lead": "Un jeu à vendre, une question sur un titre en vente ou juste envie de jaser rétro? Voici comment nous joindre.",
     "noChannels": "Aucun canal de contact n'est configuré pour le moment.",
     "facebook": "Facebook",
     "messenger": "Messenger",
@@ -128,39 +138,46 @@
     "opening": "Ouverture de la messagerie…"
   },
   "footer": {
-    "tagline": "Collection de jeux vidéo, wishlist et trésors à vendre",
-    "dataSource": "Données importées depuis un export PriceCharting.",
+    "tagline": "Achat et vente de jeux vidéo rétro Xbox et Xbox 360, à Lavaltrie au Québec. Des jeux testés qui voyagent d'une génération de joueurs à l'autre.",
+    "navTitle": "Explorer",
+    "contactTitle": "Nous joindre",
+    "contactLead": "Un jeu à vendre ou une question sur un titre? Écrivez-nous, on répond vite.",
+    "contactCta": "Nous écrire",
+    "dataSource": "Données de référence importées depuis PriceCharting.",
     "disclaimer": "Les valeurs indiquées sont des valeurs de référence; le prix réel peut varier.",
-    "createdBy": "Créé par",
-    "themeAndLang": "Thème et langue"
+    "rights": "Tous droits réservés.",
+    "createdBy": "Site conçu par"
   },
   "seo": {
     "home": {
-      "title": "Le Canot à Pixels — Collection de jeux vidéo, wishlist et trésors à vendre",
-      "description": "Le Canot à Pixels, à Lavaltrie (Québec) : collection de jeux Xbox et Xbox 360, trésors à vendre et liste de souhaits."
+      "title": "Le Canot à Pixels | Achat et vente de jeux vidéo rétro Xbox à Lavaltrie, Québec",
+      "description": "Achat et vente de jeux vidéo rétro Xbox et Xbox 360 à Lavaltrie, dans Lanaudière. Jeux usagés testés, prix affichés et offres honnêtes pour vos jeux."
     },
     "collection": {
-      "title": "Collection — Jeux Xbox & Xbox 360",
-      "description": "Parcourez l'ensemble de la collection de jeux Xbox et Xbox 360, avec recherche, filtres et tri."
+      "title": "Collection de jeux Xbox et Xbox 360 | Le Canot à Pixels",
+      "description": "Parcourez la collection de jeux vidéo rétro Xbox et Xbox 360 du Canot à Pixels : recherche, filtres, tri et fiche détaillée pour chaque jeu."
     },
     "forSale": {
-      "title": "Jeux à vendre — Xbox & Xbox 360",
-      "description": "Les jeux Xbox et Xbox 360 actuellement disponibles à la vente."
+      "title": "Jeux vidéo Xbox et Xbox 360 à vendre | Le Canot à Pixels, Lavaltrie",
+      "description": "Jeux vidéo rétro Xbox et Xbox 360 à vendre au Québec : jeux usagés testés, état décrit honnêtement et prix affiché sur chaque fiche."
     },
     "wishlist": {
-      "title": "Jeux recherchés — Xbox & Xbox 360",
-      "description": "Les jeux Xbox et Xbox 360 recherchés pour compléter la collection."
+      "title": "Jeux recherchés : on achète vos jeux Xbox | Le Canot à Pixels",
+      "description": "On achète des jeux Xbox et Xbox 360 usagés, à l'unité ou en lot. Consultez la liste des jeux recherchés et vendez vos jeux rétro à Lavaltrie."
     },
     "about": {
-      "title": "À propos — Le Canot à Pixels",
-      "description": "À propos du Canot à Pixels, catalogue de jeux rétro à Lavaltrie, et de ses sources de données."
+      "title": "À propos | Le Canot à Pixels, jeux vidéo rétro à Lavaltrie",
+      "description": "L'histoire du Canot à Pixels : achat et vente de jeux vidéo rétro Xbox et Xbox 360 à Lavaltrie, sous le signe de la légende de la chasse-galerie."
     },
     "contact": {
-      "title": "Contact — Le Canot à Pixels",
-      "description": "Comment me joindre au sujet d'un jeu ou d'une transaction."
+      "title": "Contact | Le Canot à Pixels, achat et vente de jeux rétro",
+      "description": "Contactez Le Canot à Pixels pour vendre vos jeux Xbox et Xbox 360, poser une question sur un jeu en vente ou faire une offre."
     },
     "game": {
       "titleSuffix": "Le Canot à Pixels"
+    },
+    "business": {
+      "description": "Achat et vente de jeux vidéo rétro Xbox et Xbox 360 à Lavaltrie, dans Lanaudière au Québec. Jeux usagés testés, prix affichés et achat de vos jeux, à l'unité ou en lot."
     }
   }
 }

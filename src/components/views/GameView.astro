@@ -69,8 +69,8 @@ const specs: { key: string; value: string }[] = [
   ...(game.quantity > 1 ? [{ key: t('detail.quantity'), value: String(game.quantity) }] : []),
 ];
 
-const pageTitle = `${game.title} — ${t('seo.game.titleSuffix')}`;
-const pageDescription = `${game.title} (${game.console}) — ${t(`status.${game.status}`)}.`;
+const pageTitle = `${game.title} | ${t('seo.game.titleSuffix')}`;
+const pageDescription = `${game.title} (${game.console}) : ${t(`status.${game.status}`)}.`;
 
 // Données structurées
 const schemaImage =
@@ -86,7 +86,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: game.title,
-  category: `Jeu vidéo — ${game.console}`,
+  category: `Jeu vidéo ${game.console}`,
   ...(schemaImage ? { image: schemaImage } : {}),
   ...(game.notes ? { description: game.notes } : {}),
   ...(isForSale && (game.salePrice ?? game.estimatedValue)

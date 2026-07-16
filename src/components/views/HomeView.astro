@@ -72,4 +72,18 @@ const recent = recentGames(6);
       </section>
     )
   }
+
+  <!-- Bande achat : on achète les jeux des visiteurs. -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">{t('home.sellTitle')}</h2>
+      <p style="max-width:64ch">{t('home.sellBody')}</p>
+      <div class="hero__actions" style="margin-top:var(--space-4)">
+        <a class="button button--primary" href={link(lang, 'wishlist')}>
+          {t('home.sellCtaWishlist')}
+        </a>
+        <a class="button" href={link(lang, 'contact')}>{t('home.sellCtaContact')}</a>
+      </div>
+    </div>
+  </section>
 </BaseLayout>

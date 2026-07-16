@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { useTranslations } from '../../utils/i18n';
+import { link } from '../../utils/routing';
 
 interface Props {
   lang: string;
@@ -17,8 +18,20 @@ const t = useTranslations(lang);
         <p class="page__lead">{t('about.lead')}</p>
       </header>
 
-      <p>{t('about.body1')}</p>
-      <p>{t('about.body2')}</p>
+      <h2 class="section__title">{t('about.storyTitle')}</h2>
+      <p>{t('about.storyBody')}</p>
+
+      <h2 class="section__title">{t('about.buyTitle')}</h2>
+      <p>{t('about.buyBody')}</p>
+      <p>
+        <a class="button" href={link(lang, 'wishlist')}>{t('about.buyCta')}</a>
+      </p>
+
+      <h2 class="section__title">{t('about.sellTitle')}</h2>
+      <p>{t('about.sellBody')}</p>
+      <p>
+        <a class="button" href={link(lang, 'forSale')}>{t('about.sellCta')}</a>
+      </p>
 
       <h2 class="section__title">{t('about.sourceTitle')}</h2>
       <p>{t('about.sourceBody')}</p>

@@ -43,6 +43,38 @@ const alternates = LOCALES.map((locale) => ({
 }));
 
 const ogImage = absoluteUrl(Astro.site, publicAsset(image ?? '/og-default.png'));
+
+// Données structurées globales : commerce local + site web (référencement).
+const siteUrl = absoluteUrl(Astro.site, publicAsset('/'));
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}#business`,
+      name: siteConfig.siteName,
+      description: t('seo.business.description'),
+      url: siteUrl,
+      image: absoluteUrl(Astro.site, publicAsset('/og-default.png')),
+      ...(siteConfig.email.trim() ? { email: siteConfig.email.trim() } : {}),
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Lavaltrie',
+        addressRegion: 'QC',
+        addressCountry: 'CA',
+      },
+      priceRange: '$',
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${siteUrl}#website`,
+      name: siteConfig.siteName,
+      url: siteUrl,
+      inLanguage: htmlLang,
+      publisher: { '@id': `${siteUrl}#business` },
+    },
+  ],
+};
 ---
 
 <!doctype html>
@@ -78,6 +110,7 @@ const ogImage = absoluteUrl(Astro.site, publicAsset(image ?? '/og-default.png'))
       image={ogImage}
       siteName={siteConfig.siteName}
     >
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData)} />
       <slot name="head" />
     </BaseHead>
   </head>
@@ -90,7 +123,7 @@ const ogImage = absoluteUrl(Astro.site, publicAsset(image ?? '/og-default.png'))
       <slot />
     </main>
 
-    <Footer t={t} />
+    <Footer lang={lang} t={t} />
 
     <script src="../scripts/ui.js"></script>
   </body>
