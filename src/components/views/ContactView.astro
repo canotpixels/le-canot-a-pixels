@@ -431,6 +431,8 @@ const shareLabel = t('contact.share');
 </style>
 
 <script>
+  const actionTimeouts = new WeakMap<HTMLButtonElement, number>();
+
   function resetAction(button: HTMLButtonElement) {
     button.classList.remove('is-success', 'is-error');
     const tooltip = button.querySelector<HTMLElement>('.contact-action__tooltip');
@@ -441,8 +443,12 @@ const shareLabel = t('contact.share');
     const tooltip = button.querySelector<HTMLElement>('.contact-action__tooltip');
     if (tooltip) tooltip.textContent = message;
     button.classList.add(state === 'success' ? 'is-success' : 'is-error');
-    window.clearTimeout((button as any)._contactActionTimeout);
-    (button as any)._contactActionTimeout = window.setTimeout(() => resetAction(button), 1800);
+    const existing = actionTimeouts.get(button);
+    if (existing) window.clearTimeout(existing);
+    actionTimeouts.set(
+      button,
+      window.setTimeout(() => resetAction(button), 1800)
+    );
   }
 
   async function copyToClipboard(text: string): Promise<boolean> {
@@ -475,7 +481,9 @@ const shareLabel = t('contact.share');
       const ok = await copyToClipboard(email);
       flashTooltip(
         button,
-        ok ? (button.dataset.labelCopied ?? 'Copied!') : (button.dataset.labelFailed ?? 'Copy failed'),
+        ok
+          ? (button.dataset.labelCopied ?? 'Copied!')
+          : (button.dataset.labelFailed ?? 'Copy failed'),
         ok ? 'success' : 'error'
       );
     });
