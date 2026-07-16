@@ -29,7 +29,7 @@ export const siteConfig: SiteConfig = {
   creatorUrl: 'https://prestigiadigital.ca',
   facebookUrl: '', // ex. https://facebook.com/ma-page  (vide = bouton masqué)
   messengerUrl: '', // ex. https://m.me/ma-page          (vide = bouton masqué)
-  email: '', // ex. contact@exemple.ca            (vide = bouton masqué)
+  email: 'canot.pixels@outlook.com', // ex. contact@exemple.ca            (vide = bouton masqué)
 };
 
 /** Un placeholder [ENTRE CROCHETS] n'est pas une vraie donnée à afficher tel quel. */

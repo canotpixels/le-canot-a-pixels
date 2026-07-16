@@ -15,6 +15,11 @@ const labels: Record<string, string> = {
   messenger: t('contact.messenger'),
   email: t('contact.email'),
 };
+// Valeur lisible affichée sous le libellé (ex. l'adresse courriel elle-même).
+const displayValue = (channel: (typeof channels)[number]): string => {
+  if (channel.type === 'email') return channel.url.replace(/^mailto:/, '');
+  return channel.url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+};
 ---
 
 <BaseLayout lang={lang} pageId="contact" routeKey="contact">
@@ -26,30 +31,190 @@ const labels: Record<string, string> = {
       </header>
 
       {
-        hasLocation && (
-          <p>
-            <strong>{t('contact.locationLabel')} :</strong> {siteConfig.location}
-          </p>
+        channels.length > 0 ? (
+          <ul class="contact-list">
+            {channels.map((channel) => (
+              <li>
+                <a
+                  class="contact-card"
+                  href={channel.url}
+                  rel={channel.type === 'email' ? undefined : 'noopener noreferrer'}
+                >
+                  <span class="contact-card__icon" aria-hidden="true">
+                    {channel.type === 'email' ? (
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" />
+                        <path d="m3.5 6.5 8.5 6 8.5-6" />
+                      </svg>
+                    ) : (
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                      </svg>
+                    )}
+                  </span>
+                  <span class="contact-card__body">
+                    <span class="contact-card__label">{labels[channel.type]}</span>
+                    <span class="contact-card__value">{displayValue(channel)}</span>
+                  </span>
+                  <span class="contact-card__chevron" aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      width="20"
+                      height="20"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m9 6 6 6-6 6" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="notice">{t('contact.noChannels')}</p>
         )
       }
 
       {
-        channels.length > 0 ? (
-          <div class="hero__actions">
-            {channels.map((channel) => (
-              <a
-                class="button button--primary"
-                href={channel.url}
-                rel={channel.type === 'email' ? undefined : 'noopener noreferrer'}
+        hasLocation && (
+          <p class="contact-location">
+            <span class="contact-location__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                {labels[channel.type]}
-              </a>
-            ))}
-          </div>
-        ) : (
-          <p class="notice">{t('contact.noChannels')}</p>
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="2.6" />
+              </svg>
+            </span>
+            <span>
+              <strong>{t('contact.locationLabel')} :</strong> {siteConfig.location}
+            </span>
+          </p>
         )
       }
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  .contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-card);
+    text-decoration: none;
+    color: var(--color-text);
+    transition:
+      border-color 0.15s ease,
+      background-color 0.15s ease,
+      transform 0.1s ease;
+  }
+  .contact-card:hover {
+    border-color: var(--color-accent);
+    background: var(--color-surface-hover);
+    transform: translateY(-2px);
+  }
+
+  .contact-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    background: color-mix(in srgb, var(--color-accent) 14%, transparent);
+    color: var(--color-accent);
+  }
+
+  .contact-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+  .contact-card__label {
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+  }
+  .contact-card__value {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: var(--text-lg);
+    color: var(--color-text);
+    overflow-wrap: anywhere;
+  }
+
+  .contact-card__chevron {
+    margin-left: auto;
+    display: inline-flex;
+    color: var(--color-text-subtle);
+    transition:
+      transform 0.15s ease,
+      color 0.15s ease;
+  }
+  .contact-card:hover .contact-card__chevron {
+    color: var(--color-accent);
+    transform: translateX(3px);
+  }
+
+  .contact-location {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-top: var(--space-6);
+    color: var(--color-text-muted);
+  }
+  .contact-location__icon {
+    display: inline-flex;
+    color: var(--color-accent);
+  }
+  .contact-location strong {
+    color: var(--color-text);
+  }
+</style>
