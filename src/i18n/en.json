@@ -124,7 +124,8 @@
     "copy": "Copy address",
     "copied": "Address copied!",
     "copyFailed": "Couldn't copy",
-    "share": "Share"
+    "share": "Share",
+    "opening": "Opening your mail app…"
   },
   "footer": {
     "tagline": "Video game collection, wishlist and treasures for sale",

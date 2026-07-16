@@ -124,7 +124,8 @@
     "copy": "Copier l'adresse",
     "copied": "Adresse copiée !",
     "copyFailed": "Impossible de copier",
-    "share": "Partager"
+    "share": "Partager",
+    "opening": "Ouverture de la messagerie…"
   },
   "footer": {
     "tagline": "Collection de jeux vidéo, wishlist et trésors à vendre",

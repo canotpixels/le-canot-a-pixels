@@ -24,6 +24,7 @@ const copyLabel = t('contact.copy');
 const copiedLabel = t('contact.copied');
 const copyFailedLabel = t('contact.copyFailed');
 const shareLabel = t('contact.share');
+const openingLabel = t('contact.opening');
 ---
 
 <BaseLayout lang={lang} pageId="contact" routeKey="contact">
@@ -41,9 +42,16 @@ const shareLabel = t('contact.share');
               channel.type === 'email' ? (
                 <li>
                   <div class="contact-card contact-card--email">
-                    <a class="contact-card__link" href={channel.url}>
+                    <a
+                      class="contact-card__link"
+                      href={channel.url}
+                      data-mailto-link
+                      data-label-opening={openingLabel}
+                      data-label-default={labels[channel.type]}
+                    >
                       <span class="contact-card__icon" aria-hidden="true">
                         <svg
+                          class="contact-card__icon-svg contact-card__icon-svg--envelope"
                           viewBox="0 0 24 24"
                           width="24"
                           height="24"
@@ -56,9 +64,23 @@ const shareLabel = t('contact.share');
                           <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" />
                           <path d="m3.5 6.5 8.5 6 8.5-6" />
                         </svg>
+                        <svg
+                          class="contact-card__icon-svg contact-card__icon-svg--spinner"
+                          viewBox="0 0 24 24"
+                          width="22"
+                          height="22"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2.2"
+                          stroke-linecap="round"
+                        >
+                          <path d="M12 3a9 9 0 1 0 9 9" />
+                        </svg>
                       </span>
                       <span class="contact-card__body">
-                        <span class="contact-card__label">{labels[channel.type]}</span>
+                        <span class="contact-card__label" data-mailto-label>
+                          {labels[channel.type]}
+                        </span>
                         <span class="contact-card__value">{displayValue(channel)}</span>
                       </span>
                     </a>
@@ -239,6 +261,7 @@ const shareLabel = t('contact.share');
   }
 
   .contact-card__icon {
+    position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -305,6 +328,52 @@ const shareLabel = t('contact.share');
   .contact-card__link:hover,
   .contact-card__link:focus-visible {
     background: var(--color-surface-hover);
+  }
+
+  .contact-card__icon-svg--spinner {
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.6);
+    animation: contact-spin 0.7s linear infinite;
+    animation-play-state: paused;
+    transition:
+      opacity 0.15s ease,
+      transform 0.15s ease;
+  }
+  .contact-card__icon-svg--spinner path {
+    stroke-linecap: round;
+  }
+  .contact-card__link.is-launching .contact-card__icon-svg--envelope {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  .contact-card__link.is-launching .contact-card__icon-svg--spinner {
+    opacity: 1;
+    transform: scale(1);
+    animation-play-state: running;
+  }
+  .contact-card__icon-svg--envelope {
+    transition:
+      opacity 0.15s ease,
+      transform 0.15s ease;
+  }
+  @keyframes contact-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .contact-card__label {
+    transition: opacity 0.12s ease;
+  }
+  .contact-card__link.is-launching .contact-card__label {
+    color: var(--color-accent);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .contact-card__icon-svg--spinner {
+      animation: none;
+    }
   }
 
   .contact-card__actions {
@@ -503,6 +572,29 @@ const shareLabel = t('contact.share');
       } catch {
         // Annulé par l'utilisateur ou non supporté : on ignore silencieusement.
       }
+    });
+  });
+
+  document.querySelectorAll<HTMLAnchorElement>('[data-mailto-link]').forEach((link) => {
+    const label = link.querySelector<HTMLElement>('[data-mailto-label]');
+    const openingText = link.dataset.labelOpening ?? 'Opening…';
+    const defaultText = link.dataset.labelDefault ?? '';
+    let revertTimeout: number | undefined;
+
+    const revert = () => {
+      link.classList.remove('is-launching');
+      if (label) label.textContent = defaultText;
+      window.removeEventListener('blur', revert);
+    };
+
+    link.addEventListener('click', () => {
+      link.classList.add('is-launching');
+      if (label) label.textContent = openingText;
+      window.clearTimeout(revertTimeout);
+      // Si le système bascule vers l'appli courriel, la fenêtre perd le focus :
+      // on considère alors le lancement réussi et on referme l'état de chargement.
+      window.addEventListener('blur', revert, { once: true });
+      revertTimeout = window.setTimeout(revert, 2200);
     });
   });
 </script>
