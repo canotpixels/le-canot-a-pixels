@@ -1,0 +1,135 @@
+---
+import type { Game, GameStatus, Completeness } from '../data/games';
+import type { TranslateFn } from '../utils/i18n';
+import { consoleList } from '../data/games';
+import GameCard from './GameCard.astro';
+
+interface Props {
+  lang: string;
+  t: TranslateFn;
+  games: Game[];
+  /** Statut de la page : masque le filtre de statut si un seul est présent. */
+  pageStatus?: GameStatus;
+}
+
+const { lang, t, games, pageStatus } = Astro.props;
+
+const consoles = consoleList(games);
+const statuses = [...new Set(games.map((g) => g.status))] as GameStatus[];
+const completenesses = [...new Set(games.map((g) => g.completeness))] as Completeness[];
+const showStatusFilter = !pageStatus && statuses.length > 1;
+
+// Les jeux recherchés n'affichent aucun prix : le tri par prix/valeur y est retiré.
+const sortOptions = [
+  { value: 'title-asc', label: t('catalog.sortTitleAsc') },
+  { value: 'title-desc', label: t('catalog.sortTitleDesc') },
+  ...(pageStatus === 'wishlist'
+    ? []
+    : [
+        { value: 'price-asc', label: t('catalog.sortPriceAsc') },
+        { value: 'price-desc', label: t('catalog.sortPriceDesc') },
+        { value: 'value-asc', label: t('catalog.sortValueAsc') },
+        { value: 'value-desc', label: t('catalog.sortValueDesc') },
+      ]),
+];
+
+const initialCount = games.length;
+const countLabel =
+  initialCount === 1
+    ? t('catalog.resultsOne', { count: initialCount })
+    : t('catalog.resultsMany', { count: initialCount });
+---
+
+<section
+  data-catalog
+  data-results-one={t('catalog.resultsOne', { count: '{count}' })}
+  data-results-many={t('catalog.resultsMany', { count: '{count}' })}
+>
+  <div class="filters" role="search">
+    <div class="filters__field">
+      <label class="filters__label" for="filter-search">{t('catalog.searchLabel')}</label>
+      <input
+        class="filters__input"
+        type="search"
+        id="filter-search"
+        data-filter-search
+        placeholder={t('catalog.searchPlaceholder')}
+        autocomplete="off"
+      />
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-console">{t('catalog.consoleLabel')}</label>
+      <select class="filters__select" id="filter-console" data-filter-console>
+        <option value="">{t('catalog.consoleAll')}</option>
+        {consoles.map((c) => <option value={c}>{c}</option>)}
+      </select>
+    </div>
+
+    {
+      showStatusFilter && (
+        <div class="filters__field">
+          <label class="filters__label" for="filter-status">
+            {t('catalog.statusLabel')}
+          </label>
+          <select class="filters__select" id="filter-status" data-filter-status>
+            <option value="">{t('catalog.statusAll')}</option>
+            {statuses.map((s) => (
+              <option value={s}>{t(`status.${s}`)}</option>
+            ))}
+          </select>
+        </div>
+      )
+    }
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-completeness">
+        {t('catalog.completenessLabel')}
+      </label>
+      <select class="filters__select" id="filter-completeness" data-filter-completeness>
+        <option value="">{t('catalog.completenessAll')}</option>
+        {completenesses.map((c) => <option value={c}>{t(`completeness.${c}`)}</option>)}
+      </select>
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-sort">{t('catalog.sortLabel')}</label>
+      <select class="filters__select" id="filter-sort" data-sort>
+        {sortOptions.map((opt) => <option value={opt.value}>{opt.label}</option>)}
+      </select>
+    </div>
+  </div>
+
+  <div class="results-bar">
+    <p class="results-bar__count" data-results-count>{countLabel}</p>
+    <button type="button" class="button" data-clear-filters>{t('catalog.clearFilters')}</button>
+  </div>
+
+  <p class="visually-hidden" role="status" aria-live="polite" data-live></p>
+
+  <ul class="game-grid" data-grid>
+    {
+      games.map((game, index) => (
+        <li
+          class="game-grid__item"
+          data-game
+          data-title={game.title}
+          data-console={game.console}
+          data-status={game.status}
+          data-completeness={game.completeness}
+          data-price={game.salePrice ?? game.estimatedValue ?? 0}
+          data-value={game.estimatedValue ?? 0}
+        >
+          <GameCard game={game} lang={lang} t={t} eager={index < 4} />
+        </li>
+      ))
+    }
+  </ul>
+
+  <div class="empty-state" data-empty hidden>
+    <p>{t('catalog.empty')}</p>
+    <p>{t('catalog.emptyHint')}</p>
+  </div>
+</section>
+
+<script src="../scripts/catalog.js"></script>

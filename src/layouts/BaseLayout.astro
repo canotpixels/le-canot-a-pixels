@@ -1,0 +1,97 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { useTranslations } from '../utils/i18n';
+import { htmlLangFor, LOCALES } from '../utils/locales';
+import { THEMES, DEFAULT_THEME, THEME_STORAGE_KEY } from '../utils/themes';
+import { link, absoluteUrl, publicAsset, type RouteKey } from '../utils/routing';
+import { siteConfig } from '../config/site';
+import '../styles/themes/theme-dark.css';
+import '../styles/themes/theme-light.css';
+import '../styles/global.css';
+
+interface Props {
+  lang: string;
+  pageId: string;
+  routeKey: RouteKey;
+  slug?: string;
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const { lang, pageId, routeKey, slug, title, description, image } = Astro.props;
+const t = useTranslations(lang);
+
+const htmlLang = htmlLangFor(lang);
+const themeIds = THEMES.map((theme) => theme.id);
+
+const pageTitle = title ?? t(`seo.${pageId}.title`);
+const pageDescription = description ?? t(`seo.${pageId}.description`);
+
+const currentPath = Astro.url.pathname;
+const canonical = absoluteUrl(Astro.site, currentPath);
+
+// Liens vers la même page logique dans chaque langue.
+const langUrls: Record<string, string> = Object.fromEntries(
+  LOCALES.map((locale) => [locale.id, link(locale.id, routeKey, slug)])
+);
+const alternates = LOCALES.map((locale) => ({
+  hreflang: locale.id,
+  href: absoluteUrl(Astro.site, langUrls[locale.id] ?? '/'),
+}));
+
+const ogImage = absoluteUrl(Astro.site, publicAsset(image ?? '/og-default.png'));
+---
+
+<!doctype html>
+<html
+  lang={htmlLang}
+  data-theme={DEFAULT_THEME}
+  data-default-theme={DEFAULT_THEME}
+  data-theme-ids={themeIds.join(',')}
+>
+  <head>
+    <script is:inline define:vars={{ storageKey: THEME_STORAGE_KEY }}>
+      (() => {
+        try {
+          const root = document.documentElement;
+          const valid = (root.dataset.themeIds || '').split(',').filter(Boolean);
+          const fallback = root.dataset.defaultTheme || 'dark';
+          const saved = localStorage.getItem(storageKey);
+          root.dataset.theme = valid.includes(saved) ? saved : fallback;
+        } catch {
+          document.documentElement.dataset.theme =
+            document.documentElement.dataset.defaultTheme || 'dark';
+        }
+      })();
+    </script>
+
+    <BaseHead
+      lang={lang}
+      htmlLang={htmlLang}
+      title={pageTitle}
+      description={pageDescription}
+      canonical={canonical}
+      alternates={alternates}
+      image={ogImage}
+      siteName={siteConfig.siteName}
+    >
+      <slot name="head" />
+    </BaseHead>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">{t('nav.skipToContent')}</a>
+    <Header lang={lang} t={t} active={routeKey} langUrls={langUrls} />
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <Footer t={t} />
+
+    <script src="../scripts/ui.js"></script>
+  </body>
+</html>

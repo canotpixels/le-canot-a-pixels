@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GameCard from '../GameCard.astro';
+import { useTranslations } from '../../utils/i18n';
+import { link, publicAsset } from '../../utils/routing';
+import { formatNumber } from '../../utils/format';
+import { statusCounts, recentGames } from '../../data/games';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const counts = statusCounts();
+const recent = recentGames(6);
+---
+
+<BaseLayout lang={lang} pageId="home" routeKey="home">
+  <section class="hero">
+    <!-- Canot volant décoratif dans le ciel du héros -->
+    <img
+      class="hero__canoe"
+      src={publicAsset('/brand/logo-mark.png')}
+      alt=""
+      decoding="async"
+      aria-hidden="true"
+    />
+    <div class="container">
+      <p class="eyebrow">{t('home.heroLocation')} · Xbox · Xbox 360</p>
+      <h1 class="hero__title">{t('home.heroTitle')}</h1>
+      <p class="hero__tagline">{t('home.heroTagline')}</p>
+      <p class="hero__lead">{t('home.heroLead')}</p>
+
+      <div class="hero__actions">
+        <a class="button button--primary" href={link(lang, 'collection')}>
+          {t('home.ctaCollection')}
+        </a>
+        <a class="button" href={link(lang, 'forSale')}>{t('home.ctaForSale')}</a>
+        <a class="button" href={link(lang, 'wishlist')}>{t('home.ctaWishlist')}</a>
+      </div>
+
+      <div class="stats">
+        <a class="stat" href={link(lang, 'collection')}>
+          <div class="stat__value">{formatNumber(counts.collection, lang)}</div>
+          <div class="stat__label">{t('home.statCollection')}</div>
+        </a>
+        <a class="stat" href={link(lang, 'forSale')}>
+          <div class="stat__value">{formatNumber(counts['for-sale'], lang)}</div>
+          <div class="stat__label">{t('home.statForSale')}</div>
+        </a>
+        <a class="stat" href={link(lang, 'wishlist')}>
+          <div class="stat__value">{formatNumber(counts.wishlist, lang)}</div>
+          <div class="stat__label">{t('home.statWishlist')}</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {
+    recent.length > 0 && (
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">{t('home.recentTitle')}</h2>
+          <ul class="game-grid">
+            {recent.map((game, index) => (
+              <li class="game-grid__item">
+                <GameCard game={game} lang={lang} t={t} eager={index < 4} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

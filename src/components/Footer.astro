@@ -1,0 +1,42 @@
+---
+import type { TranslateFn } from '../utils/i18n';
+import { siteConfig, isPlaceholder } from '../config/site';
+
+interface Props {
+  t: TranslateFn;
+}
+const { t } = Astro.props;
+const year = new Date().getFullYear();
+const owner = isPlaceholder(siteConfig.ownerName) ? siteConfig.siteName : siteConfig.ownerName;
+const hasLocation = siteConfig.location.trim() && !isPlaceholder(siteConfig.location);
+const hasCreator = siteConfig.creatorName.trim() && !isPlaceholder(siteConfig.creatorName);
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <p class="site-footer__name">{siteConfig.siteName}</p>
+      <p class="site-footer__tagline">{t('footer.tagline')}</p>
+      {hasLocation && <p class="site-footer__location">{siteConfig.location}</p>}
+    </div>
+    <div class="site-footer__legal">
+      <p>© {year} — {owner}</p>
+      <p>{t('footer.dataSource')}</p>
+      <p>{t('footer.disclaimer')}</p>
+      {
+        hasCreator && (
+          <p class="site-footer__credit">
+            {t('footer.createdBy')}{' '}
+            {siteConfig.creatorUrl.trim() ? (
+              <a href={siteConfig.creatorUrl} rel="noopener noreferrer">
+                {siteConfig.creatorName}
+              </a>
+            ) : (
+              siteConfig.creatorName
+            )}
+          </p>
+        )
+      }
+    </div>
+  </div>
+</footer>

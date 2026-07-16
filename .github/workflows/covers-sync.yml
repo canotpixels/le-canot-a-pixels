@@ -1,0 +1,50 @@
+name: Synchronisation des pochettes
+
+# Déclenchement MANUEL uniquement : la recherche de pochettes ne doit pas
+# se produire à chaque déploiement. Les identifiants proviennent des
+# GitHub Actions Secrets (jamais du dépôt).
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-résoudre toutes les pochettes (--force)'
+        type: boolean
+        default: false
+      limit:
+        description: 'Limiter le nombre de recherches (vide = illimité)'
+        required: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Synchronisation des pochettes manquantes
+        env:
+          COVER_PROVIDER: ${{ secrets.COVER_PROVIDER }}
+          COVER_API_CLIENT_ID: ${{ secrets.COVER_API_CLIENT_ID }}
+          COVER_API_CLIENT_SECRET: ${{ secrets.COVER_API_CLIENT_SECRET }}
+        run: |
+          npm run covers:sync -- \
+            ${{ inputs.force && '--force' || '' }} \
+            ${{ inputs.limit && format('--limit={0}', inputs.limit) || '' }}
+
+      # Le cache mis à jour est proposé en Pull Request pour revue.
+      - name: Création d'une Pull Request avec le cache mis à jour
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(covers): mise à jour du cache de pochettes'
+          title: 'Mise à jour du cache de pochettes'
+          body: 'Synchronisation automatique des pochettes génériques (data/cache/covers.json).'
+          branch: covers/sync-update
+          add-paths: |
+            data/cache/covers.json
+            public/covers/

@@ -1,0 +1,43 @@
+/* Thème sombre (par défaut) — « Nuit de la chasse-galerie ».
+   Ciel nocturne profond au-dessus du fleuve, braises ambrées du feu de camp.
+   Tokens consommés par global.css. */
+:root,
+:root[data-theme='dark'] {
+  --color-bg: #0b1020;
+  --color-bg-elevated: #111730;
+  --color-surface: #151c38;
+  --color-surface-hover: #1c2447;
+  --color-border: #283158;
+  --color-border-strong: #3a4573;
+
+  --color-text: #eceef8;
+  --color-text-muted: #a4acce;
+  --color-text-subtle: #7681a8;
+
+  /* Braise / lanterne du canot */
+  --color-accent: #ffb454;
+  --color-accent-hover: #ffc678;
+  --color-accent-contrast: #241303;
+
+  --color-badge-sale: #d97a1a;
+  --color-badge-collection: #4f7cff;
+  --color-badge-wishlist: #a98aff;
+  --color-badge-text: #ffffff;
+
+  /* Tags console / complétude */
+  --color-tag-console-xbox: #3c4a63;
+  --color-tag-console-xbox-360: #107c10; /* vert officiel Xbox */
+  --color-tag-completeness-cib: #1f9e8b;
+  --color-tag-completeness-loose: #5b6584;
+
+  --color-focus: #7aa2ff;
+  --color-danger: #ff6b5e;
+
+  --shadow-card: 0 1px 3px rgba(2, 4, 14, 0.55), 0 6px 20px rgba(2, 4, 14, 0.4);
+  --overlay-scrim: rgba(4, 6, 18, 0.6);
+
+  /* Ciel du héros : nuit étoilée au-dessus du Saint-Laurent */
+  --hero-sky: linear-gradient(180deg, #0a0e22 0%, #101838 55%, #1a2350 100%);
+  --hero-star: rgba(255, 235, 200, 0.85);
+  --hero-canoe: rgba(255, 180, 84, 0.4);
+}

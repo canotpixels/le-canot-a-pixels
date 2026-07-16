@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "brand": "Le Canot à Pixels",
+    "home": "Home",
+    "collection": "Collection",
+    "forSale": "For sale",
+    "wishlist": "Wanted",
+    "about": "About",
+    "contact": "Contact",
+    "skipToContent": "Skip to main content",
+    "menu": "Menu"
+  },
+  "theme": {
+    "label": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "switchTo": "Switch to {theme} theme"
+  },
+  "lang": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English"
+  },
+  "home": {
+    "heroTitle": "Le Canot à Pixels",
+    "heroTagline": "Video game collection, wishlist and treasures for sale",
+    "heroLocation": "Lavaltrie, Québec",
+    "heroLead": "Like the flying canoe of the legend, this collection travels across eras: carefully catalogued Xbox and Xbox 360 games — my personal collection, treasures for sale, and the games I am looking for.",
+    "statCollection": "games in the collection",
+    "statForSale": "games for sale",
+    "statWishlist": "games wanted",
+    "ctaCollection": "Browse the collection",
+    "ctaForSale": "See games for sale",
+    "ctaWishlist": "See wanted games",
+    "recentTitle": "Recently added",
+    "exploreTitle": "Explore the catalogue"
+  },
+  "catalog": {
+    "collectionTitle": "Collection",
+    "collectionLead": "Every game in my personal collection.",
+    "forSaleTitle": "Games for sale",
+    "forSaleLead": "Games currently available for purchase.",
+    "wishlistTitle": "Wanted games",
+    "wishlistLead": "Games I am looking for to complete the collection.",
+    "searchLabel": "Search by title",
+    "searchPlaceholder": "Game title…",
+    "consoleLabel": "Console",
+    "consoleAll": "All consoles",
+    "statusLabel": "Status",
+    "statusAll": "All statuses",
+    "completenessLabel": "Condition",
+    "completenessAll": "All conditions",
+    "sortLabel": "Sort",
+    "sortTitleAsc": "Title (A → Z)",
+    "sortTitleDesc": "Title (Z → A)",
+    "sortPriceAsc": "Price (low to high)",
+    "sortPriceDesc": "Price (high to low)",
+    "sortValueAsc": "Value (low to high)",
+    "sortValueDesc": "Value (high to low)",
+    "resultsOne": "{count} result",
+    "resultsMany": "{count} results",
+    "empty": "No game matches your search.",
+    "emptyHint": "Try changing or resetting the filters.",
+    "clearFilters": "Reset filters"
+  },
+  "status": {
+    "collection": "Collection",
+    "for-sale": "Available",
+    "wishlist": "Wanted"
+  },
+  "completeness": {
+    "loose": "Loose",
+    "cib": "Complete (CIB)",
+    "new": "New / sealed",
+    "unknown": "Unspecified"
+  },
+  "card": {
+    "viewDetail": "View details for {title}",
+    "salePrice": "Price",
+    "estimatedValue": "Estimated value",
+    "referenceNote": "Reference image — the actual item may differ."
+  },
+  "detail": {
+    "backToCollection": "Back to the collection",
+    "backToForSale": "Back to games for sale",
+    "backToWishlist": "Back to wanted games",
+    "gallery": "Gallery",
+    "details": "Details",
+    "console": "Console",
+    "region": "Region",
+    "edition": "Edition",
+    "condition": "Condition",
+    "completeness": "Completeness",
+    "quantity": "Quantity",
+    "notes": "Notes",
+    "salePrice": "Asking price",
+    "referenceValue": "Reference value",
+    "referenceDisclaimer": "Reference value from imported data; the actual price may vary.",
+    "updatedAt": "Data updated on {date}",
+    "contactButton": "Ask about this game",
+    "genericImageNote": "Reference image — the actual item may differ.",
+    "saleNoPhotoNote": "No real photo available: the image shown is a reference image. The actual item may differ.",
+    "prefillSubject": "Interested in: {title} ({console})",
+    "prefillBody": "Hello, I am interested in the game \"{title}\" on {console}. Is it still available?"
+  },
+  "about": {
+    "title": "About Le Canot à Pixels",
+    "lead": "A retro video game catalogue, rooted in Lavaltrie, Québec.",
+    "body1": "Le Canot à Pixels (\"the pixel canoe\") takes its name from the legend of the chasse-galerie, the flying canoe of a tale deeply tied to Lavaltrie. This site showcases my Xbox and Xbox 360 game collection: the data comes from a PriceCharting CSV export, transformed into a browsable catalogue.",
+    "body2": "Images are, first and foremost, my own photos. When none exist, a reference cover may be shown; the actual item may differ.",
+    "sourceTitle": "Data sources",
+    "sourceBody": "Core information (title, console, reference value, condition) is imported from PriceCharting. Site-specific statuses, sale prices and notes are managed locally.",
+    "disclaimerTitle": "Note on values",
+    "disclaimerBody": "The values shown are reference values from the imported data and do not constitute a guaranteed selling price."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "A question about a game or a transaction? Here is how to reach me.",
+    "noChannels": "No contact channel is configured at the moment.",
+    "facebook": "Facebook",
+    "messenger": "Messenger",
+    "email": "Email",
+    "locationLabel": "Region"
+  },
+  "footer": {
+    "tagline": "Video game collection, wishlist and treasures for sale",
+    "dataSource": "Data imported from a PriceCharting export.",
+    "disclaimer": "The values shown are reference values; the actual price may vary.",
+    "createdBy": "Created by",
+    "themeAndLang": "Theme and language"
+  },
+  "seo": {
+    "home": {
+      "title": "Le Canot à Pixels — Video game collection, wishlist and treasures for sale",
+      "description": "Le Canot à Pixels, in Lavaltrie (Québec): Xbox and Xbox 360 game collection, treasures for sale and wishlist."
+    },
+    "collection": {
+      "title": "Collection — Xbox & Xbox 360 games",
+      "description": "Browse the full Xbox and Xbox 360 game collection with search, filters and sorting."
+    },
+    "forSale": {
+      "title": "Games for sale — Xbox & Xbox 360",
+      "description": "Xbox and Xbox 360 games currently available for purchase."
+    },
+    "wishlist": {
+      "title": "Wanted games — Xbox & Xbox 360",
+      "description": "Xbox and Xbox 360 games wanted to complete the collection."
+    },
+    "about": {
+      "title": "About — Le Canot à Pixels",
+      "description": "About Le Canot à Pixels, a retro game catalogue in Lavaltrie, and its data sources."
+    },
+    "contact": {
+      "title": "Contact — Le Canot à Pixels",
+      "description": "How to reach me about a game or a transaction."
+    },
+    "game": {
+      "titleSuffix": "Le Canot à Pixels"
+    }
+  }
+}

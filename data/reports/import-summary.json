@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-16T15:41:32.034Z",
+  "source": "pricecharting/collection.csv",
+  "totalRows": 188,
+  "imported": 188,
+  "skipped": 0,
+  "duplicates": 0,
+  "withPersonalPhotos": 0,
+  "withGenericCover": 188,
+  "withPlaceholder": 0,
+  "uncertainCoverMatches": 0,
+  "warnings": [],
+  "invalidRows": []
+}

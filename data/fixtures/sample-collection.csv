@@ -1,0 +1,10 @@
+id,product-name,console-name,price-in-pennies,include-string,condition-string,sku,notes,cost-basis-in-pennies,quantity,date-entered,date-purchased,grading-company,grading-cert-id,folder
+9001,Halo: Combat Evolved,Xbox,2599,"Item, Box, and Manual",Normal wear,,Exemplaire complet avec photos réelles,1500,1,2025-01-10,,,,Collection
+9002,Fable,Xbox,1299,Item only,Normal wear,,Pochette de référence uniquement,0,1,2025-02-14,,,,Collection
+9003,Obscure Bootleg Adventure,Xbox 360,499,Item only,Normal wear,,Aucune image disponible,0,1,2025-03-01,,,,Collection
+9004,Forza Motorsport,Xbox 360,1899,Item only,Normal wear,,À vendre - bon état,0,1,2025-03-20,,,,À vendre
+9005,Steel Battalion,Xbox,8999,"Item, Box, and Manual",Normal wear,,Recherché - à acquérir,0,1,2025-04-05,,,,Wishlist
+9006,Tomb Raider,Xbox,999,Item only,Normal wear,,Version Xbox originale,0,1,2025-04-10,,,,Collection
+9007,Tomb Raider,Xbox 360,1499,"New Item, Box, and Manual",Normal wear,,Version Xbox 360 scellée,0,1,2025-04-11,,,,Collection
+,,,,,,,Ligne invalide sans titre ni console,,,,,,,
+9008,Ligne sans console,,299,Item only,Normal wear,,Console manquante volontairement,0,1,2025-05-01,,,,Collection

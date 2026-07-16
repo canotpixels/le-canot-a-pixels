@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "brand": "Le Canot à Pixels",
+    "home": "Accueil",
+    "collection": "Collection",
+    "forSale": "À vendre",
+    "wishlist": "Recherchés",
+    "about": "À propos",
+    "contact": "Contact",
+    "skipToContent": "Aller au contenu principal",
+    "menu": "Menu"
+  },
+  "theme": {
+    "label": "Thème",
+    "dark": "Sombre",
+    "light": "Clair",
+    "switchTo": "Basculer vers le thème {theme}"
+  },
+  "lang": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English"
+  },
+  "home": {
+    "heroTitle": "Le Canot à Pixels",
+    "heroTagline": "Collection de jeux vidéo, wishlist et trésors à vendre",
+    "heroLocation": "Lavaltrie, Québec",
+    "heroLead": "Comme le canot volant de la légende, cette collection traverse les époques : jeux Xbox et Xbox 360 soigneusement catalogués — ma collection personnelle, mes trésors à vendre et les jeux que je recherche.",
+    "statCollection": "jeux en collection",
+    "statForSale": "jeux à vendre",
+    "statWishlist": "jeux recherchés",
+    "ctaCollection": "Voir la collection",
+    "ctaForSale": "Voir les jeux à vendre",
+    "ctaWishlist": "Voir les jeux recherchés",
+    "recentTitle": "Ajouts récents",
+    "exploreTitle": "Explorer le catalogue"
+  },
+  "catalog": {
+    "collectionTitle": "Collection",
+    "collectionLead": "L'ensemble des jeux de ma collection personnelle.",
+    "forSaleTitle": "Jeux à vendre",
+    "forSaleLead": "Les jeux actuellement disponibles à la vente.",
+    "wishlistTitle": "Jeux recherchés",
+    "wishlistLead": "Les jeux que je recherche pour compléter la collection.",
+    "searchLabel": "Rechercher par titre",
+    "searchPlaceholder": "Titre du jeu…",
+    "consoleLabel": "Console",
+    "consoleAll": "Toutes les consoles",
+    "statusLabel": "Statut",
+    "statusAll": "Tous les statuts",
+    "completenessLabel": "État",
+    "completenessAll": "Tous les états",
+    "sortLabel": "Trier",
+    "sortTitleAsc": "Titre (A → Z)",
+    "sortTitleDesc": "Titre (Z → A)",
+    "sortPriceAsc": "Prix (croissant)",
+    "sortPriceDesc": "Prix (décroissant)",
+    "sortValueAsc": "Valeur (croissante)",
+    "sortValueDesc": "Valeur (décroissante)",
+    "resultsOne": "{count} résultat",
+    "resultsMany": "{count} résultats",
+    "empty": "Aucun jeu ne correspond à votre recherche.",
+    "emptyHint": "Essayez de modifier ou de réinitialiser les filtres.",
+    "clearFilters": "Réinitialiser les filtres"
+  },
+  "status": {
+    "collection": "Collection",
+    "for-sale": "Disponible",
+    "wishlist": "Recherché"
+  },
+  "completeness": {
+    "loose": "En vrac",
+    "cib": "Complet (CIB)",
+    "new": "Neuf / scellé",
+    "unknown": "Non précisé"
+  },
+  "card": {
+    "viewDetail": "Voir la fiche de {title}",
+    "salePrice": "Prix",
+    "estimatedValue": "Valeur estimée",
+    "referenceNote": "Image de référence — l'article réel peut différer."
+  },
+  "detail": {
+    "backToCollection": "Retour à la collection",
+    "backToForSale": "Retour aux jeux à vendre",
+    "backToWishlist": "Retour aux jeux recherchés",
+    "gallery": "Galerie",
+    "details": "Détails",
+    "console": "Console",
+    "region": "Région",
+    "edition": "Édition",
+    "condition": "État",
+    "completeness": "Complétude",
+    "quantity": "Quantité",
+    "notes": "Notes",
+    "salePrice": "Prix demandé",
+    "referenceValue": "Valeur de référence",
+    "referenceDisclaimer": "Valeur de référence provenant des données importées; le prix réel peut varier.",
+    "updatedAt": "Données mises à jour le {date}",
+    "contactButton": "Contacter au sujet de ce jeu",
+    "genericImageNote": "Image de référence — l'article réel peut différer.",
+    "saleNoPhotoNote": "Aucune photo réelle disponible : l'image affichée est une image de référence. L'article réel peut différer.",
+    "prefillSubject": "Intérêt pour : {title} ({console})",
+    "prefillBody": "Bonjour, je suis intéressé(e) par le jeu « {title} » sur {console}. Est-il toujours disponible ?"
+  },
+  "about": {
+    "title": "À propos du Canot à Pixels",
+    "lead": "Un catalogue de jeux vidéo rétro, ancré à Lavaltrie, Québec.",
+    "body1": "Le Canot à Pixels tire son nom de la légende de la chasse-galerie, le canot volant bien vivant dans l'imaginaire de Lavaltrie. Ce site présente ma collection de jeux Xbox et Xbox 360 : les données proviennent d'un export CSV de PriceCharting, transformé en catalogue navigable.",
+    "body2": "Les images sont, en priorité, mes propres photos. À défaut, une pochette de référence peut être affichée; l'article réel peut différer.",
+    "sourceTitle": "Sources des données",
+    "sourceBody": "Les informations de base (titre, console, valeur de référence, état) sont importées depuis PriceCharting. Les statuts, prix de vente et notes propres au site sont gérés localement.",
+    "disclaimerTitle": "Avertissement sur les valeurs",
+    "disclaimerBody": "Les valeurs affichées sont des valeurs de référence issues des données importées et ne constituent pas une garantie de prix de vente."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Une question sur un jeu ou une transaction ? Voici comment me joindre.",
+    "noChannels": "Aucun canal de contact n'est configuré pour le moment.",
+    "facebook": "Facebook",
+    "messenger": "Messenger",
+    "email": "Courriel",
+    "locationLabel": "Région"
+  },
+  "footer": {
+    "tagline": "Collection de jeux vidéo, wishlist et trésors à vendre",
+    "dataSource": "Données importées depuis un export PriceCharting.",
+    "disclaimer": "Les valeurs indiquées sont des valeurs de référence; le prix réel peut varier.",
+    "createdBy": "Créé par",
+    "themeAndLang": "Thème et langue"
+  },
+  "seo": {
+    "home": {
+      "title": "Le Canot à Pixels — Collection de jeux vidéo, wishlist et trésors à vendre",
+      "description": "Le Canot à Pixels, à Lavaltrie (Québec) : collection de jeux Xbox et Xbox 360, trésors à vendre et liste de souhaits."
+    },
+    "collection": {
+      "title": "Collection — Jeux Xbox & Xbox 360",
+      "description": "Parcourez l'ensemble de la collection de jeux Xbox et Xbox 360, avec recherche, filtres et tri."
+    },
+    "forSale": {
+      "title": "Jeux à vendre — Xbox & Xbox 360",
+      "description": "Les jeux Xbox et Xbox 360 actuellement disponibles à la vente."
+    },
+    "wishlist": {
+      "title": "Jeux recherchés — Xbox & Xbox 360",
+      "description": "Les jeux Xbox et Xbox 360 recherchés pour compléter la collection."
+    },
+    "about": {
+      "title": "À propos — Le Canot à Pixels",
+      "description": "À propos du Canot à Pixels, catalogue de jeux rétro à Lavaltrie, et de ses sources de données."
+    },
+    "contact": {
+      "title": "Contact — Le Canot à Pixels",
+      "description": "Comment me joindre au sujet d'un jeu ou d'une transaction."
+    },
+    "game": {
+      "titleSuffix": "Le Canot à Pixels"
+    }
+  }
+}

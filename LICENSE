@@ -1,0 +1,23 @@
+LICENCE À CHOISIR PAR LE PROPRIÉTAIRE
+=====================================
+
+Aucune licence n'a encore été sélectionnée pour ce projet.
+
+Tant qu'aucune licence n'est choisie, le code est réputé « tous droits réservés »
+par défaut : personne d'autre que le propriétaire n'est autorisé à le copier, le
+modifier ou le redistribuer.
+
+Avant toute diffusion publique du code, le propriétaire doit remplacer ce fichier
+par une vraie licence. Suggestions courantes :
+
+  - MIT       — permissive, simple (https://choosealicense.com/licenses/mit/)
+  - Apache-2.0 — permissive avec clause de brevets
+  - GPL-3.0   — copyleft
+
+Remarque importante : cette licence ne concerne que LE CODE de ce dépôt.
+
+  - Les DONNÉES importées (CSV PriceCharting) appartiennent à leurs sources
+    respectives et sont soumises aux conditions de PriceCharting.
+  - Les IMAGES de pochettes génériques proviennent d'un fournisseur tiers
+    (ex. IGDB) et restent soumises à sa licence et à ses exigences d'attribution.
+  - Vos PHOTOS personnelles vous appartiennent.

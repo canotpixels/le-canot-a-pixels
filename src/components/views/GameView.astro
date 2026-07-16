@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GameImage from '../GameImage.astro';
+import Badge from '../Badge.astro';
+import ConsoleBadge from '../ConsoleBadge.astro';
+import CompletenessBadge from '../CompletenessBadge.astro';
+import { useTranslations } from '../../utils/i18n';
+import { link, absoluteUrl, publicAsset, type RouteKey } from '../../utils/routing';
+import { formatPrice, formatDate } from '../../utils/format';
+import { activeContactChannels } from '../../config/site';
+import type { Game, GameImage as GameImageType } from '../../data/games';
+
+interface Props {
+  lang: string;
+  game: Game;
+}
+const { lang, game } = Astro.props;
+const t = useTranslations(lang);
+
+const statusToRoute: Record<Game['status'], { key: RouteKey; back: string }> = {
+  collection: { key: 'collection', back: 'detail.backToCollection' },
+  'for-sale': { key: 'forSale', back: 'detail.backToForSale' },
+  wishlist: { key: 'wishlist', back: 'detail.backToWishlist' },
+};
+const backRoute = statusToRoute[game.status];
+
+// Galerie : toutes les photos perso, puis la pochette générique en secondaire.
+const galleryImages: GameImageType[] = [...game.personalImages];
+if (game.genericCover && game.personalImages.length > 0) {
+  galleryImages.push(game.genericCover);
+}
+if (galleryImages.length === 0) {
+  galleryImages.push(game.primaryImage);
+}
+const mainImage = galleryImages[0] ?? game.primaryImage;
+
+const hasPersonal = game.personalImages.length > 0;
+const showGenericNote = !hasPersonal && game.primaryImage.source === 'generic';
+const showSaleNoPhotoNote = game.status === 'for-sale' && !hasPersonal;
+
+const isForSale = game.status === 'for-sale';
+// Pas de prix ni de valeur de référence pour un jeu recherché.
+const isWishlist = game.status === 'wishlist';
+const priceLabel = formatPrice(game.salePrice ?? game.estimatedValue, game.currency, lang);
+const valueLabel = isWishlist ? undefined : formatPrice(game.estimatedValue, game.currency, lang);
+const updatedAt = formatDate(game.dataUpdatedAt, lang);
+
+// Bouton de contact (préremplissage via mailto lorsque disponible).
+const channels = activeContactChannels();
+const subject = t('detail.prefillSubject', { title: game.title, console: game.console });
+const body = t('detail.prefillBody', { title: game.title, console: game.console });
+const emailChannel = channels.find((c) => c.type === 'email');
+const otherChannel = channels.find((c) => c.type !== 'email');
+let contactHref = link(lang, 'contact');
+if (emailChannel) {
+  contactHref = `${emailChannel.url}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+} else if (otherChannel) {
+  contactHref = otherChannel.url;
+}
+
+const specs: { key: string; value: string }[] = [
+  { key: t('detail.console'), value: game.console },
+  ...(game.region ? [{ key: t('detail.region'), value: game.region }] : []),
+  ...(game.edition ? [{ key: t('detail.edition'), value: game.edition }] : []),
+  { key: t('detail.completeness'), value: t(`completeness.${game.completeness}`) },
+  ...(game.condition ? [{ key: t('detail.condition'), value: game.condition }] : []),
+  ...(game.quantity > 1 ? [{ key: t('detail.quantity'), value: String(game.quantity) }] : []),
+];
+
+const pageTitle = `${game.title} — ${t('seo.game.titleSuffix')}`;
+const pageDescription = `${game.title} (${game.console}) — ${t(`status.${game.status}`)}.`;
+
+// Données structurées
+const schemaImage =
+  game.primaryImage.source !== 'personal'
+    ? absoluteUrl(
+        Astro.site,
+        /^https?:/.test(game.primaryImage.src)
+          ? game.primaryImage.src
+          : publicAsset(game.primaryImage.src)
+      )
+    : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: game.title,
+  category: `Jeu vidéo — ${game.console}`,
+  ...(schemaImage ? { image: schemaImage } : {}),
+  ...(game.notes ? { description: game.notes } : {}),
+  ...(isForSale && (game.salePrice ?? game.estimatedValue)
+    ? {
+        offers: {
+          '@type': 'Offer',
+          price: (game.salePrice ?? game.estimatedValue)?.toFixed(2),
+          priceCurrency: game.currency,
+          availability: 'https://schema.org/InStock',
+        },
+      }
+    : {}),
+};
+---
+
+<BaseLayout
+  lang={lang}
+  pageId="home"
+  routeKey="games"
+  slug={game.slug}
+  title={pageTitle}
+  description={pageDescription}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
+
+  <div class="page">
+    <div class="container">
+      <a class="back-link" href={link(lang, backRoute.key)}>← {t(backRoute.back)}</a>
+
+      <div class="detail">
+        <div>
+          <figure class="gallery__main">
+            <GameImage
+              image={mainImage}
+              loading="eager"
+              contain
+              widths={[300, 600, 900]}
+              sizes="(max-width: 820px) 90vw, 520px"
+            />
+          </figure>
+
+          {
+            galleryImages.length > 1 && (
+              <ul class="gallery__thumbs">
+                {galleryImages.map((img) => (
+                  <li class="gallery__thumb">
+                    <GameImage image={img} widths={[68, 136]} sizes="68px" />
+                  </li>
+                ))}
+              </ul>
+            )
+          }
+
+          {showGenericNote && <p class="notice">{t('detail.genericImageNote')}</p>}
+          {showSaleNoPhotoNote && <p class="notice notice--warn">{t('detail.saleNoPhotoNote')}</p>}
+        </div>
+
+        <div>
+          <h1 class="detail__title">{game.title}</h1>
+          <div class="detail__badges">
+            <Badge status={game.status} label={t(`status.${game.status}`)} />
+            <ConsoleBadge console={game.console} />
+            <CompletenessBadge
+              completeness={game.completeness}
+              label={t(`completeness.${game.completeness}`)}
+            />
+          </div>
+
+          {
+            isForSale && priceLabel && (
+              <p class="detail__price">
+                {t('detail.salePrice')} : {priceLabel}
+              </p>
+            )
+          }
+
+          <dl class="spec-list">
+            {
+              specs.map((spec) => (
+                <>
+                  <dt class="spec-list__key">{spec.key}</dt>
+                  <dd class="spec-list__value">{spec.value}</dd>
+                </>
+              ))
+            }
+            {
+              valueLabel && (
+                <>
+                  <dt class="spec-list__key">{t('detail.referenceValue')}</dt>
+                  <dd class="spec-list__value">{valueLabel}</dd>
+                </>
+              )
+            }
+          </dl>
+
+          {
+            game.notes && (
+              <p>
+                <strong>{t('detail.notes')} :</strong> {game.notes}
+              </p>
+            )
+          }
+
+          {valueLabel && <p class="notice">{t('detail.referenceDisclaimer')}</p>}
+
+          <div class="detail__actions">
+            <a class="button button--primary" href={contactHref}>{t('detail.contactButton')}</a>
+          </div>
+
+          {
+            updatedAt && (
+              <p class="card__meta" style="margin-top:1rem">
+                {t('detail.updatedAt', { date: updatedAt })}
+              </p>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

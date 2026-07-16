@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../utils/i18n';
+import { siteConfig, isPlaceholder, activeContactChannels } from '../../config/site';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const channels = activeContactChannels();
+const hasLocation = siteConfig.location.trim() && !isPlaceholder(siteConfig.location);
+const labels: Record<string, string> = {
+  facebook: t('contact.facebook'),
+  messenger: t('contact.messenger'),
+  email: t('contact.email'),
+};
+---
+
+<BaseLayout lang={lang} pageId="contact" routeKey="contact">
+  <div class="page">
+    <div class="container" style="max-width:640px">
+      <header class="page__header">
+        <h1 class="page__title">{t('contact.title')}</h1>
+        <p class="page__lead">{t('contact.lead')}</p>
+      </header>
+
+      {
+        hasLocation && (
+          <p>
+            <strong>{t('contact.locationLabel')} :</strong> {siteConfig.location}
+          </p>
+        )
+      }
+
+      {
+        channels.length > 0 ? (
+          <div class="hero__actions">
+            {channels.map((channel) => (
+              <a
+                class="button button--primary"
+                href={channel.url}
+                rel={channel.type === 'email' ? undefined : 'noopener noreferrer'}
+              >
+                {labels[channel.type]}
+              </a>
+            ))}
+          </div>
+        ) : (
+          <p class="notice">{t('contact.noChannels')}</p>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>

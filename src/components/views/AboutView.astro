@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../utils/i18n';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} pageId="about" routeKey="about">
+  <div class="page">
+    <div class="container" style="max-width:720px">
+      <header class="page__header">
+        <h1 class="page__title">{t('about.title')}</h1>
+        <p class="page__lead">{t('about.lead')}</p>
+      </header>
+
+      <p>{t('about.body1')}</p>
+      <p>{t('about.body2')}</p>
+
+      <h2 class="section__title">{t('about.sourceTitle')}</h2>
+      <p>{t('about.sourceBody')}</p>
+
+      <h2 class="section__title">{t('about.disclaimerTitle')}</h2>
+      <p class="notice">{t('about.disclaimerBody')}</p>
+    </div>
+  </div>
+</BaseLayout>

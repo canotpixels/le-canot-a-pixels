@@ -1,0 +1,25 @@
+# Dépendances
+node_modules/
+
+# Build Astro
+dist/
+.astro/
+
+# Environnement — NE JAMAIS committer les vraies clés
+.env
+.env.local
+.env.*.local
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+.playwright/
+
+# Note : public/covers/ (pochettes téléchargées par covers:sync) EST versionné
+# afin que le site déployé les inclue sans relancer la synchro à chaque build.
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.log

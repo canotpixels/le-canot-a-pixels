@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Catalog from '../Catalog.astro';
+import { useTranslations } from '../../utils/i18n';
+import { gamesByStatus } from '../../data/games';
+import type { GameStatus } from '../../data/games';
+import type { RouteKey } from '../../utils/routing';
+
+interface Props {
+  lang: string;
+  status: GameStatus;
+  routeKey: RouteKey;
+  pageId: string;
+  titleKey: string;
+  leadKey: string;
+}
+const { lang, status, routeKey, pageId, titleKey, leadKey } = Astro.props;
+const t = useTranslations(lang);
+const games = gamesByStatus(status);
+---
+
+<BaseLayout lang={lang} pageId={pageId} routeKey={routeKey}>
+  <div class="page">
+    <div class="container">
+      <header class="page__header">
+        <h1 class="page__title">{t(titleKey)}</h1>
+        <p class="page__lead">{t(leadKey)}</p>
+      </header>
+
+      <Catalog lang={lang} t={t} games={games} pageStatus={status} />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,13 @@
+---
+import type { Completeness } from '../data/games';
+
+interface Props {
+  completeness: Completeness;
+  label: string;
+}
+
+const { completeness, label } = Astro.props;
+const variant = completeness === 'unknown' ? 'muted' : `completeness-${completeness}`;
+---
+
+<span class={`badge badge--${variant}`}>{label}</span>

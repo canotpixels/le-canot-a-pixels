@@ -1,0 +1,20 @@
+---
+interface Props {
+  console: string;
+}
+
+const { console: consoleName } = Astro.props;
+
+// Xbox 360 obtient le vert officiel Xbox ; la Xbox originale, une teinte
+// graphite distincte pour ne pas se confondre avec le vert 360.
+function variantFor(name: string): string {
+  const normalized = name.toLowerCase().replace(/\s+/g, '-');
+  if (normalized === 'xbox-360') return 'console-xbox-360';
+  if (normalized === 'xbox') return 'console-xbox';
+  return 'muted';
+}
+
+const variant = variantFor(consoleName);
+---
+
+<span class={`badge badge--${variant}`}>{consoleName}</span>

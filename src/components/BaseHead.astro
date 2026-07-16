@@ -1,0 +1,59 @@
+---
+import { DEFAULT_THEME, THEMES } from '../utils/themes';
+import { publicAsset } from '../utils/routing';
+
+interface Alternate {
+  hreflang: string;
+  href: string;
+}
+
+interface Props {
+  lang: string;
+  htmlLang: string;
+  title: string;
+  description: string;
+  canonical: string;
+  alternates: Alternate[];
+  image: string;
+  siteName: string;
+}
+
+const { lang, title, description, canonical, alternates, image, siteName } = Astro.props;
+const ogLocale = lang === 'fr' ? 'fr_CA' : 'en_CA';
+void THEMES;
+void DEFAULT_THEME;
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+{alternates.map((alt) => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
+<link rel="alternate" hreflang="x-default" href={alternates[0]?.href ?? canonical} />
+
+<meta name="theme-color" content="#0b1020" />
+<link rel="icon" href={`${publicAsset('/favicon.ico')}?v=2`} sizes="48x48" />
+<link rel="icon" href={`${publicAsset('/favicon-32.png')}?v=2`} type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href={`${publicAsset('/apple-touch-icon.png')}?v=2`} />
+<link rel="manifest" href={publicAsset('/site.webmanifest')} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={image} />
+<meta property="og:locale" content={ogLocale} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
+<slot />

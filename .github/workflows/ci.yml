@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+# Validation reproductible : types, lint, données, tests unitaires, build, e2e.
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installation reproductible
+        run: npm ci
+
+      - name: Génération des données (depuis le CSV committé)
+        run: npm run data:build
+
+      - name: Validation (types + lint + données)
+        run: npm run validate
+
+      - name: Tests unitaires
+        run: npm test
+
+      - name: Build du site
+        run: npm run build
+
+      - name: Installation des navigateurs Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Tests fonctionnels (e2e)
+        run: npm run test:e2e
+
+      - name: Rapports d'importation (artefact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: import-reports
+          path: data/reports/
+          if-no-files-found: ignore

@@ -1,0 +1,11 @@
+---
+import type { GameStatus } from '../data/games';
+
+interface Props {
+  status: GameStatus;
+  label: string;
+}
+const { status, label } = Astro.props;
+---
+
+<span class={`badge badge--${status}`}>{label}</span>

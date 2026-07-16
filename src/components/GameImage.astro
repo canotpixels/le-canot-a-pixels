@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets';
+import type { GameImage } from '../data/games';
+import { getPersonalImage } from '../utils/assetImages';
+import { publicAsset } from '../utils/routing';
+
+interface Props {
+  image: GameImage;
+  /** Priorité de chargement : la première image visible peut être eager. */
+  loading?: 'lazy' | 'eager';
+  widths?: number[];
+  sizes?: string;
+  class?: string;
+  contain?: boolean;
+}
+
+const {
+  image,
+  loading = 'lazy',
+  widths = [220, 440, 660],
+  sizes = '(max-width: 620px) 45vw, 220px',
+  class: className,
+  contain = false,
+} = Astro.props;
+
+const personalMeta = image.source === 'personal' ? getPersonalImage(image.src) : undefined;
+
+// Source finale pour les images non optimisées (générique distante/locale, placeholder).
+const isRemote = /^https?:\/\//.test(image.src);
+const fallbackSrc = isRemote ? image.src : publicAsset(image.src);
+const objectFit = contain ? 'contain' : 'cover';
+---
+
+{
+  personalMeta ? (
+    <Image
+      src={personalMeta}
+      alt={image.alt}
+      widths={widths}
+      sizes={sizes}
+      loading={loading}
+      class={className}
+      style={`object-fit:${objectFit}`}
+    />
+  ) : (
+    <img
+      src={fallbackSrc}
+      alt={image.alt}
+      width={600}
+      height={840}
+      loading={loading}
+      decoding="async"
+      class={className}
+      style={`object-fit:${objectFit}`}
+    />
+  )
+}

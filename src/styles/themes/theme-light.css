@@ -1,0 +1,42 @@
+/* Thème clair — « Aube sur le fleuve ».
+   Papier chaud des vieux contes, braise brûlée en accent.
+   Surcharge les tokens de theme-dark via [data-theme="light"]. */
+:root[data-theme='light'] {
+  --color-bg: #f7f3ec;
+  --color-bg-elevated: #fffdf8;
+  --color-surface: #fffdf8;
+  --color-surface-hover: #f0e9dd;
+  --color-border: #e0d6c4;
+  --color-border-strong: #c4b69d;
+
+  --color-text: #241f16;
+  --color-text-muted: #5d564a;
+  --color-text-subtle: #7d7566;
+
+  /* Braise brûlée */
+  --color-accent: #a3480e;
+  --color-accent-hover: #83380a;
+  --color-accent-contrast: #ffffff;
+
+  --color-badge-sale: #a3480e;
+  --color-badge-collection: #2d5cb8;
+  --color-badge-wishlist: #6e3fb0;
+  --color-badge-text: #ffffff;
+
+  /* Tags console / complétude */
+  --color-tag-console-xbox: #37455a;
+  --color-tag-console-xbox-360: #107c10; /* vert officiel Xbox */
+  --color-tag-completeness-cib: #12766a;
+  --color-tag-completeness-loose: #6b6152;
+
+  --color-focus: #2d5cb8;
+  --color-danger: #b0392b;
+
+  --shadow-card: 0 1px 2px rgba(56, 44, 26, 0.08), 0 6px 18px rgba(56, 44, 26, 0.1);
+  --overlay-scrim: rgba(30, 22, 10, 0.45);
+
+  /* Ciel du héros : aube dorée */
+  --hero-sky: linear-gradient(180deg, #fdf6ea 0%, #f8ecd8 60%, #f3e2c4 100%);
+  --hero-star: rgba(163, 72, 14, 0.35);
+  --hero-canoe: rgba(163, 72, 14, 0.3);
+}
