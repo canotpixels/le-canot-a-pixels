@@ -30,9 +30,13 @@ const showReferenceNote = game.primaryImage.source !== 'personal';
 
 <article class="card">
   <div class="card__media">
-    <span class="card__badge">
-      <Badge status={game.status} label={t(`status.${game.status}`)} />
-    </span>
+    {
+      isForSale && (
+        <span class="card__badge">
+          <Badge status={game.status} label={t(`status.${game.status}`)} />
+        </span>
+      )
+    }
     <a href={href} tabindex="-1" aria-hidden="true">
       <GameImage image={game.primaryImage} class="card__img" loading={eager ? 'eager' : 'lazy'} />
     </a>
