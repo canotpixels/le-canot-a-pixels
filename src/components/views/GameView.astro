@@ -47,8 +47,17 @@ const updatedAt = formatDate(game.dataUpdatedAt, lang);
 
 // Bouton de contact (préremplissage via mailto lorsque disponible).
 const channels = activeContactChannels();
-const subject = t('detail.prefillSubject', { title: game.title, console: game.console });
-const body = t('detail.prefillBody', { title: game.title, console: game.console });
+// Le message s'adapte à la section d'origine du jeu (son statut) : demande de
+// disponibilité pour un jeu à vendre, proposition de vente pour un jeu recherché,
+// simple question pour un jeu de la collection.
+const subject = t(`detail.prefill.${game.status}.subject`, {
+  title: game.title,
+  console: game.console,
+});
+const body = t(`detail.prefill.${game.status}.body`, {
+  title: game.title,
+  console: game.console,
+});
 const emailChannel = channels.find((c) => c.type === 'email');
 const otherChannel = channels.find((c) => c.type !== 'email');
 let contactHref = link(lang, 'contact');

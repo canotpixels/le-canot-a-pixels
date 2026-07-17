@@ -104,8 +104,20 @@
     "contactButton": "Contacter au sujet de ce jeu",
     "genericImageNote": "Image de référence : l'article réel peut différer.",
     "saleNoPhotoNote": "Aucune photo réelle disponible : l'image affichée est une image de référence. L'article réel peut différer.",
-    "prefillSubject": "Intérêt pour : {title} ({console})",
-    "prefillBody": "Bonjour, je suis intéressé(e) par le jeu « {title} » sur {console}. Est-il toujours disponible ?"
+    "prefill": {
+      "collection": {
+        "subject": "Question sur : {title} ({console})",
+        "body": "Bonjour, j'aimerais en savoir plus sur le jeu « {title} » sur {console} présenté dans votre collection."
+      },
+      "for-sale": {
+        "subject": "Intérêt pour : {title} ({console})",
+        "body": "Bonjour, je suis intéressé(e) par le jeu « {title} » sur {console} que vous avez à vendre. Est-il toujours disponible ?"
+      },
+      "wishlist": {
+        "subject": "Proposition pour : {title} ({console})",
+        "body": "Bonjour, je possède le jeu « {title} » sur {console} que vous recherchez et j'aimerais vous le proposer."
+      }
+    }
   },
   "about": {
     "title": "À propos du Canot à Pixels",

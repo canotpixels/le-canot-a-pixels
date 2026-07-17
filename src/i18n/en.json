@@ -104,8 +104,20 @@
     "contactButton": "Ask about this game",
     "genericImageNote": "Reference image: the actual item may differ.",
     "saleNoPhotoNote": "No real photo available: the image shown is a reference image. The actual item may differ.",
-    "prefillSubject": "Interested in: {title} ({console})",
-    "prefillBody": "Hello, I am interested in the game \"{title}\" on {console}. Is it still available?"
+    "prefill": {
+      "collection": {
+        "subject": "Question about: {title} ({console})",
+        "body": "Hello, I would like to know more about the game \"{title}\" on {console} shown in your collection."
+      },
+      "for-sale": {
+        "subject": "Interested in: {title} ({console})",
+        "body": "Hello, I am interested in the game \"{title}\" on {console} that you have for sale. Is it still available?"
+      },
+      "wishlist": {
+        "subject": "Offer for: {title} ({console})",
+        "body": "Hello, I own the game \"{title}\" on {console} that you are looking for and I would like to offer it to you."
+      }
+    }
   },
   "about": {
     "title": "About Le Canot à Pixels",
