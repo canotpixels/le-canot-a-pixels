@@ -31,8 +31,7 @@ export default defineConfig({
 
   integrations: [
     sitemap({
-      filter: (url) =>
-        !SELL_ALL_COLLECTION || !/\/collection\/?$/.test(new URL(url).pathname),
+      filter: (url) => !SELL_ALL_COLLECTION || !/\/collection\/?$/.test(url),
       i18n: {
         defaultLocale: DEFAULT_LOCALE,
         locales: Object.fromEntries(localeIds.map((l) => [l, l])),
