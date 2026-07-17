@@ -37,7 +37,6 @@ function initTheme() {
   document.querySelectorAll('[data-theme-option]').forEach((option) => {
     option.addEventListener('click', () => {
       if (option.dataset.themeId) apply(option.dataset.themeId);
-      closeAllMenus();
     });
   });
 
@@ -51,51 +50,41 @@ function initTheme() {
   apply(current());
 }
 
-function closeAllMenus() {
-  document.querySelectorAll('[data-picker]').forEach((p) => p.classList.remove('is-open'));
-  document
-    .querySelectorAll('[data-picker-toggle]')
-    .forEach((t) => t.setAttribute('aria-expanded', 'false'));
-}
-
-function initPickers() {
-  document.querySelectorAll('[data-picker]').forEach((picker) => {
-    const toggle = picker.querySelector('[data-picker-toggle]');
-    if (!toggle) return;
-    toggle.addEventListener('click', (event) => {
-      event.stopPropagation();
-      const opening = !picker.classList.contains('is-open');
-      closeAllMenus();
-      if (opening) {
-        picker.classList.add('is-open');
-        toggle.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
-  document.addEventListener('click', (event) => {
-    if (event.target instanceof Element && !event.target.closest('[data-picker]')) {
-      closeAllMenus();
-    }
-  });
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeAllMenus();
-  });
-}
-
 function initMobileMenu() {
   const toggle = document.querySelector('[data-nav-toggle]');
   const nav = document.querySelector('[data-main-nav]');
   if (!toggle || !nav) return;
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('is-open');
+
+  const setOpen = (open) => {
+    nav.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', String(open));
+  };
+
+  toggle.addEventListener('click', () => {
+    setOpen(!nav.classList.contains('is-open'));
+  });
+
+  // Fermeture au clic sur un lien, au clic hors du menu ou avec Échap.
+  nav.addEventListener('click', (event) => {
+    if (event.target instanceof Element && event.target.closest('a')) setOpen(false);
+  });
+  document.addEventListener('click', (event) => {
+    if (!nav.classList.contains('is-open')) return;
+    if (
+      event.target instanceof Element &&
+      !event.target.closest('[data-main-nav]') &&
+      !event.target.closest('[data-nav-toggle]')
+    ) {
+      setOpen(false);
+    }
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setOpen(false);
   });
 }
 
 function boot() {
   initTheme();
-  initPickers();
   initMobileMenu();
 }
 

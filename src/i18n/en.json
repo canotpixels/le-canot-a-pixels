@@ -25,7 +25,7 @@
     "heroTitle": "Le Canot à Pixels",
     "heroTagline": "Buying and selling retro video games in Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Like the flying canoe of the chasse-galerie legend that soared over the church steeples, we keep Xbox and Xbox 360 games travelling from one generation of players to the next. We sell tested, honestly described games, and we buy yours. Hop in, the canoe is ready.",
+    "heroLead": "Tested games, fair offers, no detours. Like the canoe of the legend, your classics deserve a second voyage.",
     "statCollection": "games in the collection",
     "statForSale": "games for sale",
     "statWishlist": "games wanted",
@@ -35,7 +35,7 @@
     "recentTitle": "Recently added",
     "exploreTitle": "Explore the catalogue",
     "sellTitle": "Got games gathering dust in a closet?",
-    "sellBody": "We buy Xbox and Xbox 360 games, single titles or whole lots. Take a look at the wanted games list or write to us directly with what you have: we look at everything and make fair offers.",
+    "sellBody": "We buy retro video games, single titles or whole lots. Take a look at the wanted games list or write to us directly with what you have: we look at everything and make fair offers.",
     "sellCtaWishlist": "Check the wanted games",
     "sellCtaContact": "Write to us"
   },
@@ -111,12 +111,13 @@
     "title": "About Le Canot à Pixels",
     "lead": "Buying and selling retro video games, rooted in Lavaltrie, Québec.",
     "storyTitle": "The legend behind the name",
-    "storyBody": "Le Canot à Pixels (\"the pixel canoe\") takes its name from the chasse-galerie, the flying canoe legend that is still very much alive in Lavaltrie, where a bewitched canoe carried lumberjacks home in a single night. Here, the canoe carries something else: Xbox and Xbox 360 games that get back into play instead of sleeping in a box in the basement.",
+    "storyBody": "Le Canot à Pixels (\"the pixel canoe\") takes its name from the {legendLink}, still very much alive in Lavaltrie: a flying canoe that carried lumberjacks home in a single night. Here, the canoe carries something else: retro video games that get back into play instead of sleeping in a box in the basement.",
+    "legendLinkLabel": "legend of the chasse-galerie",
     "buyTitle": "We buy your games",
-    "buyBody": "Got Xbox or Xbox 360 games collecting dust? We buy them, single titles or whole lots. Check the wanted games list or write to us with what you have: we look at everything and reply quickly, with fair offers.",
+    "buyBody": "Got retro video games collecting dust? We buy them, single titles or whole lots. Check the wanted games list or write to us with what you have: we look at everything and reply quickly, with fair offers.",
     "buyCta": "See wanted games",
     "sellTitle": "We sell verified games",
-    "sellBody": "Every game we put up for sale is tested, and its listing states plainly what comes with it: disc, case, manual. The price is clearly shown, so there are no surprises once you get home. Photos show the actual item whenever possible; otherwise a reference cover is displayed and clearly flagged.",
+    "sellBody": "Every game we put up for sale is tested, and its listing details what comes with it: disc, case, manual. The price is clearly shown, so there are no surprises once you get home. Photos show the actual item whenever possible; otherwise a reference cover is displayed and clearly flagged.",
     "sellCta": "See games for sale",
     "sourceTitle": "Where the data comes from",
     "sourceBody": "Core information (title, console, reference value, condition) is imported from PriceCharting. Site-specific statuses, sale prices and notes are managed locally.",
@@ -138,7 +139,7 @@
     "opening": "Opening your mail app…"
   },
   "footer": {
-    "tagline": "Buying and selling retro Xbox and Xbox 360 video games in Lavaltrie, Québec. Tested games travelling from one generation of players to the next.",
+    "tagline": "Buying and selling retro video games in Lavaltrie, Québec. Tested games travelling from one generation of players to the next.",
     "navTitle": "Explore",
     "contactTitle": "Get in touch",
     "contactLead": "A game to sell or a question about a listing? Write to us, we reply quickly.",
@@ -150,8 +151,8 @@
   },
   "seo": {
     "home": {
-      "title": "Le Canot à Pixels | Buy and sell retro Xbox video games in Lavaltrie, Québec",
-      "description": "Buying and selling retro Xbox and Xbox 360 video games in Lavaltrie, Lanaudière. Tested used games, clear prices and fair offers for your games."
+      "title": "Le Canot à Pixels | Buy and sell retro video games in Lavaltrie, Québec",
+      "description": "Buying and selling retro video games in Lavaltrie, Lanaudière. Tested used games, clear prices and fair offers, including a wide Xbox and Xbox 360 selection."
     },
     "collection": {
       "title": "Xbox and Xbox 360 game collection | Le Canot à Pixels",
@@ -159,25 +160,25 @@
     },
     "forSale": {
       "title": "Xbox and Xbox 360 video games for sale | Le Canot à Pixels, Lavaltrie",
-      "description": "Retro Xbox and Xbox 360 video games for sale in Québec: tested used games, honestly described condition and a clear price on every listing."
+      "description": "Retro Xbox and Xbox 360 video games for sale in Québec: tested used games, detailed condition and a clear price on every listing."
     },
     "wishlist": {
-      "title": "Wanted games: we buy your Xbox games | Le Canot à Pixels",
+      "title": "Wanted games: we buy your retro games | Le Canot à Pixels",
       "description": "We buy used Xbox and Xbox 360 games, single titles or whole lots. Check the wanted games list and sell your retro games in Lavaltrie."
     },
     "about": {
       "title": "About | Le Canot à Pixels, retro video games in Lavaltrie",
-      "description": "The story of Le Canot à Pixels: buying and selling retro Xbox and Xbox 360 video games in Lavaltrie, under the sign of the chasse-galerie legend."
+      "description": "The story of Le Canot à Pixels: buying and selling retro video games in Lavaltrie, under the sign of the chasse-galerie legend."
     },
     "contact": {
       "title": "Contact | Le Canot à Pixels, buy and sell retro games",
-      "description": "Contact Le Canot à Pixels to sell your Xbox and Xbox 360 games, ask about a game for sale or make an offer."
+      "description": "Contact Le Canot à Pixels to sell your retro video games, ask about a game for sale or make an offer."
     },
     "game": {
       "titleSuffix": "Le Canot à Pixels"
     },
     "business": {
-      "description": "Buying and selling retro Xbox and Xbox 360 video games in Lavaltrie, Lanaudière, Québec. Tested used games, clear prices, and we buy your games, single titles or whole lots."
+      "description": "Buying and selling retro video games in Lavaltrie, Lanaudière, Québec. Tested used games, clear prices, and we buy your games, single titles or whole lots."
     }
   }
 }

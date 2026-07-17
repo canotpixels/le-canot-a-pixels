@@ -8,6 +8,14 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+
+// Lien Wikipédia vers la légende de la chasse-galerie, dans la langue de la page.
+const legendUrl =
+  lang === 'en'
+    ? 'https://en.wikipedia.org/wiki/Chasse-galerie'
+    : 'https://fr.wikipedia.org/wiki/Chasse-galerie';
+const legendLink = `<a href="${legendUrl}" target="_blank" rel="noopener noreferrer">${t('about.legendLinkLabel')}</a>`;
+const storyHtml = t('about.storyBody', { legendLink });
 ---
 
 <BaseLayout lang={lang} pageId="about" routeKey="about">
@@ -19,7 +27,7 @@ const t = useTranslations(lang);
       </header>
 
       <h2 class="section__title">{t('about.storyTitle')}</h2>
-      <p>{t('about.storyBody')}</p>
+      <p set:html={storyHtml} />
 
       <h2 class="section__title">{t('about.buyTitle')}</h2>
       <p>{t('about.buyBody')}</p>
