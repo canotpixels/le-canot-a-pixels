@@ -4,20 +4,30 @@ import type { TranslateFn } from '../utils/i18n';
 import { consoleList } from '../data/games';
 import GameCard from './GameCard.astro';
 
+/** Contrôle granulaire des groupes de filtres affichés par le catalogue. */
+export interface CatalogFilters {
+  console?: boolean;
+  status?: boolean;
+  completeness?: boolean;
+}
+
 interface Props {
   lang: string;
   t: TranslateFn;
   games: Game[];
   /** Statut de la page : masque le filtre de statut si un seul est présent. */
   pageStatus?: GameStatus;
+  /** Active/désactive chaque groupe de filtres (tous actifs par défaut). */
+  filters?: CatalogFilters;
 }
 
-const { lang, t, games, pageStatus } = Astro.props;
+const { lang, t, games, pageStatus, filters } = Astro.props;
+const enabledFilters = { console: true, status: true, completeness: true, ...filters };
 
 const consoles = consoleList(games);
 const statuses = [...new Set(games.map((g) => g.status))] as GameStatus[];
 const completenesses = [...new Set(games.map((g) => g.completeness))] as Completeness[];
-const showStatusFilter = !pageStatus && statuses.length > 1;
+const showStatusFilter = enabledFilters.status && !pageStatus && statuses.length > 1;
 
 // Les jeux recherchés n'affichent aucun prix : le tri par prix/valeur y est retiré.
 const sortOptions = [
@@ -33,6 +43,32 @@ const sortOptions = [
       ]),
 ];
 
+// Groupes de filtres rendus en chips à bascule, avec compteurs de facettes
+// recalculés côté client selon les autres filtres actifs.
+const filterGroups = [
+  {
+    key: 'console',
+    label: t('catalog.consoleLabel'),
+    allLabel: t('catalog.consoleAllShort'),
+    options: consoles.map((c) => ({ value: c, label: c })),
+    show: enabledFilters.console && consoles.length > 0,
+  },
+  {
+    key: 'status',
+    label: t('catalog.statusLabel'),
+    allLabel: t('catalog.statusAllShort'),
+    options: statuses.map((s) => ({ value: s, label: t(`status.${s}`) })),
+    show: showStatusFilter,
+  },
+  {
+    key: 'completeness',
+    label: t('catalog.completenessLabel'),
+    allLabel: t('catalog.completenessAllShort'),
+    options: completenesses.map((c) => ({ value: c, label: t(`completeness.${c}`) })),
+    show: enabledFilters.completeness && completenesses.length > 0,
+  },
+].filter((g) => g.show);
+
 const initialCount = games.length;
 const countLabel =
   initialCount === 1
@@ -45,64 +81,91 @@ const countLabel =
   data-results-one={t('catalog.resultsOne', { count: '{count}' })}
   data-results-many={t('catalog.resultsMany', { count: '{count}' })}
 >
-  <div class="filters" role="search">
-    <div class="filters__field">
-      <label class="filters__label" for="filter-search">{t('catalog.searchLabel')}</label>
+  <div class="catalog-toolbar">
+    <div class="search-bar" role="search">
+      <svg
+        class="search-bar__icon"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        aria-hidden="true"
+      >
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+      </svg>
+      <label class="visually-hidden" for="filter-search">{t('catalog.searchLabel')}</label>
       <input
-        class="filters__input"
+        class="search-bar__input"
         type="search"
         id="filter-search"
         data-filter-search
         placeholder={t('catalog.searchPlaceholder')}
         autocomplete="off"
+        enterkeyhint="search"
       />
-    </div>
-
-    <div class="filters__field">
-      <label class="filters__label" for="filter-console">{t('catalog.consoleLabel')}</label>
-      <select class="filters__select" id="filter-console" data-filter-console>
-        <option value="">{t('catalog.consoleAll')}</option>
-        {consoles.map((c) => <option value={c}>{c}</option>)}
-      </select>
+      <button
+        type="button"
+        class="search-bar__clear"
+        data-search-clear
+        hidden
+        aria-label={t('catalog.clearSearch')}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+        </svg>
+      </button>
+      <kbd class="search-bar__kbd" aria-hidden="true" title={t('catalog.searchShortcut')}>/</kbd>
     </div>
 
     {
-      showStatusFilter && (
-        <div class="filters__field">
-          <label class="filters__label" for="filter-status">
-            {t('catalog.statusLabel')}
-          </label>
-          <select class="filters__select" id="filter-status" data-filter-status>
-            <option value="">{t('catalog.statusAll')}</option>
-            {statuses.map((s) => (
-              <option value={s}>{t(`status.${s}`)}</option>
+      filterGroups.map((group) => (
+        <div class="chip-group" role="group" aria-label={group.label} data-filter-group={group.key}>
+          <span class="chip-group__label" aria-hidden="true">
+            {group.label}
+          </span>
+          <div class="chip-group__list">
+            <button type="button" class="chip is-active" data-filter-value="" aria-pressed="true">
+              {group.allLabel}
+            </button>
+            {group.options.map((opt) => (
+              <button type="button" class="chip" data-filter-value={opt.value} aria-pressed="false">
+                {opt.label}
+                <span class="chip__count" data-count />
+              </button>
             ))}
-          </select>
+          </div>
         </div>
-      )
+      ))
     }
-
-    <div class="filters__field">
-      <label class="filters__label" for="filter-completeness">
-        {t('catalog.completenessLabel')}
-      </label>
-      <select class="filters__select" id="filter-completeness" data-filter-completeness>
-        <option value="">{t('catalog.completenessAll')}</option>
-        {completenesses.map((c) => <option value={c}>{t(`completeness.${c}`)}</option>)}
-      </select>
-    </div>
-
-    <div class="filters__field">
-      <label class="filters__label" for="filter-sort">{t('catalog.sortLabel')}</label>
-      <select class="filters__select" id="filter-sort" data-sort>
-        {sortOptions.map((opt) => <option value={opt.value}>{opt.label}</option>)}
-      </select>
-    </div>
   </div>
 
   <div class="results-bar">
     <p class="results-bar__count" data-results-count>{countLabel}</p>
-    <button type="button" class="button" data-clear-filters>{t('catalog.clearFilters')}</button>
+    <div class="results-bar__actions">
+      <button type="button" class="results-bar__reset" data-clear-filters hidden>
+        {t('catalog.clearFilters')}
+      </button>
+      <label class="sort-control">
+        <span class="sort-control__label">{t('catalog.sortLabel')}</span>
+        <select class="sort-control__select" id="filter-sort" data-sort>
+          {sortOptions.map((opt) => <option value={opt.value}>{opt.label}</option>)}
+        </select>
+      </label>
+    </div>
   </div>
 
   <p class="visually-hidden" role="status" aria-live="polite" data-live></p>
@@ -129,6 +192,7 @@ const countLabel =
   <div class="empty-state" data-empty hidden>
     <p>{t('catalog.empty')}</p>
     <p>{t('catalog.emptyHint')}</p>
+    <button type="button" class="button" data-empty-reset>{t('catalog.clearFilters')}</button>
   </div>
 </section>
 

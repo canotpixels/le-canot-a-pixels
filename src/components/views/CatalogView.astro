@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Catalog from '../Catalog.astro';
+import type { CatalogFilters } from '../Catalog.astro';
 import { useTranslations } from '../../utils/i18n';
 import { gamesByStatus, forSaleGames } from '../../data/games';
 import type { GameStatus } from '../../data/games';
@@ -13,8 +14,10 @@ interface Props {
   pageId: string;
   titleKey: string;
   leadKey: string;
+  /** Groupes de filtres à afficher dans le catalogue (tous actifs par défaut). */
+  filters?: CatalogFilters;
 }
-const { lang, status, routeKey, pageId, titleKey, leadKey } = Astro.props;
+const { lang, status, routeKey, pageId, titleKey, leadKey, filters } = Astro.props;
 const t = useTranslations(lang);
 const games = status === 'for-sale' ? forSaleGames() : gamesByStatus(status);
 ---
@@ -27,7 +30,7 @@ const games = status === 'for-sale' ? forSaleGames() : gamesByStatus(status);
         <p class="page__lead">{t(leadKey)}</p>
       </header>
 
-      <Catalog lang={lang} t={t} games={games} pageStatus={status} />
+      <Catalog lang={lang} t={t} games={games} pageStatus={status} filters={filters} />
     </div>
   </div>
 </BaseLayout>
