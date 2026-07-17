@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { loadEnv } from 'vite';
 import sitemap from '@astrojs/sitemap';
 import { LOCALES, DEFAULT_LOCALE } from './src/utils/locales.ts';
 
@@ -16,6 +17,11 @@ const BASE_PATH = process.env.BASE_PATH ?? '/';
 
 const localeIds = LOCALES.map((locale) => locale.id);
 
+// Tout est à vendre : les pages /collection redirigent vers « à vendre » et
+// sont exclues du sitemap (une seule URL indexée, pas de contenu dupliqué).
+const { PUBLIC_SELL_ALL_COLLECTION } = loadEnv(process.env.NODE_ENV ?? '', process.cwd(), '');
+const SELL_ALL_COLLECTION = PUBLIC_SELL_ALL_COLLECTION === 'true';
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE_URL,
@@ -25,6 +31,8 @@ export default defineConfig({
 
   integrations: [
     sitemap({
+      filter: (url) =>
+        !SELL_ALL_COLLECTION || !/\/collection\/?$/.test(new URL(url).pathname),
       i18n: {
         defaultLocale: DEFAULT_LOCALE,
         locales: Object.fromEntries(localeIds.map((l) => [l, l])),

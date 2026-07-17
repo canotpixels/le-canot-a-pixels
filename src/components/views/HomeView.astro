@@ -4,7 +4,7 @@ import GameCard from '../GameCard.astro';
 import { useTranslations } from '../../utils/i18n';
 import { link, publicAsset } from '../../utils/routing';
 import { formatNumber } from '../../utils/format';
-import { statusCounts, recentGames } from '../../data/games';
+import { statusCounts, recentGames, SELL_ALL_COLLECTION } from '../../data/games';
 
 interface Props {
   lang: string;
@@ -32,18 +32,31 @@ const recent = recentGames(6);
       <p class="hero__lead">{t('home.heroLead')}</p>
 
       <div class="hero__actions">
-        <a class="button button--primary" href={link(lang, 'collection')}>
-          {t('home.ctaCollection')}
+        {
+          !SELL_ALL_COLLECTION && (
+            <a class="button button--primary" href={link(lang, 'collection')}>
+              {t('home.ctaCollection')}
+            </a>
+          )
+        }
+        <a
+          class={SELL_ALL_COLLECTION ? 'button button--primary' : 'button'}
+          href={link(lang, 'forSale')}
+        >
+          {t('home.ctaForSale')}
         </a>
-        <a class="button" href={link(lang, 'forSale')}>{t('home.ctaForSale')}</a>
         <a class="button" href={link(lang, 'wishlist')}>{t('home.ctaWishlist')}</a>
       </div>
 
       <div class="stats">
-        <a class="stat" href={link(lang, 'collection')}>
-          <div class="stat__value">{formatNumber(counts.collection, lang)}</div>
-          <div class="stat__label">{t('home.statCollection')}</div>
-        </a>
+        {
+          !SELL_ALL_COLLECTION && (
+            <a class="stat" href={link(lang, 'collection')}>
+              <div class="stat__value">{formatNumber(counts.collection, lang)}</div>
+              <div class="stat__label">{t('home.statCollection')}</div>
+            </a>
+          )
+        }
         <a class="stat" href={link(lang, 'forSale')}>
           <div class="stat__value">{formatNumber(counts['for-sale'], lang)}</div>
           <div class="stat__label">{t('home.statForSale')}</div>

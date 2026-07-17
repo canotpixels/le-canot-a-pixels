@@ -1,5 +1,10 @@
 ---
 import CatalogView from '../../components/views/CatalogView.astro';
+import { SELL_ALL_COLLECTION } from '../../data/games';
+import { link } from '../../utils/routing';
+
+// Toute la collection est à vendre : cette page serait un doublon de « For sale ».
+if (SELL_ALL_COLLECTION) return Astro.redirect(link('en', 'forSale'));
 ---
 
 <CatalogView

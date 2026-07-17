@@ -8,6 +8,7 @@ import { useTranslations } from '../../utils/i18n';
 import { link, absoluteUrl, publicAsset, type RouteKey } from '../../utils/routing';
 import { formatPrice, formatDate } from '../../utils/format';
 import { activeContactChannels } from '../../config/site';
+import { SELL_ALL_COLLECTION } from '../../data/games';
 import type { Game, GameImage as GameImageType } from '../../data/games';
 
 interface Props {
@@ -18,7 +19,11 @@ const { lang, game } = Astro.props;
 const t = useTranslations(lang);
 
 const statusToRoute: Record<Game['status'], { key: RouteKey; back: string }> = {
-  collection: { key: 'collection', back: 'detail.backToCollection' },
+  // Tout est à vendre : les jeux « collection » retournent vers « À vendre »
+  // (la page Collection n'est alors qu'une redirection).
+  collection: SELL_ALL_COLLECTION
+    ? { key: 'forSale', back: 'detail.backToForSale' }
+    : { key: 'collection', back: 'detail.backToCollection' },
   'for-sale': { key: 'forSale', back: 'detail.backToForSale' },
   wishlist: { key: 'wishlist', back: 'detail.backToWishlist' },
 };
