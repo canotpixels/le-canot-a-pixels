@@ -15,7 +15,7 @@ const SEGMENTS: Record<string, Record<Exclude<RouteKey, 'home'>, string>> = {
   fr: {
     collection: 'collection',
     forSale: 'a-vendre',
-    wishlist: 'wishlist',
+    wishlist: 'jeux-recherches',
     games: 'jeux',
     about: 'a-propos',
     contact: 'contact',
@@ -23,7 +23,7 @@ const SEGMENTS: Record<string, Record<Exclude<RouteKey, 'home'>, string>> = {
   en: {
     collection: 'collection',
     forSale: 'for-sale',
-    wishlist: 'wishlist',
+    wishlist: 'wanted',
     games: 'games',
     about: 'about',
     contact: 'contact',
