@@ -8,6 +8,7 @@ export const ROOT = resolve(here, '..', '..');
 export const PATHS = {
   root: ROOT,
   csv: resolve(ROOT, 'data', 'pricecharting', 'collection.csv'),
+  wantedCsv: resolve(ROOT, 'data', 'pricecharting', 'wanted.csv'),
   fixtureCsv: resolve(ROOT, 'data', 'fixtures', 'sample-collection.csv'),
   overrides: resolve(ROOT, 'data', 'overrides.json'),
   coverCache: resolve(ROOT, 'data', 'cache', 'covers.json'),

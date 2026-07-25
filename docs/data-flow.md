@@ -3,8 +3,9 @@
 ## 1. Import & normalisation (`npm run data:import`)
 
 ```
-data/pricecharting/collection.csv
-        │  parseCsv()            (csv.ts)         — parseur tolérant
+data/pricecharting/collection.csv  +  data/pricecharting/wanted.csv
+        │  combineCsvSources()  (csv.ts)         — fusion (wanted = statut « recherché »)
+        │  parseCsv()           (csv.ts)         — parseur tolérant
         ▼
    lignes normalisées
         │  adaptRows()          (pricecharting.ts) — colonnes → modèle interne
@@ -12,7 +13,7 @@ data/pricecharting/collection.csv
    AdaptedGame[]  + lignes invalides + doublons
         │  applyOverrides()     (overrides.ts)     — data/overrides.json
         ▼
-   jeux (statut, prix de vente, notes appliqués ; jeux "hidden" retirés)
+   jeux (statut, notes appliqués ; jeux "hidden" retirés)
         │  detectPersonalImageKeys() + buildGameImages() (images.ts)
         │  + cache pochettes (cover-cache.ts)
         ▼

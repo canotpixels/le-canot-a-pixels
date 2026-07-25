@@ -4,7 +4,7 @@ import GameCard from '../GameCard.astro';
 import { useTranslations } from '../../utils/i18n';
 import { link, publicAsset } from '../../utils/routing';
 import { formatNumber } from '../../utils/format';
-import { statusCounts, recentGames, SELL_ALL_COLLECTION } from '../../data/games';
+import { statusCounts, recentGames } from '../../data/games';
 
 interface Props {
   lang: string;
@@ -32,34 +32,16 @@ const recent = recentGames(6);
       <p class="hero__lead">{t('home.heroLead')}</p>
 
       <div class="hero__actions">
-        {
-          !SELL_ALL_COLLECTION && (
-            <a class="button button--primary" href={link(lang, 'collection')}>
-              {t('home.ctaCollection')}
-            </a>
-          )
-        }
-        <a
-          class={SELL_ALL_COLLECTION ? 'button button--primary' : 'button'}
-          href={link(lang, 'forSale')}
-        >
-          {t('home.ctaForSale')}
+        <a class="button button--primary" href={link(lang, 'collection')}>
+          {t('home.ctaCollection')}
         </a>
         <a class="button" href={link(lang, 'wishlist')}>{t('home.ctaWishlist')}</a>
       </div>
 
       <div class="stats">
-        {
-          !SELL_ALL_COLLECTION && (
-            <a class="stat" href={link(lang, 'collection')}>
-              <div class="stat__value">{formatNumber(counts.collection, lang)}</div>
-              <div class="stat__label">{t('home.statCollection')}</div>
-            </a>
-          )
-        }
-        <a class="stat" href={link(lang, 'forSale')}>
-          <div class="stat__value">{formatNumber(counts['for-sale'], lang)}</div>
-          <div class="stat__label">{t('home.statForSale')}</div>
+        <a class="stat" href={link(lang, 'collection')}>
+          <div class="stat__value">{formatNumber(counts.collection, lang)}</div>
+          <div class="stat__label">{t('home.statCollection')}</div>
         </a>
         <a class="stat" href={link(lang, 'wishlist')}>
           <div class="stat__value">{formatNumber(counts.wishlist, lang)}</div>
@@ -86,16 +68,16 @@ const recent = recentGames(6);
     )
   }
 
-  <!-- Bande achat : on achète les jeux des visiteurs. -->
+  <!-- Bande recherche : on cherche des jeux pour agrandir la collection. -->
   <section class="section">
     <div class="container">
-      <h2 class="section__title">{t('home.sellTitle')}</h2>
-      <p style="max-width:64ch">{t('home.sellBody')}</p>
+      <h2 class="section__title">{t('home.seekTitle')}</h2>
+      <p style="max-width:64ch">{t('home.seekBody')}</p>
       <div class="hero__actions" style="margin-top:var(--space-4)">
         <a class="button button--primary" href={link(lang, 'wishlist')}>
-          {t('home.sellCtaWishlist')}
+          {t('home.seekCtaWishlist')}
         </a>
-        <a class="button" href={link(lang, 'contact')}>{t('home.sellCtaContact')}</a>
+        <a class="button" href={link(lang, 'contact')}>{t('home.seekCtaContact')}</a>
       </div>
     </div>
   </section>

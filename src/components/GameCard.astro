@@ -2,9 +2,7 @@
 import type { Game } from '../data/games';
 import type { TranslateFn } from '../utils/i18n';
 import { link } from '../utils/routing';
-import { formatPrice } from '../utils/format';
 import GameImage from './GameImage.astro';
-import Badge from './Badge.astro';
 import ConsoleBadge from './ConsoleBadge.astro';
 import CompletenessBadge from './CompletenessBadge.astro';
 
@@ -18,25 +16,12 @@ interface Props {
 const { game, lang, t, eager = false } = Astro.props;
 
 const href = link(lang, 'games', game.slug);
-const isForSale = game.status === 'for-sale';
-// Pas de prix ni de valeur pour un jeu recherché : on cherche à l'acquérir, pas à le vendre.
-const isWishlist = game.status === 'wishlist';
-const priceAmount = isForSale ? (game.salePrice ?? game.estimatedValue) : undefined;
-const priceLabel = formatPrice(priceAmount, game.currency, lang);
-const valueLabel = isWishlist ? undefined : formatPrice(game.estimatedValue, game.currency, lang);
-
+// Boutique orientée collectionneur : aucun prix affiché sur les cartes.
 const showReferenceNote = game.primaryImage.source !== 'personal';
 ---
 
 <article class="card">
   <div class="card__media">
-    {
-      isForSale && (
-        <span class="card__badge">
-          <Badge status={game.status} label={t(`status.${game.status}`)} />
-        </span>
-      )
-    }
     <a href={href} tabindex="-1" aria-hidden="true">
       <GameImage image={game.primaryImage} class="card__img" loading={eager ? 'eager' : 'lazy'} />
     </a>
@@ -58,20 +43,6 @@ const showReferenceNote = game.primaryImage.source !== 'personal';
         )
       }
       {game.region && <span class="card__region">{game.region}</span>}
-    </div>
-    <div class="card__spacer"></div>
-    <div class="card__price-row">
-      {
-        isForSale && priceLabel ? (
-          <span class="card__price">{priceLabel}</span>
-        ) : (
-          valueLabel && (
-            <span class="card__value">
-              {t('card.estimatedValue')} : {valueLabel}
-            </span>
-          )
-        )
-      }
     </div>
   </div>
 </article>

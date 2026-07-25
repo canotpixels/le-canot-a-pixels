@@ -127,3 +127,18 @@ export function parseCsv(text: string): ParsedCsv {
 
   return { headersRaw, headers, rows };
 }
+
+/**
+ * Fusionne un CSV de base avec un CSV secondaire partageant le même en-tête.
+ * Les lignes de données du second sont ajoutées après celles du premier ;
+ * l'en-tête du second est ignoré. Sert à combiner collection.csv et wanted.csv
+ * (dont la colonne folder=Wishlist détermine le statut « recherché »).
+ */
+export function combineCsvSources(base: string, extra?: string): string {
+  if (!extra || !extra.trim()) return base;
+  const [, ...rest] = extra.replace(/\r\n?/g, '\n').split('\n');
+  const dataRows = rest.filter((line) => line.trim() !== '');
+  if (dataRows.length === 0) return base;
+  const baseTrimmed = base.replace(/\s*$/, '');
+  return `${baseTrimmed}\n${dataRows.join('\n')}\n`;
+}

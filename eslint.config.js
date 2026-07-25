@@ -7,6 +7,8 @@ export default [
     ignores: [
       'dist/',
       '.astro/',
+      '**/.astro/',
+      '.claude/',
       'node_modules/',
       'coverage/',
       'playwright-report/',

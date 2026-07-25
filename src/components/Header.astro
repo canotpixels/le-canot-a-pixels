@@ -3,7 +3,6 @@ import type { TranslateFn } from '../utils/i18n';
 import type { RouteKey } from '../utils/routing';
 import { link, publicAsset } from '../utils/routing';
 import { LOCALES } from '../utils/locales';
-import { SELL_ALL_COLLECTION } from '../data/games';
 
 interface Props {
   lang: string;
@@ -15,9 +14,7 @@ interface Props {
 const { lang, t, active, langUrls } = Astro.props;
 
 const navItems: { key: RouteKey; label: string }[] = [
-  // Tout est à vendre : l'onglet Collection (doublon de « À vendre ») est masqué.
-  ...(SELL_ALL_COLLECTION ? [] : [{ key: 'collection' as RouteKey, label: t('nav.collection') }]),
-  { key: 'forSale', label: t('nav.forSale') },
+  { key: 'collection', label: t('nav.collection') },
   { key: 'wishlist', label: t('nav.wishlist') },
   { key: 'about', label: t('nav.about') },
   { key: 'contact', label: t('nav.contact') },

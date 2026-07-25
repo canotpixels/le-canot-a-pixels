@@ -1,11 +1,11 @@
 # Collection Xbox Rétro — Catalogue de jeux vidéo
 
 Site web **statique**, rapide, responsive, accessible et bilingue (français / anglais)
-présentant une collection de jeux vidéo rétro (Xbox / Xbox 360) :
+présentant une collection de jeux vidéo rétro (Xbox / Xbox 360) sous l'angle d'un
+**collectionneur** :
 
-- la **collection** personnelle ;
-- les **jeux à vendre** ;
-- la **wishlist** (liste de souhaits) ;
+- la **collection** personnelle (avec ouverture discrète aux échanges entre collectionneurs) ;
+- les **jeux recherchés** pour agrandir la collection ;
 - les informations importées d'un **export CSV de PriceCharting** ;
 - une **image de référence générique** par jeu (facultative) ;
 - des **photos personnelles** facultatives lorsqu'elles existent.
@@ -24,7 +24,7 @@ gratuitement sur **Cloudflare Pages** ou **GitHub Pages**.
 - [Format du CSV PriceCharting](#format-du-csv-pricecharting)
 - [Exporter depuis PriceCharting](#exporter-depuis-pricecharting)
 - [Remplacer le CSV](#remplacer-le-csv)
-- [Surcharges locales (statut, prix de vente…)](#surcharges-locales)
+- [Surcharges locales (statut, notes…)](#surcharges-locales)
 - [Photos personnelles](#photos-personnelles)
 - [Pochettes génériques et fallback](#pochettes-génériques-et-fallback)
 - [Variables d'environnement](#variables-denvironnement)
@@ -84,27 +84,33 @@ npm run covers:sync -- --limit=20        # limite le nombre de recherches
 
 ## Format du CSV PriceCharting
 
-Le fichier principal doit se trouver ici :
+Les données sont réparties en **deux fichiers** partageant le même en-tête :
 
 ```
-data/pricecharting/collection.csv
+data/pricecharting/collection.csv   ← les jeux de la collection
+data/pricecharting/wanted.csv       ← les jeux recherchés (à acquérir)
 ```
+
+Au build, `wanted.csv` est fusionné à `collection.csv` (ses lignes portent
+`folder=Wishlist`, ce qui leur donne le statut « recherché »). Pour ajouter un
+jeu à la liste des recherchés, il suffit d'ajouter une ligne dans `wanted.csv`.
+`wanted.csv` est facultatif : s'il est absent, seule la collection est chargée.
 
 Colonnes attendues (celles réellement présentes dans un export « collection » PriceCharting) :
 
-| Colonne                 | Utilisation                                                           |
-| ----------------------- | --------------------------------------------------------------------- |
-| `id`                    | Identifiant PriceCharting (base de l'identifiant interne `pc-<id>`)   |
-| `product-name`          | Titre du jeu (**essentiel**)                                          |
-| `console-name`          | Console / plateforme (**essentiel**)                                  |
-| `price-in-pennies`      | Valeur de référence (en centimes) → `estimatedValue`                  |
-| `include-string`        | Complétude : _Item only_, _Item, Box, and Manual_, _New…_             |
-| `condition-string`      | État (ex. _Normal wear_)                                              |
-| `notes`                 | Notes libres                                                          |
-| `cost-basis-in-pennies` | Prix d'achat (en centimes) → `purchasePrice`                          |
-| `quantity`              | Quantité                                                              |
-| `date-entered`          | Date d'ajout                                                          |
-| `folder`                | Indice de statut (heuristique : _À vendre_, _Wishlist_, _Collection_) |
+| Colonne                 | Utilisation                                                         |
+| ----------------------- | ------------------------------------------------------------------- |
+| `id`                    | Identifiant PriceCharting (base de l'identifiant interne `pc-<id>`) |
+| `product-name`          | Titre du jeu (**essentiel**)                                        |
+| `console-name`          | Console / plateforme (**essentiel**)                                |
+| `price-in-pennies`      | Valeur de référence (en centimes) → `estimatedValue`                |
+| `include-string`        | Complétude : _Item only_, _Item, Box, and Manual_, _New…_           |
+| `condition-string`      | État (ex. _Normal wear_)                                            |
+| `notes`                 | Notes libres                                                        |
+| `cost-basis-in-pennies` | Prix d'achat (en centimes) → `purchasePrice`                        |
+| `quantity`              | Quantité                                                            |
+| `date-entered`          | Date d'ajout                                                        |
+| `folder`                | Indice de statut (heuristique : _Wishlist_, _Collection_)           |
 
 > Le parseur est **tolérant** : il normalise les noms de colonnes, gère les
 > guillemets et virgules internes, ignore les lignes vides, ne fait pas échouer
@@ -132,7 +138,8 @@ un modèle interne stable (`scripts/lib/types.ts`).
 
 ## Remplacer le CSV
 
-1. Remplacez le fichier `data/pricecharting/collection.csv` par votre export.
+1. Remplacez le fichier `data/pricecharting/collection.csv` par votre export
+   (et, au besoin, mettez à jour `data/pricecharting/wanted.csv` pour les jeux recherchés).
 2. Régénérez les données :
 
    ```bash
@@ -152,31 +159,22 @@ identifiant PriceCharting brut (`"6656"`) ou par identifiant interne (`"pc-6656"
 
 ```json
 {
-  "35032": {
-    "status": "for-sale",
-    "salePrice": 6.99,
-    "notes": "À vendre — disque testé."
+  "6656": {
+    "status": "collection",
+    "notes": "Édition québécoise, boîtier impeccable.",
+    "region": "NTSC"
   },
-  "6290": { "status": "wishlist" }
+  "6290": { "hidden": true }
 }
 ```
 
 Champs disponibles : `status` (`collection` | `for-sale` | `wishlist`),
-`salePrice`, `estimatedValue`, `notes`, `region`, `edition`, `hidden`.
+`notes`, `region`, `edition`, `hidden` (et, hérités, `salePrice`/`estimatedValue`,
+non affichés par le site orienté collectionneur).
 
-> Les statuts peuvent aussi être détectés automatiquement via la colonne `folder`
-> du CSV (mots-clés _à vendre_, _wishlist_, _collection_). Les surcharges ont
-> priorité.
-
-### Mettre toute la collection en vente d'un coup
-
-Plutôt que de surcharger chaque jeu individuellement, la variable d'environnement
-`PUBLIC_SELL_ALL_COLLECTION=true` (dans `.env`) affiche **toute la collection** dans
-l'onglet « à vendre », en plus des jeux déjà au statut `for-sale`. Le statut
-individuel de chaque jeu n'est pas modifié (la page « collection » reste
-inchangée) ; les jeux sans `salePrice` affichent leur valeur estimée à la
-place. Nécessite un rebuild (`npm run build` / `npm run dev`) pour prendre
-effet.
+> Les statuts peuvent aussi être détectés automatiquement : la colonne `folder`
+> du CSV (`Wishlist` / `Collection`) et le fichier `wanted.csv` (statut « recherché »).
+> Les surcharges de `overrides.json` ont priorité.
 
 ## Photos personnelles
 
@@ -208,7 +206,6 @@ Puis régénérez : `npm run data:build`.
 
 Toute image générique porte la mention discrète :
 « _Image de référence — l'article réel peut différer._ »
-Une annonce à vendre sans photo personnelle affiche également cet avertissement.
 
 ### Fonctionnement
 

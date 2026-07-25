@@ -6,9 +6,8 @@ import ConsoleBadge from '../ConsoleBadge.astro';
 import CompletenessBadge from '../CompletenessBadge.astro';
 import { useTranslations } from '../../utils/i18n';
 import { link, absoluteUrl, publicAsset, type RouteKey } from '../../utils/routing';
-import { formatPrice, formatDate } from '../../utils/format';
+import { formatDate } from '../../utils/format';
 import { activeContactChannels } from '../../config/site';
-import { SELL_ALL_COLLECTION } from '../../data/games';
 import type { Game, GameImage as GameImageType } from '../../data/games';
 
 interface Props {
@@ -19,13 +18,10 @@ const { lang, game } = Astro.props;
 const t = useTranslations(lang);
 
 const statusToRoute: Record<Game['status'], { key: RouteKey; back: string }> = {
-  // Tout est à vendre : les jeux « collection » retournent vers « À vendre »
-  // (la page Collection n'est alors qu'une redirection).
-  collection: SELL_ALL_COLLECTION
-    ? { key: 'forSale', back: 'detail.backToForSale' }
-    : { key: 'collection', back: 'detail.backToCollection' },
-  'for-sale': { key: 'forSale', back: 'detail.backToForSale' },
+  collection: { key: 'collection', back: 'detail.backToCollection' },
   wishlist: { key: 'wishlist', back: 'detail.backToWishlist' },
+  // Statut résiduel : rattaché à la collection (plus d'onglet dédié).
+  'for-sale': { key: 'collection', back: 'detail.backToCollection' },
 };
 const backRoute = statusToRoute[game.status];
 
@@ -41,20 +37,16 @@ const mainImage = galleryImages[0] ?? game.primaryImage;
 
 const hasPersonal = game.personalImages.length > 0;
 const showGenericNote = !hasPersonal && game.primaryImage.source === 'generic';
-const showSaleNoPhotoNote = game.status === 'for-sale' && !hasPersonal;
 
-const isForSale = game.status === 'for-sale';
-// Pas de prix ni de valeur de référence pour un jeu recherché.
-const isWishlist = game.status === 'wishlist';
-const priceLabel = formatPrice(game.salePrice ?? game.estimatedValue, game.currency, lang);
-const valueLabel = isWishlist ? undefined : formatPrice(game.estimatedValue, game.currency, lang);
+// Boutique orientée collectionneur : aucun prix. Pour un jeu de la collection,
+// on invite discrètement à proposer un échange entre collectionneurs.
+const isCollection = game.status === 'collection';
 const updatedAt = formatDate(game.dataUpdatedAt, lang);
 
 // Bouton de contact (préremplissage via mailto lorsque disponible).
 const channels = activeContactChannels();
-// Le message s'adapte à la section d'origine du jeu (son statut) : demande de
-// disponibilité pour un jeu à vendre, proposition de vente pour un jeu recherché,
-// simple question pour un jeu de la collection.
+// Le message s'adapte au statut du jeu : proposition d'échange pour un jeu de la
+// collection, proposition d'un jeu qu'on possède pour un jeu recherché.
 const subject = t(`detail.prefill.${game.status}.subject`, {
   title: game.title,
   console: game.console,
@@ -98,21 +90,11 @@ const schemaImage =
     : undefined;
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Product',
+  '@type': 'VideoGame',
   name: game.title,
-  category: `Jeu vidéo ${game.console}`,
+  gamePlatform: game.console,
   ...(schemaImage ? { image: schemaImage } : {}),
   ...(game.notes ? { description: game.notes } : {}),
-  ...(isForSale && (game.salePrice ?? game.estimatedValue)
-    ? {
-        offers: {
-          '@type': 'Offer',
-          price: (game.salePrice ?? game.estimatedValue)?.toFixed(2),
-          priceCurrency: game.currency,
-          availability: 'https://schema.org/InStock',
-        },
-      }
-    : {}),
 };
 ---
 
@@ -157,7 +139,6 @@ const jsonLd = {
           }
 
           {showGenericNote && <p class="notice">{t('detail.genericImageNote')}</p>}
-          {showSaleNoPhotoNote && <p class="notice notice--warn">{t('detail.saleNoPhotoNote')}</p>}
         </div>
 
         <div>
@@ -175,14 +156,6 @@ const jsonLd = {
             }
           </div>
 
-          {
-            isForSale && priceLabel && (
-              <p class="detail__price">
-                {t('detail.salePrice')} : {priceLabel}
-              </p>
-            )
-          }
-
           <dl class="spec-list">
             {
               specs.map((spec) => (
@@ -191,14 +164,6 @@ const jsonLd = {
                   <dd class="spec-list__value">{spec.value}</dd>
                 </>
               ))
-            }
-            {
-              valueLabel && (
-                <>
-                  <dt class="spec-list__key">{t('detail.referenceValue')}</dt>
-                  <dd class="spec-list__value">{valueLabel}</dd>
-                </>
-              )
             }
           </dl>
 
@@ -210,7 +175,7 @@ const jsonLd = {
             )
           }
 
-          {valueLabel && <p class="notice">{t('detail.referenceDisclaimer')}</p>}
+          {isCollection && <p class="notice">{t('detail.exchangeNote')}</p>}
 
           <div class="detail__actions">
             <a class="button button--primary" href={contactHref}>{t('detail.contactButton')}</a>

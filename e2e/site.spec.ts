@@ -4,13 +4,14 @@ import { test, expect } from '@playwright/test';
 //   halo-combat-evolved  → photos personnelles
 //   fable                → pochette générique (démo locale)
 //   obscure-bootleg-adventure → placeholder
-//   forza-motorsport     → à vendre
+//   steel-battalion      → jeu recherché
 
 test('la page d’accueil s’ouvre avec le titre et les statistiques', async ({ page }) => {
   await page.goto('/');
   await expect(page).toHaveTitle(/Canot à Pixels/i);
   await expect(page.locator('.hero__title')).toBeVisible();
-  await expect(page.locator('.stat')).toHaveCount(3);
+  // Deux statistiques : collection et jeux recherchés.
+  await expect(page.locator('.stat')).toHaveCount(2);
 });
 
 test('la navigation mène à une fiche de jeu', async ({ page }) => {
@@ -96,9 +97,11 @@ test('fallback vers le placeholder (niveau 3)', async ({ page }) => {
   await expect(mainImg).toHaveAttribute('src', /placeholder\.svg/);
 });
 
-test('un jeu à vendre affiche son prix', async ({ page }) => {
-  await page.goto('/a-vendre');
-  await expect(page.locator('.card__price').first()).toBeVisible();
+test('la collection n’affiche aucun prix (orientation collectionneur)', async ({ page }) => {
+  await page.goto('/collection');
+  await expect(page.locator('.card').first()).toBeVisible();
+  await expect(page.locator('.card__price')).toHaveCount(0);
+  await expect(page.locator('.card__value')).toHaveCount(0);
 });
 
 test('le changement de langue mène à la version anglaise', async ({ page }) => {

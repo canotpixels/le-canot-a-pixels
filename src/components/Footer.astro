@@ -2,7 +2,6 @@
 import type { TranslateFn } from '../utils/i18n';
 import { link, type RouteKey } from '../utils/routing';
 import { siteConfig, isPlaceholder } from '../config/site';
-import { SELL_ALL_COLLECTION } from '../data/games';
 
 interface Props {
   lang: string;
@@ -17,10 +16,8 @@ const hasEmail = siteConfig.email.trim() && !isPlaceholder(siteConfig.email);
 
 // Liens de navigation du pied de page (mêmes pages logiques que l'entête).
 const navLinks: { key: RouteKey; label: string }[] = [
-  { key: 'forSale', label: t('nav.forSale') },
+  { key: 'collection', label: t('nav.collection') },
   { key: 'wishlist', label: t('nav.wishlist') },
-  // Tout est à vendre : le lien Collection (doublon de « À vendre ») est masqué.
-  ...(SELL_ALL_COLLECTION ? [] : [{ key: 'collection' as RouteKey, label: t('nav.collection') }]),
   { key: 'about', label: t('nav.about') },
   { key: 'contact', label: t('nav.contact') },
 ];

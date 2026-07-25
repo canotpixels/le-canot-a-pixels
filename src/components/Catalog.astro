@@ -29,18 +29,10 @@ const statuses = [...new Set(games.map((g) => g.status))] as GameStatus[];
 const completenesses = [...new Set(games.map((g) => g.completeness))] as Completeness[];
 const showStatusFilter = enabledFilters.status && !pageStatus && statuses.length > 1;
 
-// Les jeux recherchés n'affichent aucun prix : le tri par prix/valeur y est retiré.
+// Boutique orientée collectionneur : aucun prix affiché, donc tri par titre seulement.
 const sortOptions = [
   { value: 'title-asc', label: t('catalog.sortTitleAsc') },
   { value: 'title-desc', label: t('catalog.sortTitleDesc') },
-  ...(pageStatus === 'wishlist'
-    ? []
-    : [
-        { value: 'price-asc', label: t('catalog.sortPriceAsc') },
-        { value: 'price-desc', label: t('catalog.sortPriceDesc') },
-        { value: 'value-asc', label: t('catalog.sortValueAsc') },
-        { value: 'value-desc', label: t('catalog.sortValueDesc') },
-      ]),
 ];
 
 // Groupes de filtres rendus en chips à bascule, avec compteurs de facettes

@@ -13,19 +13,6 @@ export function gamesByStatus(status: GameStatus): Game[] {
   return games.filter((g) => g.status === status);
 }
 
-/**
- * PUBLIC_SELL_ALL_COLLECTION=true : la collection entière apparaît dans l'onglet
- * « à vendre ». Pour éviter deux pages au contenu identique (mauvais pour le SEO),
- * la page Collection redirige alors vers À vendre et disparaît de la navigation.
- */
-export const SELL_ALL_COLLECTION = import.meta.env.PUBLIC_SELL_ALL_COLLECTION === 'true';
-
-/** Jeux affichés dans l'onglet « à vendre » (statut for-sale, + toute la collection si le flag est actif). */
-export function forSaleGames(): Game[] {
-  if (!SELL_ALL_COLLECTION) return gamesByStatus('for-sale');
-  return games.filter((g) => g.status === 'for-sale' || g.status === 'collection');
-}
-
 export function getGameBySlug(slug: string): Game | undefined {
   return games.find((g) => g.slug === slug);
 }
@@ -37,7 +24,6 @@ export function consoleList(source: Game[] = games): string[] {
 
 export interface StatusCounts {
   collection: number;
-  'for-sale': number;
   wishlist: number;
   total: number;
 }
@@ -45,7 +31,6 @@ export interface StatusCounts {
 export function statusCounts(): StatusCounts {
   return {
     collection: gamesByStatus('collection').length,
-    'for-sale': forSaleGames().length,
     wishlist: gamesByStatus('wishlist').length,
     total: games.length,
   };

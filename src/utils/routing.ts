@@ -8,13 +8,11 @@ import { DEFAULT_LOCALE } from './locales';
 // Anglais : préfixe /en (/en/collection).
 // -----------------------------------------------------------------------------
 
-export type RouteKey =
-  'home' | 'collection' | 'forSale' | 'wishlist' | 'games' | 'about' | 'contact';
+export type RouteKey = 'home' | 'collection' | 'wishlist' | 'games' | 'about' | 'contact';
 
 const SEGMENTS: Record<string, Record<Exclude<RouteKey, 'home'>, string>> = {
   fr: {
     collection: 'collection',
-    forSale: 'a-vendre',
     wishlist: 'jeux-recherches',
     games: 'jeux',
     about: 'a-propos',
@@ -22,7 +20,6 @@ const SEGMENTS: Record<string, Record<Exclude<RouteKey, 'home'>, string>> = {
   },
   en: {
     collection: 'collection',
-    forSale: 'for-sale',
     wishlist: 'wanted',
     games: 'games',
     about: 'about',

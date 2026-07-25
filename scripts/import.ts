@@ -4,6 +4,7 @@ import { dirname } from 'node:path';
 import { PATHS } from './lib/paths.js';
 import { parseArgs } from './lib/cli.js';
 import { loadEnv } from './lib/env.js';
+import { combineCsvSources } from './lib/csv.js';
 import { loadOverrides, assembleGames } from './lib/assemble.js';
 import { loadCoverCache } from './lib/cover-cache.js';
 import { writeReports } from './lib/reports.js';
@@ -27,13 +28,17 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const csvText = await readFile(csvPath, 'utf8');
+  const wantedText =
+    !args.useFixture && existsSync(PATHS.wantedCsv)
+      ? await readFile(PATHS.wantedCsv, 'utf8')
+      : undefined;
+  const csvText = combineCsvSources(await readFile(csvPath, 'utf8'), wantedText);
   const overrides = await loadOverrides(PATHS.overrides);
   const coverCache = await loadCoverCache(PATHS.coverCache);
 
   const result = assembleGames({
     csvText,
-    csvSourceLabel: args.useFixture ? 'fixture' : 'pricecharting/collection.csv',
+    csvSourceLabel: args.useFixture ? 'fixture' : 'pricecharting/collection.csv (+ wanted.csv)',
     overrides,
     coverCache,
     personalRootDir: PATHS.personalImagesDir,

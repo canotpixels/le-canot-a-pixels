@@ -1,1 +1,3 @@
 line,reason,raw
+9,Titre (product-name) manquant,",,,,,,,Ligne invalide sans titre ni console,,,,,,,"
+10,Console (console-name) manquante,"9008,Ligne sans console,,299,Item only,Normal wear,,Console manquante volontairement,0,1,2025-05-01,,,,Collection"

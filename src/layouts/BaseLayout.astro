@@ -44,14 +44,15 @@ const alternates = LOCALES.map((locale) => ({
 
 const ogImage = absoluteUrl(Astro.site, publicAsset(image ?? '/og-default.png'));
 
-// Données structurées globales : commerce local + site web (référencement).
+// Données structurées globales : collectionneur (organisation non commerciale)
+// + site web (référencement). Aucun signal de prix ni d'offre.
 const siteUrl = absoluteUrl(Astro.site, publicAsset('/'));
 const structuredData = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'LocalBusiness',
-      '@id': `${siteUrl}#business`,
+      '@type': 'Organization',
+      '@id': `${siteUrl}#collector`,
       name: siteConfig.siteName,
       description: t('seo.business.description'),
       url: siteUrl,
@@ -63,7 +64,6 @@ const structuredData = {
         addressRegion: 'QC',
         addressCountry: 'CA',
       },
-      priceRange: '$',
     },
     {
       '@type': 'WebSite',
@@ -71,7 +71,7 @@ const structuredData = {
       name: siteConfig.siteName,
       url: siteUrl,
       inLanguage: htmlLang,
-      publisher: { '@id': `${siteUrl}#business` },
+      publisher: { '@id': `${siteUrl}#collector` },
     },
   ],
 };

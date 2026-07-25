@@ -2,8 +2,7 @@
   "nav": {
     "brand": "Le Canot à Pixels",
     "home": "Home",
-    "collection": "Collection",
-    "forSale": "For sale",
+    "collection": "Our collection",
     "wishlist": "Wanted",
     "about": "About",
     "contact": "Contact",
@@ -23,29 +22,24 @@
   },
   "home": {
     "heroTitle": "Le Canot à Pixels",
-    "heroTagline": "Buying and selling retro video games in Lavaltrie",
+    "heroTagline": "A retro video game collection in Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Tested games, fair offers, no detours. Like the canoe of the legend, your classics deserve a second voyage.",
+    "heroLead": "Classics that are cherished and well kept. Like the canoe of the legend, our games keep travelling — and the collection grows with every new find.",
     "statCollection": "games in the collection",
-    "statForSale": "games for sale",
     "statWishlist": "games wanted",
     "ctaCollection": "Browse the collection",
-    "ctaForSale": "See games for sale",
     "ctaWishlist": "See wanted games",
     "recentTitle": "Recently added",
-    "exploreTitle": "Explore the catalogue",
-    "sellTitle": "Got games gathering dust in a closet?",
-    "sellBody": "We buy retro video games, single titles or whole lots. Take a look at the wanted games list or write to us directly with what you have: we look at everything and make fair offers.",
-    "sellCtaWishlist": "Check the wanted games",
-    "sellCtaContact": "Write to us"
+    "seekTitle": "A game that could join the collection?",
+    "seekBody": "We are always on the lookout for retro titles to grow the collection, especially the ones on our wanted list. Got one gathering dust in a closet? Write to us: we look at everything and reply quickly.",
+    "seekCtaWishlist": "Check the wanted games",
+    "seekCtaContact": "Write to us"
   },
   "catalog": {
-    "collectionTitle": "Collection",
-    "collectionLead": "The games in the personal collection, the ones staying in the canoe.",
-    "forSaleTitle": "Games for sale",
-    "forSaleLead": "Tested games, with the condition described and the price shown on every listing. No hidden surprises.",
+    "collectionTitle": "Our collection",
+    "collectionLead": "The games gathered over time, each with its own detailed page. Interested in a title? Write to us — we remain open, simply and gladly, to trades between collectors.",
     "wishlistTitle": "Wanted games",
-    "wishlistLead": "The games we are looking to buy. Got one lying around? Write to us and we will make you an offer.",
+    "wishlistLead": "The titles we are looking for to grow the collection. Got one? Write to us, we would be happy to talk.",
     "searchLabel": "Search by title",
     "searchPlaceholder": "Search a game by title…",
     "searchShortcut": "Press / to search",
@@ -62,10 +56,6 @@
     "sortLabel": "Sort",
     "sortTitleAsc": "Title (A → Z)",
     "sortTitleDesc": "Title (Z → A)",
-    "sortPriceAsc": "Price (low to high)",
-    "sortPriceDesc": "Price (high to low)",
-    "sortValueAsc": "Value (low to high)",
-    "sortValueDesc": "Value (high to low)",
     "resultsOne": "{count} result",
     "resultsMany": "{count} results",
     "empty": "No game matches your search.",
@@ -85,13 +75,10 @@
   },
   "card": {
     "viewDetail": "View details for {title}",
-    "salePrice": "Price",
-    "estimatedValue": "Estimated value",
     "referenceNote": "Reference image: the actual item may differ."
   },
   "detail": {
     "backToCollection": "Back to the collection",
-    "backToForSale": "Back to games for sale",
     "backToWishlist": "Back to wanted games",
     "gallery": "Gallery",
     "details": "Details",
@@ -102,21 +89,18 @@
     "completeness": "Completeness",
     "quantity": "Quantity",
     "notes": "Notes",
-    "salePrice": "Asking price",
-    "referenceValue": "Reference value",
-    "referenceDisclaimer": "Reference value from imported data; the actual price may vary.",
     "updatedAt": "Data updated on {date}",
-    "contactButton": "Ask about this game",
+    "contactButton": "Write about this game",
     "genericImageNote": "Reference image: the actual item may differ.",
-    "saleNoPhotoNote": "No real photo available: the image shown is a reference image. The actual item may differ.",
+    "exchangeNote": "This game is part of our collection. Interested? Write to us — we are open, simply and gladly, to trades between collectors.",
     "prefill": {
       "collection": {
-        "subject": "Question about: {title} ({console})",
-        "body": "Hello, I would like to know more about the game \"{title}\" on {console} shown in your collection."
+        "subject": "About: {title} ({console})",
+        "body": "Hello, I am interested in the game \"{title}\" on {console} from your collection. Would you be open to a trade?"
       },
       "for-sale": {
-        "subject": "Interested in: {title} ({console})",
-        "body": "Hello, I am interested in the game \"{title}\" on {console} that you have for sale. Is it still available?"
+        "subject": "About: {title} ({console})",
+        "body": "Hello, I am interested in the game \"{title}\" on {console} from your collection. Would you be open to a trade?"
       },
       "wishlist": {
         "subject": "Offer for: {title} ({console})",
@@ -126,24 +110,24 @@
   },
   "about": {
     "title": "About Le Canot à Pixels",
-    "lead": "Buying and selling retro video games, rooted in Lavaltrie, Québec.",
+    "lead": "A retro video game collection, rooted in Lavaltrie, Québec.",
     "storyTitle": "The legend behind the name",
     "storyBody": "Le Canot à Pixels (\"the pixel canoe\") takes its name from the {legendLink}, still very much alive in Lavaltrie: a flying canoe that carried lumberjacks home in a single night. Here, the canoe carries something else: retro video games that get back into play instead of sleeping in a box in the basement.",
     "legendLinkLabel": "legend of the chasse-galerie",
-    "buyTitle": "We buy your games",
-    "buyBody": "Got retro video games collecting dust? We buy them, single titles or whole lots. Check the wanted games list or write to us with what you have: we look at everything and reply quickly, with fair offers.",
-    "buyCta": "See wanted games",
-    "sellTitle": "We sell verified games",
-    "sellBody": "Every game we put up for sale is tested, and its listing details what comes with it: disc, case, manual. The price is clearly shown, so there are no surprises once you get home. Photos show the actual item whenever possible; otherwise a reference cover is displayed and clearly flagged.",
-    "sellCta": "See games for sale",
+    "seekTitle": "We are looking for games",
+    "seekBody": "The collection grows with every find. We are always on the lookout for retro titles, especially the ones on our wanted list. Got a game that might interest us? Write to us: we look at everything and reply quickly.",
+    "seekCta": "See wanted games",
+    "collectionTitle": "Our collection",
+    "collectionBody": "Every game in the collection has its own page: console, edition, condition and photos when available. Interested in a title? We remain open, simply and gladly, to trades between collectors — write to us and we'll talk.",
+    "collectionCta": "Browse the collection",
     "sourceTitle": "Where the data comes from",
-    "sourceBody": "Core information (title, console, reference value, condition) is imported from PriceCharting. Site-specific statuses, sale prices and notes are managed locally.",
-    "disclaimerTitle": "A word on values",
-    "disclaimerBody": "The values shown are reference values from the imported data. They give an idea of the market, but they are not a price guarantee."
+    "sourceBody": "Core information (title, console, edition, condition) is imported from PriceCharting. Site-specific statuses and notes are managed locally.",
+    "disclaimerTitle": "A word on the images",
+    "disclaimerBody": "When a real photo is not available, a reference cover is shown and clearly flagged. The actual item may differ from the image."
   },
   "contact": {
     "title": "Contact",
-    "lead": "A game to sell, a question about a listing, or just feel like talking retro? Here is how to reach us.",
+    "lead": "A question about a game in the collection, a trade proposal, or just feel like talking retro? Here is how to reach us.",
     "noChannels": "No contact channel is configured at the moment.",
     "facebook": "Facebook",
     "messenger": "Messenger",
@@ -156,46 +140,42 @@
     "opening": "Opening your mail app…"
   },
   "footer": {
-    "tagline": "Buying and selling retro video games in Lavaltrie, Québec. Tested games travelling from one generation of players to the next.",
+    "tagline": "A retro video game collection in Lavaltrie, Québec. Xbox and Xbox 360 classics travelling from one generation of players to the next.",
     "navTitle": "Explore",
     "contactTitle": "Get in touch",
-    "contactLead": "A game to sell or a question about a listing? Write to us, we reply quickly.",
+    "contactLead": "A question about a game or a trade proposal? Write to us, we reply quickly.",
     "contactCta": "Write to us",
     "dataSource": "Reference data imported from PriceCharting.",
-    "disclaimer": "The values shown are reference values; the actual price may vary.",
+    "disclaimer": "Cover images are for reference; the actual item may differ.",
     "rights": "All rights reserved.",
     "createdBy": "Site built by"
   },
   "seo": {
     "home": {
       "title": "Retro video games in Lavaltrie, Québec | Le Canot à Pixels",
-      "description": "Buying and selling retro video games in Lavaltrie, Lanaudière. Tested used games, clear prices and fair offers, including a wide Xbox and Xbox 360 selection."
+      "description": "The retro video game collection at Le Canot à Pixels in Lavaltrie: a wide Xbox and Xbox 360 selection, and the wanted list of games we are looking for to grow it."
     },
     "collection": {
       "title": "Xbox and Xbox 360 game collection | Le Canot à Pixels",
-      "description": "Browse the retro Xbox and Xbox 360 video game collection at Le Canot à Pixels: search, filters, sorting and a detailed listing for every game."
-    },
-    "forSale": {
-      "title": "Xbox and Xbox 360 video games for sale | Le Canot à Pixels, Lavaltrie",
-      "description": "Retro Xbox and Xbox 360 video games for sale in Québec: tested used games, detailed condition and a clear price on every listing."
+      "description": "Browse the retro Xbox and Xbox 360 video game collection at Le Canot à Pixels: search, filters and a detailed page for every game."
     },
     "wishlist": {
-      "title": "Wanted games: we buy your retro games | Le Canot à Pixels",
-      "description": "We buy used Xbox and Xbox 360 games, single titles or whole lots. Check the wanted games list and sell your retro games in Lavaltrie."
+      "title": "Wanted games: growing the collection | Le Canot à Pixels",
+      "description": "The Xbox and Xbox 360 video games we are looking for to grow the collection. Got a title to offer? Write to us in Lavaltrie."
     },
     "about": {
-      "title": "About | Le Canot à Pixels, retro video games in Lavaltrie",
-      "description": "The story of Le Canot à Pixels: buying and selling retro video games in Lavaltrie, under the sign of the chasse-galerie legend."
+      "title": "About | Le Canot à Pixels, retro game collection in Lavaltrie",
+      "description": "The story of Le Canot à Pixels: a retro video game collection in Lavaltrie, under the sign of the chasse-galerie legend."
     },
     "contact": {
-      "title": "Contact | Le Canot à Pixels, buy and sell retro games",
-      "description": "Contact Le Canot à Pixels to sell your retro video games, ask about a game for sale or make an offer."
+      "title": "Contact | Le Canot à Pixels, retro game collection",
+      "description": "Contact Le Canot à Pixels with a question about a game in the collection or to offer a title we are looking for."
     },
     "game": {
       "titleSuffix": "Le Canot à Pixels"
     },
     "business": {
-      "description": "Buying and selling retro video games in Lavaltrie, Lanaudière, Québec. Tested used games, clear prices, and we buy your games, single titles or whole lots."
+      "description": "A retro video game collection in Lavaltrie, Lanaudière, Québec. A retro Xbox and Xbox 360 enthusiast looking for titles to grow the collection."
     }
   }
 }

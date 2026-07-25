@@ -29,16 +29,16 @@ const storyHtml = t('about.storyBody', { legendLink });
       <h2 class="section__title">{t('about.storyTitle')}</h2>
       <p set:html={storyHtml} />
 
-      <h2 class="section__title">{t('about.buyTitle')}</h2>
-      <p>{t('about.buyBody')}</p>
+      <h2 class="section__title">{t('about.seekTitle')}</h2>
+      <p>{t('about.seekBody')}</p>
       <p>
-        <a class="button" href={link(lang, 'wishlist')}>{t('about.buyCta')}</a>
+        <a class="button" href={link(lang, 'wishlist')}>{t('about.seekCta')}</a>
       </p>
 
-      <h2 class="section__title">{t('about.sellTitle')}</h2>
-      <p>{t('about.sellBody')}</p>
+      <h2 class="section__title">{t('about.collectionTitle')}</h2>
+      <p>{t('about.collectionBody')}</p>
       <p>
-        <a class="button" href={link(lang, 'forSale')}>{t('about.sellCta')}</a>
+        <a class="button" href={link(lang, 'collection')}>{t('about.collectionCta')}</a>
       </p>
 
       <h2 class="section__title">{t('about.sourceTitle')}</h2>

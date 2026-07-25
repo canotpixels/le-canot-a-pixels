@@ -2,8 +2,7 @@
   "nav": {
     "brand": "Le Canot à Pixels",
     "home": "Accueil",
-    "collection": "Collection",
-    "forSale": "À vendre",
+    "collection": "Notre collection",
     "wishlist": "Recherchés",
     "about": "À propos",
     "contact": "Contact",
@@ -23,29 +22,24 @@
   },
   "home": {
     "heroTitle": "Le Canot à Pixels",
-    "heroTagline": "Achat et vente de jeux vidéo rétro à Lavaltrie",
+    "heroTagline": "Une collection de jeux vidéo rétro à Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Des jeux testés, des offres justes, pas de détour. Comme le canot de la légende, vos classiques méritent un deuxième voyage.",
+    "heroLead": "Des classiques chéris et bien gardés. Comme le canot de la légende, nos jeux continuent de voyager — et la collection s'agrandit au fil des trouvailles.",
     "statCollection": "jeux en collection",
-    "statForSale": "jeux à vendre",
     "statWishlist": "jeux recherchés",
     "ctaCollection": "Voir la collection",
-    "ctaForSale": "Voir les jeux à vendre",
     "ctaWishlist": "Voir les jeux recherchés",
     "recentTitle": "Ajouts récents",
-    "exploreTitle": "Explorer le catalogue",
-    "sellTitle": "Des jeux qui dorment dans le fond d'un placard?",
-    "sellBody": "On achète vos jeux vidéo rétro, à l'unité ou en lot. Jetez un coup d'œil à la liste des jeux recherchés ou écrivez-nous directement avec ce que vous avez : on regarde tout et on fait des offres justes.",
-    "sellCtaWishlist": "Consulter les jeux recherchés",
-    "sellCtaContact": "Nous écrire"
+    "seekTitle": "Un jeu qui pourrait rejoindre la collection?",
+    "seekBody": "Nous sommes toujours à la recherche de titres rétro pour agrandir la collection, en particulier ceux de notre liste de jeux recherchés. Vous en avez un qui dort dans un placard? Écrivez-nous : on regarde tout et on répond vite.",
+    "seekCtaWishlist": "Consulter les jeux recherchés",
+    "seekCtaContact": "Nous écrire"
   },
   "catalog": {
-    "collectionTitle": "Collection",
-    "collectionLead": "Les jeux de la collection personnelle, ceux qui restent dans le canot.",
-    "forSaleTitle": "Jeux à vendre",
-    "forSaleLead": "Des jeux testés, avec l'état décrit et le prix affiché sur chaque fiche. Pas de cachette.",
+    "collectionTitle": "Notre collection",
+    "collectionLead": "Les jeux rassemblés au fil du temps, chacun avec sa fiche détaillée. Un titre vous intéresse? Écrivez-nous — nous restons ouverts, en toute simplicité, aux échanges entre collectionneurs.",
     "wishlistTitle": "Jeux recherchés",
-    "wishlistLead": "Les jeux qu'on cherche à acheter. Vous en avez un qui traîne? Écrivez-nous, on vous fait une offre.",
+    "wishlistLead": "Les titres que nous cherchons pour agrandir la collection. Vous en possédez un? Écrivez-nous, nous serons heureux d'en discuter.",
     "searchLabel": "Rechercher par titre",
     "searchPlaceholder": "Rechercher un jeu par titre…",
     "searchShortcut": "Appuyez sur / pour rechercher",
@@ -62,10 +56,6 @@
     "sortLabel": "Trier",
     "sortTitleAsc": "Titre (A → Z)",
     "sortTitleDesc": "Titre (Z → A)",
-    "sortPriceAsc": "Prix (croissant)",
-    "sortPriceDesc": "Prix (décroissant)",
-    "sortValueAsc": "Valeur (croissante)",
-    "sortValueDesc": "Valeur (décroissante)",
     "resultsOne": "{count} résultat",
     "resultsMany": "{count} résultats",
     "empty": "Aucun jeu ne correspond à votre recherche.",
@@ -85,13 +75,10 @@
   },
   "card": {
     "viewDetail": "Voir la fiche de {title}",
-    "salePrice": "Prix",
-    "estimatedValue": "Valeur estimée",
     "referenceNote": "Image de référence : l'article réel peut différer."
   },
   "detail": {
     "backToCollection": "Retour à la collection",
-    "backToForSale": "Retour aux jeux à vendre",
     "backToWishlist": "Retour aux jeux recherchés",
     "gallery": "Galerie",
     "details": "Détails",
@@ -102,21 +89,18 @@
     "completeness": "Complétude",
     "quantity": "Quantité",
     "notes": "Notes",
-    "salePrice": "Prix demandé",
-    "referenceValue": "Valeur de référence",
-    "referenceDisclaimer": "Valeur de référence provenant des données importées; le prix réel peut varier.",
     "updatedAt": "Données mises à jour le {date}",
-    "contactButton": "Contacter au sujet de ce jeu",
+    "contactButton": "Écrire au sujet de ce jeu",
     "genericImageNote": "Image de référence : l'article réel peut différer.",
-    "saleNoPhotoNote": "Aucune photo réelle disponible : l'image affichée est une image de référence. L'article réel peut différer.",
+    "exchangeNote": "Ce jeu fait partie de notre collection. Il vous intéresse? Écrivez-nous — nous sommes ouverts, en toute simplicité, aux échanges entre collectionneurs.",
     "prefill": {
       "collection": {
-        "subject": "Question sur : {title} ({console})",
-        "body": "Bonjour, j'aimerais en savoir plus sur le jeu « {title} » sur {console} présenté dans votre collection."
+        "subject": "Au sujet de : {title} ({console})",
+        "body": "Bonjour, le jeu « {title} » sur {console} de votre collection m'intéresse. Seriez-vous ouvert à un échange ?"
       },
       "for-sale": {
-        "subject": "Intérêt pour : {title} ({console})",
-        "body": "Bonjour, je suis intéressé(e) par le jeu « {title} » sur {console} que vous avez à vendre. Est-il toujours disponible ?"
+        "subject": "Au sujet de : {title} ({console})",
+        "body": "Bonjour, le jeu « {title} » sur {console} de votre collection m'intéresse. Seriez-vous ouvert à un échange ?"
       },
       "wishlist": {
         "subject": "Proposition pour : {title} ({console})",
@@ -126,24 +110,24 @@
   },
   "about": {
     "title": "À propos du Canot à Pixels",
-    "lead": "Achat et vente de jeux vidéo rétro, ancré à Lavaltrie, au Québec.",
+    "lead": "Une collection de jeux vidéo rétro, ancrée à Lavaltrie, au Québec.",
     "storyTitle": "La légende derrière le nom",
     "storyBody": "Le Canot à Pixels tire son nom de la {legendLink}, bien vivante à Lavaltrie : un canot volant qui ramenait les gars de chantier à bon port le temps d'une nuit. Ici, le canot transporte autre chose : des jeux vidéo rétro qui reprennent du service au lieu de dormir dans une boîte au fond du sous-sol.",
     "legendLinkLabel": "légende de la chasse-galerie",
-    "buyTitle": "On achète vos jeux",
-    "buyBody": "Vous avez des jeux vidéo rétro qui ramassent la poussière? On les achète, à l'unité ou en lot. Consultez la liste des jeux recherchés ou écrivez-nous avec ce que vous avez : on regarde tout et on répond vite, avec des offres justes.",
-    "buyCta": "Voir les jeux recherchés",
-    "sellTitle": "On vend des jeux vérifiés",
-    "sellBody": "Chaque jeu mis en vente est testé, et sa fiche détaille ce qui vient avec : disque, boîtier, livret. Le prix est affiché clairement, pas de surprise rendu chez vous. En priorité, les photos montrent l'article réel; sinon, une pochette de référence est affichée et c'est indiqué.",
-    "sellCta": "Voir les jeux à vendre",
+    "seekTitle": "On cherche des jeux",
+    "seekBody": "La collection s'agrandit au fil des trouvailles. Nous sommes toujours à l'affût de titres rétro, surtout ceux de notre liste de jeux recherchés. Vous avez un jeu qui pourrait nous intéresser? Écrivez-nous : on regarde tout et on répond vite.",
+    "seekCta": "Voir les jeux recherchés",
+    "collectionTitle": "Notre collection",
+    "collectionBody": "Chaque jeu de la collection a sa fiche : console, édition, état et photos lorsqu'elles sont disponibles. Un titre vous intéresse? Nous restons ouverts, en toute simplicité, aux échanges entre collectionneurs — écrivez-nous et on en discute.",
+    "collectionCta": "Voir la collection",
     "sourceTitle": "D'où viennent les données",
-    "sourceBody": "Les informations de base (titre, console, valeur de référence, état) sont importées depuis PriceCharting. Les statuts, les prix de vente et les notes propres au site sont gérés localement.",
-    "disclaimerTitle": "Un mot sur les valeurs",
-    "disclaimerBody": "Les valeurs affichées sont des valeurs de référence issues des données importées. Elles donnent une idée du marché, mais ne constituent pas une garantie de prix."
+    "sourceBody": "Les informations de base (titre, console, édition, état) sont importées depuis PriceCharting. Les statuts et les notes propres au site sont gérés localement.",
+    "disclaimerTitle": "Un mot sur les images",
+    "disclaimerBody": "Quand une photo réelle n'est pas disponible, une pochette de référence est affichée et c'est indiqué. L'article réel peut différer de l'image."
   },
   "contact": {
     "title": "Contact",
-    "lead": "Un jeu à vendre, une question sur un titre en vente ou juste envie de jaser rétro? Voici comment nous joindre.",
+    "lead": "Une question sur un jeu de la collection, une proposition d'échange ou juste envie de jaser rétro? Voici comment nous joindre.",
     "noChannels": "Aucun canal de contact n'est configuré pour le moment.",
     "facebook": "Facebook",
     "messenger": "Messenger",
@@ -156,46 +140,42 @@
     "opening": "Ouverture de la messagerie…"
   },
   "footer": {
-    "tagline": "Achat et vente de jeux vidéo rétro à Lavaltrie, au Québec. Des jeux testés qui voyagent d'une génération de joueurs à l'autre.",
+    "tagline": "Une collection de jeux vidéo rétro à Lavaltrie, au Québec. Des classiques Xbox et Xbox 360 qui voyagent d'une génération de joueurs à l'autre.",
     "navTitle": "Explorer",
     "contactTitle": "Nous joindre",
-    "contactLead": "Un jeu à vendre ou une question sur un titre? Écrivez-nous, on répond vite.",
+    "contactLead": "Une question sur un jeu ou une proposition d'échange? Écrivez-nous, on répond vite.",
     "contactCta": "Nous écrire",
     "dataSource": "Données de référence importées depuis PriceCharting.",
-    "disclaimer": "Les valeurs indiquées sont des valeurs de référence; le prix réel peut varier.",
+    "disclaimer": "Les images de pochette servent de référence; l'article réel peut différer.",
     "rights": "Tous droits réservés.",
     "createdBy": "Site conçu par"
   },
   "seo": {
     "home": {
       "title": "Jeux vidéo rétro à Lavaltrie, Québec | Le Canot à Pixels",
-      "description": "Achat et vente de jeux vidéo rétro à Lavaltrie, dans Lanaudière. Jeux usagés testés, prix affichés et offres justes, dont un grand choix Xbox et Xbox 360."
+      "description": "La collection de jeux vidéo rétro du Canot à Pixels à Lavaltrie : un grand choix Xbox et Xbox 360, et la liste des jeux recherchés pour l'agrandir."
     },
     "collection": {
       "title": "Collection de jeux Xbox et Xbox 360 | Le Canot à Pixels",
-      "description": "Parcourez la collection de jeux vidéo rétro Xbox et Xbox 360 du Canot à Pixels : recherche, filtres, tri et fiche détaillée pour chaque jeu."
-    },
-    "forSale": {
-      "title": "Jeux vidéo Xbox et Xbox 360 à vendre | Le Canot à Pixels, Lavaltrie",
-      "description": "Jeux vidéo rétro Xbox et Xbox 360 à vendre au Québec : jeux usagés testés, état détaillé et prix affiché sur chaque fiche."
+      "description": "Parcourez la collection de jeux vidéo rétro Xbox et Xbox 360 du Canot à Pixels : recherche, filtres et fiche détaillée pour chaque jeu."
     },
     "wishlist": {
-      "title": "Jeux recherchés : on achète vos jeux rétro | Le Canot à Pixels",
-      "description": "On achète des jeux Xbox et Xbox 360 usagés, à l'unité ou en lot. Consultez la liste des jeux recherchés et vendez vos jeux rétro à Lavaltrie."
+      "title": "Jeux recherchés : on agrandit la collection | Le Canot à Pixels",
+      "description": "Les jeux vidéo Xbox et Xbox 360 que nous recherchons pour agrandir la collection. Un titre à proposer? Écrivez-nous à Lavaltrie."
     },
     "about": {
-      "title": "À propos | Le Canot à Pixels, jeux vidéo rétro à Lavaltrie",
-      "description": "L'histoire du Canot à Pixels : achat et vente de jeux vidéo rétro à Lavaltrie, sous le signe de la légende de la chasse-galerie."
+      "title": "À propos | Le Canot à Pixels, collection de jeux rétro à Lavaltrie",
+      "description": "L'histoire du Canot à Pixels : une collection de jeux vidéo rétro à Lavaltrie, sous le signe de la légende de la chasse-galerie."
     },
     "contact": {
-      "title": "Contact | Le Canot à Pixels, achat et vente de jeux rétro",
-      "description": "Contactez Le Canot à Pixels pour vendre vos jeux vidéo rétro, poser une question sur un jeu en vente ou faire une offre."
+      "title": "Contact | Le Canot à Pixels, collection de jeux rétro",
+      "description": "Contactez Le Canot à Pixels pour une question sur un jeu de la collection ou pour proposer un titre que nous recherchons."
     },
     "game": {
       "titleSuffix": "Le Canot à Pixels"
     },
     "business": {
-      "description": "Achat et vente de jeux vidéo rétro à Lavaltrie, dans Lanaudière au Québec. Jeux usagés testés, prix affichés et achat de vos jeux, à l'unité ou en lot."
+      "description": "Une collection de jeux vidéo rétro à Lavaltrie, dans Lanaudière au Québec. Un passionné de jeux Xbox et Xbox 360 à la recherche de titres pour agrandir sa collection."
     }
   }
 }

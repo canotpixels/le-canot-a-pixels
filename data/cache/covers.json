@@ -1660,19 +1660,6 @@
     "matchedTitle": "Borderlands",
     "imagePath": "/covers/pc-19771.jpg"
   },
-  "pc-19899": {
-    "gameId": "pc-19899",
-    "query": "dragon age origins",
-    "provider": "pricecharting>libretro",
-    "externalId": "19899",
-    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95HrxX2ib0qkzPlOStF-nST3LmiT5VGzJMJQjNIrvumhWpsxOm6T7tSHNs4y9etprMqrjoRF7QWEGywzplIlEh6k_QGuKDMZ6X3xwJlGf7wquknh08LwOEzm2eIzWYh1rEJptgEBtvuB-U23z5n8h-E94cXeg/1600.jpg",
-    "confidence": 0.9,
-    "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T18:59:12.193Z",
-    "status": "resolved",
-    "matchedTitle": "Dragon Age: Origins",
-    "imagePath": "/covers/pc-19899.jpg"
-  },
   "pc-19953": {
     "gameId": "pc-19953",
     "query": "call of duty modern warfare 2",
@@ -3257,19 +3244,6 @@
     "matchedTitle": "Assassin's Creed: Rogue [Limited Edition]",
     "imagePath": "/covers/pc-55867.jpg"
   },
-  "pc-60674": {
-    "gameId": "pc-60674",
-    "query": "dragon age origins awakening",
-    "provider": "pricecharting>libretro",
-    "externalId": "60674",
-    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97wkoLY7HxQNg7VlmHH898YF4l_hg79fwL_B4LzG8mcJzh3c4UTCSt1WlS9RSrYOnbgr4SCz3UygVAOuTsGQU-gc22LK4qyh8Jz_DA3gud0lzLgpZaD3hgN10q0_UHjjHCaH-T-8FJ66UVgUbSpzOMtVn8AWg/1600.jpg",
-    "confidence": 0.9,
-    "attribution": "Photo de jaquette via PriceCharting",
-    "fetchedAt": "2026-07-16T18:59:13.152Z",
-    "status": "resolved",
-    "matchedTitle": "Dragon Age: Origins Awakening",
-    "imagePath": "/covers/pc-60674.jpg"
-  },
   "pc-6079": {
     "gameId": "pc-6079",
     "query": "baldur s gate dark alliance 2",
@@ -4022,5 +3996,16 @@
     "status": "resolved",
     "matchedTitle": "Orange Box",
     "imagePath": "/covers/pc-9508.jpg"
+  },
+  "gen-105b7a81cc9f": {
+    "gameId": "gen-105b7a81cc9f",
+    "query": "dragon age origins ultimate edition",
+    "provider": "manual",
+    "externalId": "19899",
+    "confidence": 0.9,
+    "fetchedAt": "2026-07-24T00:00:00.000Z",
+    "status": "resolved",
+    "matchedTitle": "Dragon Age: Origins [Ultimate Edition]",
+    "imagePath": "/covers/gen-105b7a81cc9f.jpg"
   }
 }
