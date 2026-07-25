@@ -1,25 +1,14 @@
 {
-  "generatedAt": "2026-07-25T01:21:06.450Z",
-  "source": "fixture",
-  "totalRows": 9,
-  "imported": 7,
-  "skipped": 2,
+  "generatedAt": "2026-07-25T01:27:34.693Z",
+  "source": "pricecharting/collection.csv (+ wanted.csv)",
+  "totalRows": 270,
+  "imported": 270,
+  "skipped": 0,
   "duplicates": 0,
-  "withPersonalPhotos": 1,
-  "withGenericCover": 1,
-  "withPlaceholder": 5,
-  "uncertainCoverMatches": 0,
+  "withPersonalPhotos": 0,
+  "withGenericCover": 266,
+  "withPlaceholder": 4,
+  "uncertainCoverMatches": 1,
   "warnings": [],
-  "invalidRows": [
-    {
-      "line": 9,
-      "reason": "Titre (product-name) manquant",
-      "raw": ",,,,,,,Ligne invalide sans titre ni console,,,,,,,"
-    },
-    {
-      "line": 10,
-      "reason": "Console (console-name) manquante",
-      "raw": "9008,Ligne sans console,,299,Item only,Normal wear,,Console manquante volontairement,0,1,2025-05-01,,,,Collection"
-    }
-  ]
+  "invalidRows": []
 }
