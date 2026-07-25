@@ -24,7 +24,7 @@
     "heroTitle": "Le Canot à Pixels",
     "heroTagline": "A retro video game collection in Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Classics that are cherished and well kept. Like the canoe of the legend, our games keep travelling — and the collection grows with every new find.",
+    "heroLead": "Classics that are cherished and well kept. Like the canoe of the legend, our games keep travelling, and the collection grows with every new find.",
     "statCollection": "games in the collection",
     "statWishlist": "games wanted",
     "ctaCollection": "Browse the collection",
@@ -37,7 +37,7 @@
   },
   "catalog": {
     "collectionTitle": "Our collection",
-    "collectionLead": "The games gathered over time, each with its own detailed page. Interested in a title? Write to us — we remain open, simply and gladly, to trades between collectors.",
+    "collectionLead": "The games in the collection, each with its own detailed page. Interested in a title? Write to us: we are open to trades between collectors.",
     "wishlistTitle": "Wanted games",
     "wishlistLead": "The titles we are looking for to grow the collection. Got one? Write to us, we would be happy to talk.",
     "searchLabel": "Search by title",
@@ -92,7 +92,7 @@
     "updatedAt": "Data updated on {date}",
     "contactButton": "Write about this game",
     "genericImageNote": "Reference image: the actual item may differ.",
-    "exchangeNote": "This game is part of our collection. Interested? Write to us — we are open, simply and gladly, to trades between collectors.",
+    "exchangeNote": "This game is part of our collection. Interested? Write to us: we are open to trades between collectors.",
     "prefill": {
       "collection": {
         "subject": "About: {title} ({console})",
@@ -118,7 +118,7 @@
     "seekBody": "The collection grows with every find. We are always on the lookout for retro titles, especially the ones on our wanted list. Got a game that might interest us? Write to us: we look at everything and reply quickly.",
     "seekCta": "See wanted games",
     "collectionTitle": "Our collection",
-    "collectionBody": "Every game in the collection has its own page: console, edition, condition and photos when available. Interested in a title? We remain open, simply and gladly, to trades between collectors — write to us and we'll talk.",
+    "collectionBody": "Every game in the collection has its own page with console, edition, condition and photos when available. Interested in a title? We are open to trades between collectors, so write to us and we'll talk.",
     "collectionCta": "Browse the collection",
     "sourceTitle": "Where the data comes from",
     "sourceBody": "Core information (title, console, edition, condition) is imported from PriceCharting. Site-specific statuses and notes are managed locally.",

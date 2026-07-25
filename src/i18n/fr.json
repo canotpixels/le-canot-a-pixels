@@ -24,7 +24,7 @@
     "heroTitle": "Le Canot à Pixels",
     "heroTagline": "Une collection de jeux vidéo rétro à Lavaltrie",
     "heroLocation": "Lavaltrie, Québec",
-    "heroLead": "Des classiques chéris et bien gardés. Comme le canot de la légende, nos jeux continuent de voyager — et la collection s'agrandit au fil des trouvailles.",
+    "heroLead": "Des classiques chéris et bien gardés. Comme le canot de la légende, nos jeux continuent de voyager, et la collection s'agrandit au fil des trouvailles.",
     "statCollection": "jeux en collection",
     "statWishlist": "jeux recherchés",
     "ctaCollection": "Voir la collection",
@@ -37,7 +37,7 @@
   },
   "catalog": {
     "collectionTitle": "Notre collection",
-    "collectionLead": "Les jeux rassemblés au fil du temps, chacun avec sa fiche détaillée. Un titre vous intéresse? Écrivez-nous — nous restons ouverts, en toute simplicité, aux échanges entre collectionneurs.",
+    "collectionLead": "Les jeux de la collection, chacun avec sa fiche détaillée. Un titre vous intéresse? Écrivez-nous : nous sommes ouverts aux échanges entre collectionneurs.",
     "wishlistTitle": "Jeux recherchés",
     "wishlistLead": "Les titres que nous cherchons pour agrandir la collection. Vous en possédez un? Écrivez-nous, nous serons heureux d'en discuter.",
     "searchLabel": "Rechercher par titre",
@@ -92,7 +92,7 @@
     "updatedAt": "Données mises à jour le {date}",
     "contactButton": "Écrire au sujet de ce jeu",
     "genericImageNote": "Image de référence : l'article réel peut différer.",
-    "exchangeNote": "Ce jeu fait partie de notre collection. Il vous intéresse? Écrivez-nous — nous sommes ouverts, en toute simplicité, aux échanges entre collectionneurs.",
+    "exchangeNote": "Ce jeu fait partie de notre collection. Il vous intéresse? Écrivez-nous : nous sommes ouverts aux échanges entre collectionneurs.",
     "prefill": {
       "collection": {
         "subject": "Au sujet de : {title} ({console})",
@@ -118,7 +118,7 @@
     "seekBody": "La collection s'agrandit au fil des trouvailles. Nous sommes toujours à l'affût de titres rétro, surtout ceux de notre liste de jeux recherchés. Vous avez un jeu qui pourrait nous intéresser? Écrivez-nous : on regarde tout et on répond vite.",
     "seekCta": "Voir les jeux recherchés",
     "collectionTitle": "Notre collection",
-    "collectionBody": "Chaque jeu de la collection a sa fiche : console, édition, état et photos lorsqu'elles sont disponibles. Un titre vous intéresse? Nous restons ouverts, en toute simplicité, aux échanges entre collectionneurs — écrivez-nous et on en discute.",
+    "collectionBody": "Chaque jeu de la collection a sa fiche : console, édition, état et photos lorsqu'elles sont disponibles. Un titre vous intéresse? Nous sommes ouverts aux échanges entre collectionneurs, écrivez-nous et on en discute.",
     "collectionCta": "Voir la collection",
     "sourceTitle": "D'où viennent les données",
     "sourceBody": "Les informations de base (titre, console, édition, état) sont importées depuis PriceCharting. Les statuts et les notes propres au site sont gérés localement.",
