@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-25T01:27:34.693Z",
+  "generatedAt": "2026-08-13T00:02:48.989Z",
   "source": "pricecharting/collection.csv (+ wanted.csv)",
-  "totalRows": 270,
-  "imported": 270,
+  "totalRows": 277,
+  "imported": 277,
   "skipped": 0,
   "duplicates": 0,
   "withPersonalPhotos": 0,
-  "withGenericCover": 266,
-  "withPlaceholder": 4,
+  "withGenericCover": 272,
+  "withPlaceholder": 5,
   "uncertainCoverMatches": 1,
   "warnings": [],
   "invalidRows": []

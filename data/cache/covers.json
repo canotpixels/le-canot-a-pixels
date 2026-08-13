@@ -44,6 +44,14 @@
     "matchedTitle": "Lord of the Rings, The - The Fellowship of the Ring (USA)",
     "imagePath": "/covers/gen-0dde5f859caf.png"
   },
+  "gen-105b7a81cc9f": {
+    "gameId": "gen-105b7a81cc9f",
+    "query": "dragon age origins ultimate edition",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-08-12T23:57:19.169Z",
+    "status": "not-found"
+  },
   "gen-109d584dc73c": {
     "gameId": "gen-109d584dc73c",
     "query": "shrek the third",
@@ -1113,6 +1121,19 @@
     "status": "resolved",
     "matchedTitle": "Rock Band",
     "imagePath": "/covers/pc-10870.jpg"
+  },
+  "pc-11576": {
+    "gameId": "pc-11576",
+    "query": "unreal ii the awakening",
+    "provider": "pricecharting>libretro",
+    "externalId": "11576",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Gw9msDZtAm0jrXQvsEqjcReoVMic-7fSrDjP-sIEXZ73AbJcwpj3GMfnUZuJLXk296tWEM5USEQeEQqLDJzS8OyffiTILg0Jb7BsZfoV-GRmhQLd_1XFg7Gi1fnq4ToOVJfpVKUXaGr1nDiA65XZnNlM-JA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:10.302Z",
+    "status": "resolved",
+    "matchedTitle": "Unreal II The Awakening",
+    "imagePath": "/covers/pc-11576.jpg"
   },
   "pc-11882": {
     "gameId": "pc-11882",
@@ -2243,6 +2264,19 @@
     "matchedTitle": "Your Shape: Fitness Evolved",
     "imagePath": "/covers/pc-31495.jpg"
   },
+  "pc-31504": {
+    "gameId": "pc-31504",
+    "query": "dungeon siege iii",
+    "provider": "pricecharting>libretro",
+    "externalId": "31504",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97YZ-C8iq7w6AjipNDflJ-IbKxZ3S4TzWOdYBkQD5Xid2rj0QZLD_uUYgZ8fm7xVzOQNRW-3ggctHVIx9UQNRDyIHz4QVx5uVhr0wfwCLB1IM2FTi7DV2-ea7JuwbqvLNT8cEcFdlzQ5ct3-_yv71Ii3iP9UQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:06.431Z",
+    "status": "resolved",
+    "matchedTitle": "Dungeon Siege III",
+    "imagePath": "/covers/pc-31504.jpg"
+  },
   "pc-31741": {
     "gameId": "pc-31741",
     "query": "gears of war 3",
@@ -2945,6 +2979,19 @@
     "matchedTitle": "Fable Anniversary",
     "imagePath": "/covers/pc-34664.jpg"
   },
+  "pc-34715": {
+    "gameId": "pc-34715",
+    "query": "south park the stick of truth",
+    "provider": "pricecharting>libretro",
+    "externalId": "34715",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Wv9AG47pLUO2o-b4qYcBQflF52p0PFCZu3h7ezY3CwNjbgOg8eXUHbk2sGXTI-t5PT5hGgFu_IMFlS2sc-BwOWDPiYjZY52YBx8wfm8VJiBPx8ymX2L_qcL2xaRy-9ZwyRA29cyMT2guE0wfT_eXCOUxCEg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:05.462Z",
+    "status": "resolved",
+    "matchedTitle": "South Park: The Stick of Truth",
+    "imagePath": "/covers/pc-34715.jpg"
+  },
   "pc-34752": {
     "gameId": "pc-34752",
     "query": "metal gear solid v ground zeroes",
@@ -3048,6 +3095,19 @@
     "status": "resolved",
     "matchedTitle": "Alien: Isolation",
     "imagePath": "/covers/pc-35136.jpg"
+  },
+  "pc-35166": {
+    "gameId": "pc-35166",
+    "query": "the evil within",
+    "provider": "pricecharting>libretro",
+    "externalId": "35166",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/e0c2efdb22edcf9b7237c9c809a6a9557f4601c577575e039cf2a557f5143ec9/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:07.653Z",
+    "status": "resolved",
+    "matchedTitle": "The Evil Within",
+    "imagePath": "/covers/pc-35166.jpg"
   },
   "pc-35333": {
     "gameId": "pc-35333",
@@ -3244,6 +3304,19 @@
     "matchedTitle": "Assassin's Creed: Rogue [Limited Edition]",
     "imagePath": "/covers/pc-55867.jpg"
   },
+  "pc-6047": {
+    "gameId": "pc-6047",
+    "query": "50 cent bulletproof",
+    "provider": "pricecharting>libretro",
+    "externalId": "6047",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97l2pk6sxavUMPtMY5bIGSK1ZBlknB_lN30v9fWZJjkaar0GiJQ_mhcsy32b81B2AE3WVf59IIfx2az5sSesldZ_trgitM7mFmo1LoApqmriI751sbWUgMMynX4L_dvcWNYrw-FP0CwzZgQlZU-XP2jLhcnow/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:08.884Z",
+    "status": "resolved",
+    "matchedTitle": "50 Cent Bulletproof",
+    "imagePath": "/covers/pc-6047.jpg"
+  },
   "pc-6079": {
     "gameId": "pc-6079",
     "query": "baldur s gate dark alliance 2",
@@ -3308,6 +3381,19 @@
     "status": "resolved",
     "matchedTitle": "Conker Live and Reloaded",
     "imagePath": "/covers/pc-6154.jpg"
+  },
+  "pc-6157": {
+    "gameId": "pc-6157",
+    "query": "counter strike",
+    "provider": "pricecharting>libretro",
+    "externalId": "6157",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Rt7gaz7YtRkkoShKVkEvzZfRMPLnG_YHLlQqeRBHEauNbtYZMrQimSNesNCv3NT3QSEsnrtF2S5wCxlJN9Hq-1U39VUsKM9S1wA_yuorz7I16yaUmtx7phW1-Ow6HlgoHJNTMhzPOxQBmn_nvk4vwTzdbag/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:12.821Z",
+    "status": "resolved",
+    "matchedTitle": "Counter Strike",
+    "imagePath": "/covers/pc-6157.jpg"
   },
   "pc-6202": {
     "gameId": "pc-6202",
@@ -3386,6 +3472,19 @@
     "status": "resolved",
     "matchedTitle": "Halo 2 [Limited Collector's Edition]",
     "imagePath": "/covers/pc-6290.jpg"
+  },
+  "pc-6308": {
+    "gameId": "pc-6308",
+    "query": "hunter the reckoning redeemer",
+    "provider": "pricecharting>libretro",
+    "externalId": "6308",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95x9IWnQ4PuUvIiv3_S14i5EK_sM94rZ3L5TtybaY5sWp3VBfkXjNUKxc4cBfNJkOm4zQmTf3fenf7NSu3eWaSrJSDQVYc10dxwsms7ckNH7GAdovAhFBs9fkkPGnWIjwpronQsmuQbZmN5nb_ZpPoEK5ArHg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-12T23:59:11.624Z",
+    "status": "resolved",
+    "matchedTitle": "Hunter the Reckoning Redeemer",
+    "imagePath": "/covers/pc-6308.jpg"
   },
   "pc-6362": {
     "gameId": "pc-6362",
@@ -3996,16 +4095,5 @@
     "status": "resolved",
     "matchedTitle": "Orange Box",
     "imagePath": "/covers/pc-9508.jpg"
-  },
-  "gen-105b7a81cc9f": {
-    "gameId": "gen-105b7a81cc9f",
-    "query": "dragon age origins ultimate edition",
-    "provider": "manual",
-    "externalId": "19899",
-    "confidence": 0.9,
-    "fetchedAt": "2026-07-24T00:00:00.000Z",
-    "status": "resolved",
-    "matchedTitle": "Dragon Age: Origins [Ultimate Edition]",
-    "imagePath": "/covers/gen-105b7a81cc9f.jpg"
   }
 }
