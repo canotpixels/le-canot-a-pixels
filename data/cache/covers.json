@@ -105,6 +105,14 @@
     "matchedTitle": "Crash Twinsanity (USA)",
     "imagePath": "/covers/gen-1efe07c50755.png"
   },
+  "gen-1f7c7de3bce5": {
+    "gameId": "gen-1f7c7de3bce5",
+    "query": "f e a r 3",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-08-20T02:49:46.333Z",
+    "status": "not-found"
+  },
   "gen-20976995b0f0": {
     "gameId": "gen-20976995b0f0",
     "query": "banjo kazooie nuts and bolts",
@@ -428,6 +436,14 @@
     "fetchedAt": "2026-07-16T18:26:56.197Z",
     "status": "not-found"
   },
+  "gen-803a8941d71e": {
+    "gameId": "gen-803a8941d71e",
+    "query": "the lord of the rings the battle for middle earth ii",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-08-20T02:49:46.326Z",
+    "status": "not-found"
+  },
   "gen-84771561d84c": {
     "gameId": "gen-84771561d84c",
     "query": "the lord of the rings the third age",
@@ -494,6 +510,14 @@
     "fetchedAt": "2026-07-16T18:26:52.725Z",
     "status": "not-found"
   },
+  "gen-a14a7778a485": {
+    "gameId": "gen-a14a7778a485",
+    "query": "need for speed prostreet",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-08-20T02:49:46.333Z",
+    "status": "not-found"
+  },
   "gen-a17f3c694d7e": {
     "gameId": "gen-a17f3c694d7e",
     "query": "dante s inferno",
@@ -527,6 +551,14 @@
     "status": "resolved",
     "matchedTitle": "Indigo Prophecy (USA)",
     "imagePath": "/covers/gen-a5712d372db7.png"
+  },
+  "gen-a5fa9eecd2af": {
+    "gameId": "gen-a5fa9eecd2af",
+    "query": "dirt 2",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.433,
+    "fetchedAt": "2026-08-20T02:49:46.332Z",
+    "status": "not-found"
   },
   "gen-afeb210bece4": {
     "gameId": "gen-afeb210bece4",
@@ -564,6 +596,14 @@
     "status": "resolved",
     "matchedTitle": "Crash Tag Team Racing (USA)",
     "imagePath": "/covers/gen-b17d97a8af91.png"
+  },
+  "gen-b68cd3426505": {
+    "gameId": "gen-b68cd3426505",
+    "query": "far cry 4",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.2,
+    "fetchedAt": "2026-08-20T02:49:46.334Z",
+    "status": "not-found"
   },
   "gen-bc2e4bb52b29": {
     "gameId": "gen-bc2e4bb52b29",
@@ -700,6 +740,22 @@
     "fetchedAt": "2026-07-16T18:26:52.727Z",
     "status": "not-found"
   },
+  "gen-ead8a6df1db6": {
+    "gameId": "gen-ead8a6df1db6",
+    "query": "nhl 11",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-08-20T02:49:46.333Z",
+    "status": "not-found"
+  },
+  "gen-ebfc807570de": {
+    "gameId": "gen-ebfc807570de",
+    "query": "nhl 10",
+    "provider": "pricecharting>libretro",
+    "confidence": 0,
+    "fetchedAt": "2026-08-20T02:49:46.334Z",
+    "status": "not-found"
+  },
   "gen-ed959371fd73": {
     "gameId": "gen-ed959371fd73",
     "query": "crash of the titans",
@@ -730,6 +786,14 @@
     "provider": "pricecharting>libretro",
     "confidence": 0.2,
     "fetchedAt": "2026-07-16T18:26:52.047Z",
+    "status": "not-found"
+  },
+  "gen-f9af10d392fd": {
+    "gameId": "gen-f9af10d392fd",
+    "query": "f e a r 2 project origin",
+    "provider": "pricecharting>libretro",
+    "confidence": 0.287,
+    "fetchedAt": "2026-08-20T02:49:46.332Z",
     "status": "not-found"
   },
   "gen-fad2480f6198": {
@@ -848,6 +912,19 @@
     "status": "resolved",
     "matchedTitle": "LEGO Star Wars Complete Saga",
     "imagePath": "/covers/pc-10535.jpg"
+  },
+  "pc-10537": {
+    "gameId": "pc-10537",
+    "query": "need for speed prostreet",
+    "provider": "pricecharting>libretro",
+    "externalId": "10537",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95P7Yyl8Ut_0tGkCRyI-STRPaqc26nxj2zjK-kGCZwmWSmjlz5Jo9q3v1PVx7IzSj1Sgaf8rpkxWCfPG-afTQrG8r7oF8KVzvP4AmRD8Edhj7JcLUQ-kGdrsOHahHlXTpDp0-PN3aPbjkw73nA2C86O4bRzLQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:46.767Z",
+    "status": "resolved",
+    "matchedTitle": "Need for Speed Prostreet",
+    "imagePath": "/covers/pc-10537.jpg"
   },
   "pc-10609": {
     "gameId": "pc-10609",
@@ -991,6 +1068,19 @@
     "status": "resolved",
     "matchedTitle": "Kameo Elements of Power",
     "imagePath": "/covers/pc-10638.jpg"
+  },
+  "pc-10641": {
+    "gameId": "pc-10641",
+    "query": "the lord of the rings the battle for middle earth ii",
+    "provider": "pricecharting>libretro",
+    "externalId": "10641",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97ZIjhvS-GvKf-n6x_E_iOHmNycplYRLiS8GZkAw8u80bvQGX7ZWWTpi5DP8JnSDg395528_5vlSDYEZ-LGTsDuRDhDZVBImw0MuY7_Gx_WDO2bdJ_FA2_zZyWsKUPnUubSSJ1dZYqPgNstQfoYk3DLb4Wsgw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:43.813Z",
+    "status": "resolved",
+    "matchedTitle": "Lord of the Rings Battle for Middle Earth II",
+    "imagePath": "/covers/pc-10641.jpg"
   },
   "pc-10642": {
     "gameId": "pc-10642",
@@ -1512,6 +1602,19 @@
     "matchedTitle": "Afro Samurai",
     "imagePath": "/covers/pc-16240.jpg"
   },
+  "pc-16274": {
+    "gameId": "pc-16274",
+    "query": "f e a r 2 project origin",
+    "provider": "pricecharting>libretro",
+    "externalId": "16274",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97z_I7BlVQFkVrHF3BBuz_KOGiQiF9uwq4fCzsoTo5rxXms5fVpOljiAWJRMCpgcKmScxYCxK9OOqy0G2X91TEtfPx3DEWjHe2s3ENTR74npX1G_Yk0akCdIXNiudZUp-vYn0p2fMPdJvkWJeHf4QV5UzcHtA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:45.803Z",
+    "status": "resolved",
+    "matchedTitle": "F.E.A.R. 2 Project Origin",
+    "imagePath": "/covers/pc-16274.jpg"
+  },
   "pc-16361": {
     "gameId": "pc-16361",
     "query": "hawx",
@@ -1628,6 +1731,32 @@
     "status": "resolved",
     "matchedTitle": "Wolfenstein",
     "imagePath": "/covers/pc-19487.jpg"
+  },
+  "pc-19567": {
+    "gameId": "pc-19567",
+    "query": "dirt 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "19567",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv947uk3YiV4g9E5V329mrzNdNdX-QDx_mMhQtWoV9NQbTxXNKoaCfZRZrV2MPod6pmZ-9ET2eouyUW1mBIbL3k6GOx4bt0f-AlF4Q_VLbEbqfGkRwIEeutg6pCCMaaoLqtkqbFNbjRqTSLWXdAgmlmpbx0k_vQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:44.773Z",
+    "status": "resolved",
+    "matchedTitle": "Dirt 2",
+    "imagePath": "/covers/pc-19567.jpg"
+  },
+  "pc-19608": {
+    "gameId": "pc-19608",
+    "query": "nhl 10",
+    "provider": "pricecharting>libretro",
+    "externalId": "19608",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95nJql22BynmMusrdgdSifivoNT--AQC8uqnu42RjUtbQUkrTDQScgoBdE2Szn6wfXwCqAxxdw491eefRbewzzLus1QeL17e2NfuuKoAe7U3tk8f-WPatd3iD0qFgVIrrGLEArIHoDj2yDTOZEnMRr7NHbXcw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:49.857Z",
+    "status": "resolved",
+    "matchedTitle": "NHL 10",
+    "imagePath": "/covers/pc-19608.jpg"
   },
   "pc-19639": {
     "gameId": "pc-19639",
@@ -1954,6 +2083,19 @@
     "matchedTitle": "Battlefield: Bad Company 2 [Ultimate Edition]",
     "imagePath": "/covers/pc-21964.jpg"
   },
+  "pc-21971": {
+    "gameId": "pc-21971",
+    "query": "nhl 11",
+    "provider": "pricecharting>libretro",
+    "externalId": "21971",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96CgbzkT7M0giLnf6HaFvv-o1GEzRphbigGqIoqYGLk2ApxXj0K_0UkZ0sOKDQ7FW7XsHFdphjRxKR9Ou9wfefJWcWAmsSeMYWXCFOl-5KY6ygi0ATDMPbydg3KBgkzPEdmD4JrhE48nrFmTUpF3I82N1lHQA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:47.937Z",
+    "status": "resolved",
+    "matchedTitle": "NHL 11",
+    "imagePath": "/covers/pc-21971.jpg"
+  },
   "pc-22018": {
     "gameId": "pc-22018",
     "query": "halo reach",
@@ -2276,6 +2418,19 @@
     "status": "resolved",
     "matchedTitle": "Dungeon Siege III",
     "imagePath": "/covers/pc-31504.jpg"
+  },
+  "pc-31507": {
+    "gameId": "pc-31507",
+    "query": "f e a r 3",
+    "provider": "pricecharting>libretro",
+    "externalId": "31507",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv9632RzOzhqRobyM7adFdFFLYcDr9jWtn2-Bx5Rj0g_AN8dM6KSo2YsQhcCZx9pByE8ER6cHpVJPj0NCKF-sxIOujcWDV_htY9t_iURjfpC7L07hF2Qv8YFRRYp6ENfy9VDZ_-ka60jYD1Xij-z8DCJ1wdUQdw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:48.712Z",
+    "status": "resolved",
+    "matchedTitle": "F.E.A.R. 3",
+    "imagePath": "/covers/pc-31507.jpg"
   },
   "pc-31741": {
     "gameId": "pc-31741",
@@ -3134,6 +3289,19 @@
     "status": "resolved",
     "matchedTitle": "Far Cry 4",
     "imagePath": "/covers/pc-35345.jpg"
+  },
+  "pc-35541": {
+    "gameId": "pc-35541",
+    "query": "far cry 4",
+    "provider": "pricecharting>libretro",
+    "externalId": "35541",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/yv7ko7fk7xojse4e/1600.jpg",
+    "confidence": 0.95,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-08-20T02:58:50.681Z",
+    "status": "resolved",
+    "matchedTitle": "Far Cry 4 [Limited Edition]",
+    "imagePath": "/covers/pc-35541.jpg"
   },
   "pc-35547": {
     "gameId": "pc-35547",
