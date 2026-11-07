@@ -24,8 +24,12 @@ Flux du projet (voir `docs/data-flow.md`) : `data/pricecharting/collection.csv` 
    - `include-string` : CIB → `"Item, Box, and Manual"` ; boîte sans manuel →
      `"Item and Box"` ; loose → `"Item only"`.
    - `date-entered` / `date-purchased` : date du jour (AAAA-MM-JJ). `quantity` : 1.
-4. **Retirer des recherchés** : si le jeu figure dans `data/pricecharting/wanted.csv` (même id
-   ou même titre), supprime cette ligne.
+4. **Retirer des recherchés (obligatoire, pour chaque jeu ajouté)** : vérifie si le jeu figure
+   dans `data/pricecharting/wanted.csv`, par id (`grep "^<id>," wanted.csv`) **et** par titre
+   (`grep -i "<mots-clés du titre>" wanted.csv`, car une ligne peut avoir un autre id ou aucun
+   id). Si trouvé, supprime la ligne (ex. `sed -i '/^<id>,/d' wanted.csv`) et mentionne-le dans
+   le message de commit et dans ton rapport à l'utilisateur. Un titre proche mais d'une autre
+   édition (ex. `[Platinum Hits]` vs standard) : demande avant de supprimer.
 5. **Pochettes et données** (réseau requis, ~1 s par jeu) :
    ```bash
    npm run covers:sync
