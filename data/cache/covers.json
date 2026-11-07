@@ -822,6 +822,19 @@
     "matchedTitle": "Lord of the Rings, The - The Two Towers (USA)",
     "imagePath": "/covers/gen-fcfeb91aaff1.png"
   },
+  "pc-10324": {
+    "gameId": "pc-10324",
+    "query": "ace combat 6 fires of liberation",
+    "provider": "pricecharting>libretro",
+    "externalId": "10324",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ec7ef2249b11415bd004d2ddf37229185cdf675c510f3f255a67dcd8686046ab/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:52.078Z",
+    "status": "resolved",
+    "matchedTitle": "Ace Combat 6 Fires of Liberation",
+    "imagePath": "/covers/pc-10324.jpg"
+  },
   "pc-10327": {
     "gameId": "pc-10327",
     "query": "call of duty 4 modern warfare",
@@ -925,6 +938,19 @@
     "status": "resolved",
     "matchedTitle": "Need for Speed Prostreet",
     "imagePath": "/covers/pc-10537.jpg"
+  },
+  "pc-10608": {
+    "gameId": "pc-10608",
+    "query": "cabela s alaskan adventures",
+    "provider": "pricecharting>libretro",
+    "externalId": "10608",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96SO5NZUkPFiGJKgJdTQTfvBsBwx4Kr-9uq7ZYo7tsHX1OjB8rYw7IbFQW1kuYGRV2E2gOoP-dbOmWfjQu1NSzLm63WqBje62KsXxFnjoZL7S7jFTQwaJ_xZTtirwGy_kltLXLGzWRKfNEbvizYI0aljykVHg/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:55.214Z",
+    "status": "resolved",
+    "matchedTitle": "Cabela's Alaskan Adventures",
+    "imagePath": "/covers/pc-10608.jpg"
   },
   "pc-10609": {
     "gameId": "pc-10609",
@@ -1094,6 +1120,19 @@
     "status": "resolved",
     "matchedTitle": "Lost Planet: Extreme Condition",
     "imagePath": "/covers/pc-10642.jpg"
+  },
+  "pc-10648": {
+    "gameId": "pc-10648",
+    "query": "ninety nine nights",
+    "provider": "pricecharting>libretro",
+    "externalId": "10648",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/pmgltfajb5nlxms5/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:56.504Z",
+    "status": "resolved",
+    "matchedTitle": "Ninety Nine Nights",
+    "imagePath": "/covers/pc-10648.jpg"
   },
   "pc-10657": {
     "gameId": "pc-10657",
@@ -1341,6 +1380,19 @@
     "status": "resolved",
     "matchedTitle": "Xbox Live Arcade Unplugged",
     "imagePath": "/covers/pc-14156.jpg"
+  },
+  "pc-14185": {
+    "gameId": "pc-14185",
+    "query": "madden 2009",
+    "provider": "pricecharting>libretro",
+    "externalId": "14185",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97zxIy3BCtha45KhQenq0-G7nJzh0T5LxifWTzo7MxLkSfuJM-cNrKhTZlm5x_U6VOFFkhevOJgXyEUZdyyJE0NOh_zw8zXvkafc2Ggdu9f_z_ZU-Zrp-ocL3VbykhWpk-aePlkAIOiE0MzLwEiKPK0mTqyuQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:59.318Z",
+    "status": "resolved",
+    "matchedTitle": "Madden 2009",
+    "imagePath": "/covers/pc-14185.jpg"
   },
   "pc-14488": {
     "gameId": "pc-14488",
@@ -2044,6 +2096,19 @@
     "matchedTitle": "Toy Story 3: The Video Game",
     "imagePath": "/covers/pc-21607.jpg"
   },
+  "pc-21610": {
+    "gameId": "pc-21610",
+    "query": "naval assault the killing tide",
+    "provider": "pricecharting>libretro",
+    "externalId": "21610",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96vf8-dWqVQookkH4lw0cF2EqQ9Fasiaa7zmW5Z1UFk85Euk9P-SUNmffara3lPPQhWV5_CCjiTr7jLBlKLiuardHPQ00ePwk9Ost0lloZZVPlf2cDZ3fNzjbxBOFjsbybxeeA8nLyx1tuFYjwTdKE4zjzUIQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:43:01.657Z",
+    "status": "resolved",
+    "matchedTitle": "Naval Assault: The Killing Tide",
+    "imagePath": "/covers/pc-21610.jpg"
+  },
   "pc-21864": {
     "gameId": "pc-21864",
     "query": "madden nfl 11",
@@ -2130,6 +2195,19 @@
     "fetchedAt": "2026-07-16T18:58:33.440Z",
     "status": "not-found"
   },
+  "pc-22060": {
+    "gameId": "pc-22060",
+    "query": "rapala pro bass fishing 2010",
+    "provider": "pricecharting>libretro",
+    "externalId": "22060",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96tC5fTF1x2oT6cqhG89IqclY_voqfAnLcpU2mqiouHqbwLR3X3_O4WZDEv8jktzIfcZaJ7rrUUtDPoz4WJuVy1RbFjU2pYR2pd2YysYWi8wmPB1FqJ-fpHYq0qUopLzU8-B5XF9TZKHAKHeD9eQbon7i7VyQ/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:57.233Z",
+    "status": "resolved",
+    "matchedTitle": "Rapala Pro Bass Fishing 2010",
+    "imagePath": "/covers/pc-22060.jpg"
+  },
   "pc-22066": {
     "gameId": "pc-22066",
     "query": "dead rising 2",
@@ -2184,6 +2262,19 @@
     "confidence": 0.2,
     "fetchedAt": "2026-07-16T18:58:23.452Z",
     "status": "not-found"
+  },
+  "pc-2996192": {
+    "gameId": "pc-2996192",
+    "query": "fallout new vegas",
+    "provider": "pricecharting>libretro",
+    "externalId": "2996192",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/d81ce42e36e6d69db605d2efe04ad848f87c52c0ca2124c8ce38cdfcfbe4318a/1600.jpg",
+    "confidence": 0.95,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:50.385Z",
+    "status": "resolved",
+    "matchedTitle": "Fallout: New Vegas [Ultimate Edition Platinum Hits]",
+    "imagePath": "/covers/pc-2996192.jpg"
   },
   "pc-30277": {
     "gameId": "pc-30277",
@@ -2315,6 +2406,19 @@
     "matchedTitle": "Dragon Age II",
     "imagePath": "/covers/pc-31012.jpg"
   },
+  "pc-31021": {
+    "gameId": "pc-31021",
+    "query": "major league baseball 2k11",
+    "provider": "pricecharting>libretro",
+    "externalId": "31021",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95zEEqRbGzS9EhX-PHEphJylbXznyKjaYCfUYgBhvy3Y04TypUjQA35WbSkh3XSQRkw-2f4ch6Maxz6i_O-R2F4fW-WDiOmtUIBAW6Bl31al-i4L-LNNRA4CPjOAAX1RNVZtlkAyTBTnOfU9x_nZqU-b3OFYw/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:58.072Z",
+    "status": "resolved",
+    "matchedTitle": "Major League Baseball 2K11",
+    "imagePath": "/covers/pc-31021.jpg"
+  },
   "pc-3102289": {
     "gameId": "pc-3102289",
     "query": "watch dogs",
@@ -2431,6 +2535,32 @@
     "status": "resolved",
     "matchedTitle": "F.E.A.R. 3",
     "imagePath": "/covers/pc-31507.jpg"
+  },
+  "pc-31658": {
+    "gameId": "pc-31658",
+    "query": "deus ex human revolution",
+    "provider": "pricecharting>libretro",
+    "externalId": "31658",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/ae8ef3e8f462f84248fd2df1b82d648f26bd598384270c119f1cf8122e33fe65/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:53.441Z",
+    "status": "resolved",
+    "matchedTitle": "Deus Ex: Human Revolution",
+    "imagePath": "/covers/pc-31658.jpg"
+  },
+  "pc-31680": {
+    "gameId": "pc-31680",
+    "query": "marvel ultimate alliance and forza 2",
+    "provider": "pricecharting>libretro",
+    "externalId": "31680",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96p0JxfGtWz8-qHQ1wz_WAFPpnjIoiqvcDw1bAFLU5DP5U6Tdd8Pyks1KDIoU5UzemXx37W-KKEArbEWAlKTwVwaxhab1nITlMZ1mBK85jkpaChtw3C2Dk0W6Ad_GPnjT0BL7AQdNviLZst-qTN3c5nTXsn_w/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:51.210Z",
+    "status": "resolved",
+    "matchedTitle": "Marvel Ultimate Alliance & Forza 2",
+    "imagePath": "/covers/pc-31680.jpg"
   },
   "pc-31741": {
     "gameId": "pc-31741",
@@ -2886,6 +3016,19 @@
     "status": "resolved",
     "matchedTitle": "LEGO Lord Of The Rings",
     "imagePath": "/covers/pc-33333.jpg"
+  },
+  "pc-33402": {
+    "gameId": "pc-33402",
+    "query": "epic mickey 2 the power of two",
+    "provider": "pricecharting>libretro",
+    "externalId": "33402",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv975DHMuGFZfW4nQ-qvV2Kbw_yP4aPfLtzQ5VdcjBF6U3Pfj1y6m196zGflaDhR57sidpHaza1WHFZEUD4CNIVIk0uIU_DaSij2MDAjWzmFCs5o_BpNH_dAfanh1SlcolRma78hym_e_LHXY6pcX8mTH4X1JAA/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:43:00.365Z",
+    "status": "resolved",
+    "matchedTitle": "Epic Mickey 2: The Power of Two",
+    "imagePath": "/covers/pc-33402.jpg"
   },
   "pc-33827": {
     "gameId": "pc-33827",
@@ -3627,6 +3770,19 @@
     "status": "resolved",
     "matchedTitle": "Ghost Recon Island Thunder",
     "imagePath": "/covers/pc-6268.jpg"
+  },
+  "pc-6288": {
+    "gameId": "pc-6288",
+    "query": "halo combat evolved",
+    "provider": "pricecharting>libretro",
+    "externalId": "6288",
+    "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/w7cybcx5kydyr2af/1600.jpg",
+    "confidence": 0.9,
+    "attribution": "Photo de jaquette via PriceCharting",
+    "fetchedAt": "2026-11-07T01:42:54.410Z",
+    "status": "resolved",
+    "matchedTitle": "Halo: Combat Evolved",
+    "imagePath": "/covers/pc-6288.jpg"
   },
   "pc-6290": {
     "gameId": "pc-6290",

@@ -13,6 +13,7 @@
     "astro": "astro",
     "data:import": "tsx scripts/import.ts",
     "covers:sync": "tsx scripts/covers-sync.ts",
+    "pc:search": "tsx scripts/pc-search.ts",
     "data:build": "tsx scripts/build-data.ts",
     "build:e2e": "tsx scripts/build-data.ts --fixture && astro build",
     "validate": "npm run typecheck && npm run lint && npm run data:validate",
